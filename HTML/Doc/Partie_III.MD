@@ -111,31 +111,19 @@ L'image au dessus n'est pas représentative du code suivant.
 ```
 Class et ID
 ```
-
-
-
-
 #### B. Les dimensions (Balise Block)
-###### 1. 
+###### 1. Hauteur
 ```css
-width: Xpx ou X%;   /* Largeur du Bloc */
-height: Xpx ou X%;  /* Hauteur du Bloc */ 
+height: Xpx ou X%;  /* Hauteur du Bloc  */
+min-height: Xpx;    /* Hauteur Minimale */ 
+max-height: Xpx;    /* Hauteur maximale */
 ```
-
-###### 2. 
+###### 2. Largeur
 ```
+width: Xpx ou X%;  /* Largeur du Bloc  */
+min-width: Xpx;    /* Largeur Minimale */ 
+max-width: Xpx;    /* Largeur maximale */
 ```
-
-###### 3. 
-```
-```
-
-###### 4. 
-```
-```
-
-
-
 
 
 
