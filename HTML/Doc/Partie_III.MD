@@ -44,13 +44,9 @@
 </article>
 ```
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/35907/194761512-8fe17e2f-450f-440d-9ff0-e3aa81f8f360.png" alt="Sublime's custom image"/>
-</p>
-
+<p align="center"><img src="https://user-images.githubusercontent.com/35907/194761512-8fe17e2f-450f-440d-9ff0-e3aa81f8f360.png" alt="Sublime's custom image"/></p>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ###### Exemple 
 L'image au dessus n'est pas représentative du code suivant.
 ```html
@@ -124,23 +120,22 @@ min-width: Xpx;    /* Largeur Minimale */
 max-width: Xpx;    /* Largeur maximale */
 ```
 
-
 #### C. Les marges
-
-<p align="center">
-    <img src="https://user-images.githubusercontent.com/35907/194766690-b5c487d0-912d-43ab-914c-4531a8051baa.png" alt="Sublime's custom image"/>
-</p>
-
+<p align="center"> <img src="https://user-images.githubusercontent.com/35907/194766690-b5c487d0-912d-43ab-914c-4531a8051baa.png" alt="Sublime's custom image"/></p>
 
 ###### 1. Intérieur
 ```
+padding: 0px;   /* Indique la taille de la marge intérieure. À exprimer en général en pixels (px) */
 ```
 ###### 2. Extérieur
 ```
+margin: 0px     /* Indique la taille de la marge extérieure. Là encore, on utilise le plus souvent des pixels */
 ```
+
 ###### 3.
 ```
 ```
+
 
 
 #### E. Quand ça dépasse…
