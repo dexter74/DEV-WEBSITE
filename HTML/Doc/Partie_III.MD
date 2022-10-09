@@ -110,15 +110,15 @@ Class et ID
 #### B. Les dimensions (Balise Block)
 ###### 1. Hauteur
 ```css
-height: Xpx ou X%;  /* Hauteur du Bloc  */
-min-height: Xpx;    /* Hauteur Minimale */ 
-max-height: Xpx;    /* Hauteur maximale */
+height: 0px ou X%;  /* Hauteur du Bloc  */
+min-height: 0px;    /* Hauteur Minimale */ 
+max-height: 0px;    /* Hauteur maximale */
 ```
 ###### 2. Largeur
 ```css
-width: Xpx ou X%;  /* Largeur du Bloc  */
-min-width: Xpx;    /* Largeur Minimale */ 
-max-width: Xpx;    /* Largeur maximale */
+width: 0px ou 0%;  /* Largeur du Bloc  */
+min-width: 0px;    /* Largeur Minimale */ 
+max-width: 0px;    /* Largeur maximale */
 ```
 
 #### C. Les marges
@@ -144,7 +144,7 @@ margin-right: 0px; 	/* Marge extérieure à droite	*/
 ###### 3. Centrer Bloc
 ```css
 margin: auto;	/* Requiert: width */
-width: Xpx;
+width: 0px;
 ```
 #### E. Quand ça dépasse…
 ###### 1. Couper un bloc
@@ -158,7 +158,6 @@ overflow: auto;		/* Mode Automatique gérer par le navigateur */
 ```css
 word-wrap: break-word; /*  Cette propriété permet de forcer la césure des très longs mots */
 ```
-
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[]()</p>
