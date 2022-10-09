@@ -20,9 +20,9 @@ Ceci n'est pas un titre <titre>Ceci est un titre</titre> Ceci n'est pas un titre
 C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 </citation>
 ```
-#### B. Structure de base d'une page HTML5
 
-##### 1. HTML
+#### B. Structure de base d'une page HTML5
+###### 1. HTML
 ```html
 <!DOCTYPE html>
 <html>
@@ -35,11 +35,13 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
     </body>
 </html>
 ```
-##### 2. CSS
+###### 2. CSS
 ```css
-body{ margin:  0px;}
-body{ padding: 0px;}
+body{ margin:  0px;} /* https://askcodez.com/supprimer-la-marge-du-corps-en-css.html */
+body{ padding: 0px;} 
 ```
+
+
 
 ###### 1. Le doctype
 ```html
