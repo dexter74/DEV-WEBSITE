@@ -51,7 +51,8 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-###### Exemple
+###### Exemple 
+L'image au dessus n'est pas représentative du code suivant.
 ```
 <!DOCTYPE html>
 
@@ -64,28 +65,26 @@
         <header>
             <h1>Titre de ma page</h1>
             <h2>Sous-titre de ma page </h2>
-        </header>
-        
+        </header>   
         <nav> 
             <ul>
-                <li> <a href='#'>Accueil</a></li>
-                <li> <a href='#'>Téléchargements</a></li>
-                <li> <a href='#'>Forums</a></li>
+                <li><a href='#'>Accueil</a></li>
+                <li><a href='#'>Téléchargements</a></li>
+                <li><a href='#'>Forums</a></li>
             </ul>
         </nav>
-        
         <section>
-            <article> ... </article>
-            <aside>   ... </aside>
-            <aside>   ... </aside>
+            <article></article>
+            <aside></aside>
+            <aside></aside>
             /<article> 
         </section>
-
     </body>
-
+    
     <section> </section>
     <footer> </footer>
 </html>
+
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
