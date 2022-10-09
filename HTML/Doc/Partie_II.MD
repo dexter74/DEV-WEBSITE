@@ -58,7 +58,7 @@ font-size: xx-large; /* Gigantesque */
 ```css
 font-family: Verdana,arial;
 ```
-###### 2. Police Personnalisée
+###### 2. Police Personnalisée [Convertir TTF](https://www.fontsquirrel.com/tools/webfont-generator)
 ```css
 @font-face {
   font-family: 'MaSuperPolice';
