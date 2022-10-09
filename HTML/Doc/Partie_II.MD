@@ -206,7 +206,6 @@ a:hover /* Apparence au survol des liens */
    color: green;
 }
 ```
-
 #### B. Au clic et lors de la sélection
 ###### 1. Au moment du clic
 ```css
@@ -215,7 +214,6 @@ a:active /* Quand le visiteur clique sur le lien */
     background-color: #FFCC66;
 }
 ```
-
 ###### 2. Lorsque l'élément est sélectionné
 ```css
 a:focus /* Quand le visiteur sélectionne le lien */
@@ -223,7 +221,6 @@ a:focus /* Quand le visiteur sélectionne le lien */
     background-color: #FFCC66;
 }
 ```
-
 #### C. Lorsque le lien a déjà été consulté
 
 ###### 1. 
@@ -232,9 +229,6 @@ a:focus /* Quand le visiteur sélectionne le lien */
 {
     color: #AAA; /* Appliquer une couleur grise */
 }
-```
-###### 2. 
-```css
 ```
 
 
