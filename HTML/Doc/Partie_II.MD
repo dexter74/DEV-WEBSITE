@@ -64,10 +64,10 @@ font-family: Verdana,arial;
 ```css
 @font-face {
   font-family: 'MaSuperPolice';
-  src: url('MaSuperPolice.eot') format('eot'),
+  src: url('MaSuperPolice.eot')  format('eot'),
        url('MaSuperPolice.woff') format('woff'),
-       url('MaSuperPolice.ttf') format('truetype'),
-       url('MaSuperPolice.svg') format('svg');
+       url('MaSuperPolice.ttf')  format('truetype'),
+       url('MaSuperPolice.svg')  format('svg');
 }
 ```
 
