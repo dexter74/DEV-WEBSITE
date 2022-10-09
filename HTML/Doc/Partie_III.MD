@@ -211,9 +211,7 @@ flex-wrap: wrap-reverse;	/* Retour à la ligne si plus de place (Sens Inverse)	*
 
 
 #### C. Alignez-les !
-###### 1. 
-```html
-```
+###### 1. Aligner sur l'axe principal (Horizontal)
 ```css
 justify-content: flex-start;	/* Alignés au début						*/
 justify-content: flex-end;	/* Alignés à la fin						*/
@@ -221,6 +219,21 @@ justify-content: center;	/* Alignés au centre						*/
 justify-content: space-between;	/* Les éléments sont étirés sur tout l'axe (Espace entre eux)	*/
 justify-content: space-around;	/* Idem, laisse de l'espace sur les extrémités			*/
 ```
+
+###### 2. Aligner sur l'axe secondaire (Vertical)
+```css
+
+```
+
+
+
+
+
+
+
+
+
+
 
 
 #### D. Répartir plusieurs lignes
