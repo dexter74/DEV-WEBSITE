@@ -2,7 +2,7 @@
 
 ### <p align='center'> [Créez votre première page web en HTML](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604361-creez-votre-premiere-page-web-en-html) </p>
 
-#### Les balises et leurs attributs
+#### A Les balises et leurs attributs
 **Les balises en paires**
 ````html
 <titre>Ceci est un titre</titre>
@@ -21,7 +21,7 @@ Ceci n'est pas un titre <titre>Ceci est un titre</titre> Ceci n'est pas un titre
 C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 </citation>
 ````
-#### Structure de base d'une page HTML5
+#### B. Structure de base d'une page HTML5
 ````html
 <!DOCTYPE html>
 <html>
@@ -64,7 +64,7 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ````html
 <title>Marc</title>
 ````
-#### Les commentaires
+#### A. Les commentaires
 ````html
 <!-- Ceci est un commentaire -->
 ````
