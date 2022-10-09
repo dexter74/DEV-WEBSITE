@@ -177,14 +177,37 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 /* Suppression de la mage */
 *{margin: 0;}
 
-/* Conteneur */
-#conteneur{display: flex;}
+/* Configuration de la page */
+body{background-color: #131313}
+body{color: white;}
 
-/* Eléments */
+
+/* Body */
+/* body{border:5px red solid;} */
+
+/* Conteneur */
+#conteneur{border: 2px green solid;}
+
+/* Element 1 */
+.element-1{border: 2px yellow solid;}
 .element-1{}
+.element-1{}
+
+
+/* Element 2 */
+.element-2{border: 2px purple solid;}
 .element-2{}
+.element-2{}
+
+
+/* Element 3 */
+.element-3{border: 2px blue solid;}
+.element-3{}
 .element-3{}
 ```
+
+
+
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774944-403707f8-503c-487d-8148-54f830a69827.png" alt="Sublime's custom image"/></p>
 
 #### B. Soyez flex !
