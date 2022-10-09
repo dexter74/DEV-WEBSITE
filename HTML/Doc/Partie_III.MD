@@ -162,7 +162,7 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[Faites votre mise en page avec Flexbox](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/3298561-faites-votre-mise-en-page-avec-flexbox)</p>
 
-#### A. Les Conteneurs
+#### A. Un conteneur, des éléments
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774895-ccafba54-7a31-4aec-a01c-1196fea91b76.png" alt="Sublime's custom image"/></p>
 
 ###### 1. Exemple (Espace supprmer !)
@@ -173,32 +173,42 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
     <div class="element-3">Element </div>
 </div>
 ```
-
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774944-403707f8-503c-487d-8148-54f830a69827.png" alt="Sublime's custom image"/></p>
 
 
+#### B. Soyez flex !
+###### 1. Mode Côté à côté
+
+```css
+display: flex;	/* Orientation: Gauche à droite */
+```
 
 
 
 
-#### A. 
+
+
+#### C. Alignez-les !
 ###### 1. 
 ```html
 ```
 ```css
 ```
 
-#### A. 
+
+#### D. Répartir plusieurs lignes
 ###### 1. 
 ```html
 ```
 ```css
 ```
 
-
-
-
-
+#### E. Rappel à l'ordre
+###### 1. 
+```html
+```
+```css
+```
 
 
 
