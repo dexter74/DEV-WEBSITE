@@ -285,15 +285,17 @@ Tutorial Incomplet ou pas pertinent
 .element:nth-child(3){order: 2;}
 ```
 
-
-
-
 #### F. Encore plus flex : faire grossir ou maigrir les éléments
+###### 1. Un élément
 ```css
 flex: 1;
 ```
 
-
+###### 2. Plusieurs éléments avec proportion
+```css
+.element:nth-child(1){flex: 2;}
+.element:nth-child(2){flex: 1;}
+```
 
 
 
