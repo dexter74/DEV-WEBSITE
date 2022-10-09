@@ -77,6 +77,7 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ```html
 <br />
 ```
+
 #### B. Les titres
 ```html
 <h1> </h1>  : signifie « titre très important ». En général, on s'en sert pour afficher le titre de la page au début de celle-ci ;
@@ -86,6 +87,7 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 <h5> </h5>  : titre pas important ;
 <h6> </h6>  : titre vraiment, mais alors là vraiment pas important du tout.
 ```
+
 #### C. La Mise en Valeur
 ##### 1. Italic
 ```html
@@ -141,26 +143,19 @@ li: délimite un élément de la liste.
 <a href="contenu/page2.html">
 <a href="../page2.html">
 ```
+
 #### C. Un lien vers une ancre
-##### 1. réation d'une Ancre
+###### 1. Création d'une Ancre
 ```html
 <h2 id="mon_ancre">Titre</h2>
 ```
-##### 2. Liens pointant vers l'ancre**
+###### 2. Liens pointant vers l'ancre**
 ```html
 <a href="#mon_ancre">Aller vers l'ancre</a>
 ```
 
 
-
-
 #### D. Cas pratiques d'utilisation des liens
-
-
-
-
-
-#### Un lien vers une ancre
 
 **Divers**
 ```html
@@ -177,20 +172,20 @@ li: délimite un élément de la liste.
 ```
 
 
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[Insérez des images](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604791-inserez-des-images) </p>
 
-#### Insérer une image
+#### A. Insérer une image
 ```html
 <img src="" alt="" title="" />
 ```
-#### Miniature Cliquable
+##### 1. Miniature Cliquable
 ```html
 <a href="img/pleinformat.jpg"><img src="img/miniformat.jpg" alt="" title="" /></a>
 ```
-#### Les figures ===> ???
+
+
+
+#### B. Les figures ===> ???
 ```html
 ```
