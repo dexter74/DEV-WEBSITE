@@ -40,16 +40,16 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 
 ###### 2. La balise </html>
 ```html
-<html> .. </html>
+<html></html>
 ```
 
 ###### 3. L'en-tête
 ```html
-<head> .. </head>
+<head></head>
 ```
 ###### 4. Le Corps
 ```html
-<body> .. </body>
+<body></body>
 ```
 ###### 5. L'encodage
 ```html
@@ -57,7 +57,7 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ```
 ###### 5. Le titre principal de la page
 ```html
-<title> Marc </title>
+<title></title>
 ```
 #### C. Les commentaires
 ```html
