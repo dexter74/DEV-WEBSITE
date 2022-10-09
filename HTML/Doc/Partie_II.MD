@@ -146,7 +146,21 @@ opacity: 0.6; /* 60% */
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## IV. [Créez des bordures et des ombres](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605694-creez-des-bordures-et-des-ombres)
 #### A. Bordures standard
-###### 1.
+###### 1. Les Bordures
+```css
+border: <largeur px> <Couleur> <Type>;
+                               none;    /* Pas de bordure */
+                               solid;   /* Trait Simple */
+                               dotted;  /* Pointillés */
+                               dashed;  /* Tiret */
+                               double;  /* Bordure Double */
+                               groove;  /* Relief */
+                               ridge;   /* Autre effet de relief */
+                               inset;   /* Effet 3D Global enfoncé */
+                               outset;  /* effet 3D Global surélevé */
+
+border: 5px blue 
+```
 ###### 2.
 ###### 3.
 ###### 4.
