@@ -74,7 +74,7 @@ font-family: Verdana,arial;
 }
 ```
 
-#### Italique
+###### Italique
 ```css
 font-style: normal;
 font-style: oblique;
@@ -99,6 +99,7 @@ text-align: right;    /* Aligner le texte à Droite    */
 text-align: center;   /* Aligner le texte à Centre    */
 text-align: justify;  /* Aligner le texte à Justifier */
 ```
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## III. [Ajoutez de la couleur et un fond](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605551-ajoutez-de-la-couleur-et-un-fond)
