@@ -3,21 +3,19 @@
 ### <p align='center'> [Créez votre première page web en HTML](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604361-creez-votre-premiere-page-web-en-html) </p>
 
 #### A Les balises et leurs attributs
-##### 1. Les balises en paires
+###### 1. Les balises en paires
 ````html
 <titre>Ceci est un titre</titre>
 Ceci n'est pas un titre <titre>Ceci est un titre</titre> Ceci n'est pas un titre
 ````
-
-##### 2. Les balises orphelines
+###### 2. Les balises orphelines
 ````html
 <image />
 ````
-##### 3. Les Attributs
+###### 3. Les Attributs
 ````html
 <balise attribut="valeur">
 <image nom="photo.jpg" />
-
 <citation auteur="Neil Armstrong" date="21/07/1969">
 C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 </citation>
@@ -37,36 +35,42 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
     </body>
 </html>
 ````
-**Le doctype**
+###### 1. Le doctype
 ````html
 <!DOCTYPE html>
 ````
-**La balise </html>**
+
+###### 2. La balise </html>
 ````html
 <html>
  ..
 </html>
 ````
-**L'en-tête**
+
+###### 3. L'en-tête
 ````html
 <head>
  ..
 </head>
 ````
-**Le Corps**
+
+###### 4. Le Corps
 ````html
 <body>
  ..
 </body>
 ````
-**L'encodage**
+
+###### 5. L'encodage
 ````html
 <meta charset="utf-8" />
 ````
-**Le titre principal de la page**
+
+###### 5. Le titre principal de la page
 ````html
 <title>Marc</title>
 ````
+
 #### A. Les commentaires
 ````html
 <!-- Ceci est un commentaire -->
