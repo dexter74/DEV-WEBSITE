@@ -177,15 +177,21 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 
 
 #### B. Soyez flex !
-###### 1. Mode Côté à côté
-
+###### 1. Activer le mode Flex
+Sans autre propritété l'orientation est vers la droite.
 ```css
-display: flex;	/* Orientation: Gauche à droite */
+display: flex;	/* Permet d'activer le mode FlexBox */
 ```
 
+###### 2. La direction
+On peut les positionner verticalement ou encore les inverser
 
-
-
+```css
+flex-direction: row;		/* Organisés sur une ligne				*/
+flex-direction: column;		/* Organisés sur une colonne			 	*/
+flex-direction: row-reverse;	/* Organisés sur une ligne, mais en ordre inversé	*/
+flex-direction:column-reverse;	/* Organisés sur une colonne, mais en ordre inversé	*/
+```
 
 
 #### C. Alignez-les !
