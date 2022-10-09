@@ -54,25 +54,34 @@
 ###### Exemple
 ```
 <!DOCTYPE html>
+
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Titre</title>
-        <link rel="stylesheet" href="style.css" />
+        <title>Titre de ma page</title>
     </head>
-
     <body>
-        <header> </header>
-        <nav> </nav>
+        <header>
+            <h1>Titre de ma page</h1>
+            <h2>Sous-titre de ma page </h2>
+        </header>
+        
+        <nav> 
+            <ul>
+                <li> <a href='#'>Accueil</a></li>
+                <li> <a href='#'>Téléchargements</a></li>
+                <li> <a href='#'>Forums</a></li>
+            </ul>
+        </nav>
+        
         <section>
             <article> ... </article>
-            <aside> ... </aside>
-            <aside> ... </aside>
+            <aside>   ... </aside>
+            <aside>   ... </aside>
             /<article> 
         </section>
 
     </body>
-
 </html>
 
 
