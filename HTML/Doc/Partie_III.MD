@@ -258,7 +258,11 @@ justify-content: space-around;	/* Idem, laisse de l'espace sur les extrémités	
 
 ###### 2. Aligner sur l'axe secondaire (Vertical)
 ```css
-
+align-items:stretch;		/* Les éléments sont étirés sur tout l'axe (valeur par défaut)	*/
+align-items:flex-start; 	/* Alignés au début						*/
+align-items:flex-end; 		/* Alignés à la fin 						*/
+align-items:center;		/* Alignés au centre						*/
+align-items:baseline;		/* Alignés sur la ligne de base (semblable à flex-start)	*/ 
 ```
 
 
