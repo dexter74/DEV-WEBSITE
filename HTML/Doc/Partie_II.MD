@@ -105,18 +105,29 @@ color: rgb(240,96,204);
 background-color: black;
 ```
 #### Images de fond
-**XXX**
+
+##### Appliquer une image de fond
 ```css
-background-image: url("neige.png");
+background-image: url("");      /* Image de Fond        */
+background-attachment: fixed;   /* Le fond restera fixe */
+background-attachment: scroll;  /* Le fond défile       */
+
+background-repeat: no-repeat    /* Le fond ne sera pas répété. L'image sera donc unique sur la page      */
+background-repeat: repeat-x     /* Le fond sera répété uniquement sur la première ligne, horizontalement */
+background-repeat: repeat-y     /* Le fond sera répété uniquement sur la première colonne, verticalement */
+background-repeat: repeat       /* Le fond sera répété en mosaïque (par défaut)                          */
+
+
 ```
+
 #### La transparence
-**XXX**
 ```css
+
 ```
-**XXX**
-```html
+````html
+
 ```
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+`---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### []()
 #### 
 **XXX**
