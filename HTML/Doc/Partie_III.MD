@@ -91,37 +91,55 @@ L'image au dessus n'est pas représentative du code suivant.
 ### <p align='center'>[Découvrez le modèle des boîtes](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606168-decouvrez-le-modele-des-boites)</p>
 
 #### A. Les balises de type block et inline
-
 ###### 1. Les Balises Block
 `Une balise Block fait un Retour à la ligne avant et après.`
 ```
 <p></p>
+<div></div>
 ```
 ###### 2. Les Balises Inline
 `Une balise Inline est dans une balise Block. Elle ne fait pas de retour à la ligne.`
 ```
 <a></a>
+<span></span>
 ```
 **Exemple**
 ```html
 <p> Mon block contient  le bloc "<a/>INLINE</a>" dans son contenu. </p>
 ```
+###### 3. Les balises universelles
+```
+Class et ID
+```
 
 
-###### 3.
+
+
+#### B. Les dimensions (Balise Block)
+###### 1. 
+```css
+width: Xpx ou X%;   /* Largeur du Bloc */
+height: Xpx ou X%;  /* Hauteur du Bloc */ 
+```
+
+###### 2. 
 ```
 ```
 
-#### B. Les dimensions
-###### 1.
+###### 3. 
 ```
 ```
-###### 2.
+
+###### 4. 
 ```
 ```
-###### 3.
-```
-```
+
+
+
+
+
+
+
 #### C. Les marges
 ###### 1.
 ```
