@@ -21,6 +21,8 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 </citation>
 ```
 #### B. Structure de base d'une page HTML5
+
+##### 1. HTML
 ```html
 <!DOCTYPE html>
 <html>
@@ -33,7 +35,7 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
     </body>
 </html>
 ```
-
+##### 2. CSS
 ```css
 body{ margin:  0px;}
 body{ padding: 0px;}
