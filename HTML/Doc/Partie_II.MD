@@ -15,9 +15,7 @@
 ```
 ###### CSS
 ```css
-p, h1 {
-  color: blue;
-  }
+p, h1 { color: blue; }
 ```
 
 #### C. Appliquer un style : class et id
@@ -34,11 +32,9 @@ id:  : Utiliser un # devant le nom. Objet Unique.
 
 ###### CSS
 ```css
-.TEST1 {
-  }
-  
-#TEST2 {
-  }
+.TEST1 { }
+
+#TEST2 { }
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -69,9 +65,9 @@ font-family: Verdana,arial;
 @font-face {
   font-family: 'MaSuperPolice';
   src: url('MaSuperPolice.eot') format('eot'),
-    url('MaSuperPolice.woff') format('woff'),
-    url('MaSuperPolice.ttf') format('truetype'),
-    url('MaSuperPolice.svg') format('svg');
+       url('MaSuperPolice.woff') format('woff'),
+       url('MaSuperPolice.ttf') format('truetype'),
+       url('MaSuperPolice.svg') format('svg');
 }
 ```
 
