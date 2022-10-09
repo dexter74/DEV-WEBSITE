@@ -4,12 +4,12 @@
 #### A. Les balises structurantes de HTML5
 ###### 1. En-tête
 ```html
-<header> ... </header>
+<header></header>
 ```
 
 ###### 2. Le pied de page
 ```html
-<footer> ... </footer>
+<footer></footer>
 ```
 
 ###### 3. Les principaux liens de navigation 
@@ -33,7 +33,7 @@
 
 ###### 5. Informations complémentaires
 ```html
-<aside> ... </aside>
+<aside></aside>
 ```
 
 ###### 6. Un article indépendant
