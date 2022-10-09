@@ -186,6 +186,7 @@ body{color: white;}
 /* body{border:5px red solid;} */
 
 /* Conteneur */
+#conteneur{display: flex;}
 #conteneur{border: 2px green solid;}
 
 /* Element 1 */
