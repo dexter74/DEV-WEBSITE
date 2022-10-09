@@ -246,9 +246,9 @@ Tutorial Incomplet ou pas pertinent
     </head>
     <body>
 		<div id="conteneur">
-			<div class="element 1">Element 1</div>
-			<div class="element 2">Element 2</div>
-			<div class="element 3">Element 3</div>
+			<div class="element 1">Foot</div>
+			<div class="element 2">Bandeau</div>
+			<div class="element 3">Header</div>
 		</div>
     </body>
 </html>
@@ -263,8 +263,13 @@ Tutorial Incomplet ou pas pertinent
 
 /* Éléments */
 .element:nth-child(1){order: 3;}
+.element:nth-child(1){margin: 1px;}
+
 .element:nth-child(2){order: 1;}
+.element:nth-child(2){margin: 1px;}
+
 .element:nth-child(3){order: 2;}
+.element:nth-child(3){margin: 1px;}
 ```
 
 
