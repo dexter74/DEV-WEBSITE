@@ -165,7 +165,7 @@ border: <largeur px> <Couleur> <Type>;
                                ridge;   /* Autre effet de relief */
                                inset;   /* Effet 3D Global enfoncé */
                                outset;  /* effet 3D Global surélevé */
-border: 3px blue dashed; 
+border: 3px black solid; 
 ```
 ###### 2. Définir un côté d'une bordure
 ```css
