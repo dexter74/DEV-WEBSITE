@@ -125,7 +125,7 @@ max-width: Xpx;    /* Largeur maximale */
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194766690-b5c487d0-912d-43ab-914c-4531a8051baa.png" alt="Sublime's custom image"/></p>
 
 ###### 1. Intérieur
-```
+```css
 padding: 0px;		/* Indique la taille de la marge intérieure. À exprimer en général en pixels (px) */
 padding-top: 0px;	/* Marge intérieure en haut 	*/
 padding-bottom:	0px;	/* Marge intérieure en bas 	*/
@@ -133,13 +133,12 @@ padding-left: 0px;	/* Marge intérieure à gauche 	*/
 padding-right: 0px;	/* Marge intérieure à droite 	*/
 ```
 ###### 2. Extérieur
-```
+```css
 margin: 2px 0 3px 1px;	/* Marge Extérieur des 4 côtés	*/
 margin-top: 0px; 	/* Marge extérieure en haut 	*/
 margin-bottom: 0px; 	/* Marge extérieure en bas 	*/
 margin-left: 0px; 	/* Marge extérieure à gauche 	*/
 margin-right: 0px; 	/* Marge extérieure à droite	*/
-
 ```
 
 ###### 3. Centrer Bloc
@@ -147,34 +146,19 @@ margin-right: 0px; 	/* Marge extérieure à droite	*/
 margin: auto;	/* Requiert: width */
 width: Xpx;
 ```
-
-
-
-
-
 #### E. Quand ça dépasse…
 ###### 1. Couper un bloc
-```
+```css
 overflow: visible;	/* Le texte sera visible et celui-ci sort volontairement du bloc */
 overflow: hidden;	/* Le texte sera tout simplement coupé Net. */
 overflow: scroll;	/* Le texte sera tout simplement coupé avec barre de navigation */
 overflow: auto;		/* Mode Automatique gérer par le navigateur */
 ```
-
 ###### 2. Couper les textes trop larges
-```
+```css
 word-wrap: break-word; /*  Cette propriété permet de forcer la césure des très longs mots */
-
-```
-###### 3.
-```
 ```
 
-
- 
-###### 1. 
-```html
-```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[]()</p>
