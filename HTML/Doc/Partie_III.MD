@@ -167,9 +167,14 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 
 ###### 1. 
 ```html
+<div id="conteneur">
+    <div class="element 1">Element </div>
+    <div class="element 2">Element </div>
+    <div class="element 3">Element </div>
+</div>
 ```
-```css
-```
+
+<p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774944-403707f8-503c-487d-8148-54f830a69827.pn" alt="Sublime's custom image"/></p>
 
 
 
