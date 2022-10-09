@@ -192,28 +192,46 @@ text-shadow: 2px 2px 4px black;
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## IV. [Créez des apparences dynamiques](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605763-creez-des-apparences-dynamiques)
 #### A. Au survol
-###### 1. 
 ```css
-a:hover{ 
-
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: red;
+   font-style: italic;
 }
-```
-###### 2. 
-```css
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
 ```
 
 #### B. Au clic et lors de la sélection
-###### 1. 
+###### 1. Au moment du clic
 ```css
+a:active /* Quand le visiteur clique sur le lien */
+{
+    background-color: #FFCC66;
+}
 ```
-###### 2. 
+
+###### 2. Lorsque l'élément est sélectionné
 ```css
+a:focus /* Quand le visiteur sélectionne le lien */
+{
+    background-color: #FFCC66;
+}
 ```
 
 #### C. Lorsque le lien a déjà été consulté
 
 ###### 1. 
  ```css
+ a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA; /* Appliquer une couleur grise */
+}
 ```
 ###### 2. 
 ```css
