@@ -44,12 +44,12 @@ font-size: 16px;
 ```
 ###### 2. Une valeur relative
 ```css
-font-size: xx-small; /* minuscule   */
-font-size: x-small;  /* très petit  */
-font-size: small;    /* petit       */
-font-size: medium;   /* moyen       */
-font-size: large;    /* grand       */
-font-size: x-large;  /* très grand  */
+font-size: xx-small; /* Minuscule   */
+font-size: x-small;  /* Très petit  */
+font-size: small;    /* Petit       */
+font-size: medium;   /* Moyen       */
+font-size: large;    /* Grand       */
+font-size: x-large;  /* Très grand  */
 font-size: xx-large; /* Gigantesque */
 ```
 
@@ -81,7 +81,7 @@ font-weight: bold;
 ###### 5. Souligné
 ```css
 text-decoration: underline;    /* Souligné        */
-text-decoration: line-through; /* barré           */
+text-decoration: line-through; /* Barré           */
 text-decoration: overline;     /* Ligne au-dessus */ 
 text-decoration: none;         /* Normal (Défaut) */
 ```
@@ -119,14 +119,14 @@ background-image: url("");      /* Image de Fond */
 ###### 2. Options disponibles pour l'image de fond
 ```css
 /* Fixer le fond */
-background-attachment: fixed;   /* Le fond est fixe */
-background-attachment: scroll;  /* Le fond défile   */
+background-attachment: fixed;     /* Le fond est fixe */
+background-attachment: scroll;    /* Le fond défile   */
 
 /* Répétition du fond */
-background-repeat: no-repeat;   /* Le fond ne sera pas répété. L'image sera donc unique sur la page      */
-background-repeat: repeat-x;    /* Le fond sera répété uniquement sur la première ligne, horizontalement */
-background-repeat: repeat-y;    /* Le fond sera répété uniquement sur la première colonne, verticalement */
-background-repeat: repeat;      /* Le fond sera répété en mosaïque (par défaut)                          */
+background-repeat: no-repeat;     /* Le fond ne sera pas répété. L'image sera donc unique sur la page      */
+background-repeat: repeat-x;      /* Le fond sera répété uniquement sur la première ligne, horizontalement */
+background-repeat: repeat-y;      /* Le fond sera répété uniquement sur la première colonne, verticalement */
+background-repeat: repeat;        /* Le fond sera répété en mosaïque (par défaut)                          */
 
 /* Position du fond */
 background-position: no-repeat;   /* Le fond ne se répéte pas */
