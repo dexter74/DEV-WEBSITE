@@ -142,7 +142,6 @@ background: url("soleil.png") fixed no-repeat top right;  /* Fond Fixe + Ne se r
 opacity: 0.6; /* 60% */
 ```
 
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## IV. [Créez des bordures et des ombres](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605694-creez-des-bordures-et-des-ombres)
 #### A. Bordures standard
@@ -170,8 +169,6 @@ border-right:                 /* Bordure de droite  */
 border-right: 3px blue dashed;
 ```
 
-
-
 #### B. Bordures arrondies
 ```css
 border-radius: <Haut Gauche> <Haut Droit> <Bas Droit> <Bas Gauche>;
@@ -190,4 +187,20 @@ box-shadow: 6px 6px 6px black inset;
 ```css
 text-shadow: 2px 2px 4px black; 
 ```
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+## IV. [Créez des apparences dynamiques](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605763-creez-des-apparences-dynamiques)
+#### A. Au survol
+###### 1. 
+
+#### B. Au clic et lors de la sélection
+###### 1.
+
+#### C. Lorsque le lien a déjà été consulté
+
+###### 1. 
+
+
+
 
