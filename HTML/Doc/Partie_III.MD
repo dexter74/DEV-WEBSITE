@@ -215,12 +215,6 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 .element-3{}
 ```
 
-
-
-
-
-
-
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774944-403707f8-503c-487d-8148-54f830a69827.png" alt="Sublime's custom image"/></p>
 
 #### B. Soyez flex !
@@ -263,6 +257,13 @@ align-items:flex-start; 	/* Alignés au début						*/
 align-items:flex-end; 		/* Alignés à la fin 						*/
 align-items:center;		/* Alignés au centre						*/
 align-items:baseline;		/* Alignés sur la ligne de base (semblable à flex-start)	*/ 
+```
+
+###### 3. Aligner un seul élément
+```css
+.element:nth-child(1)
+	{
+	}
 ```
 
 
