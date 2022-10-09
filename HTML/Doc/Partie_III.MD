@@ -51,34 +51,35 @@
 L'image au dessus n'est pas représentative du code suivant.
 ```html
 <!DOCTYPE html>
-
 <html>
+	<!-- ################################################################### -->
     <head>
         <meta charset="utf-8" />
-        <title>Titre de ma page</title>
+        <title>Titre</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
+	<!-- ################################################################### -->
+    <header>
+		<h1>Titre de mon site</h1>
+	</header>
+	<!-- ################################################################### -->
     <body>
-        <header>
-            <h1>Titre de ma page</h1>
-            <h2>Sous-titre de ma page </h2>
-        </header>   
-        <nav> 
-            <ul>
-                <li><a href='#'>Accueil</a></li>
-                <li><a href='#'>Téléchargements</a></li>
-                <li><a href='#'>Forums</a></li>
-            </ul>
-        </nav>
-        <section>
-            <article></article>
-            <aside></aside>
-            <aside></aside>
-            /<article> 
-        </section>
-    </body>
-    
-    <section> </section>
-    <footer> </footer>
+		<div id="Menu">
+			<nav>
+				<ul>
+					<li><a href="index.html">Accueil</a></li>
+					<li><a href="forum.html">Forum</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</body>
+	<!-- ################################################################### -->
+   	<footer>
+		<p>Copyright, Tous droits réservés .</p>
+	</footer>
+	<!-- ################################################################### -->
+
 </html>
 ```
 
