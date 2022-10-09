@@ -40,11 +40,11 @@ id:  : Utiliser un # devant le nom. Objet Unique.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## II. [Formatez du texte](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605329-formatez-du-texte)
 #### A. La taille
-###### La taille absolue
+###### 1. La taille absolue
 ```css
 font-size: 16px;
 ```
-###### Une valeur relative
+###### 2. Une valeur relative
 ```css
 font-size: xx-small; /* minuscule   */
 font-size: x-small;  /* très petit  */
@@ -56,11 +56,11 @@ font-size: xx-large; /* Gigantesque */
 ```
 
 #### B. La police
-###### Général
+###### 1. Général
 ```css
 font-family: Verdana,arial;
 ```
-###### Police Personnalisée
+###### 2. Police Personnalisée
 ```css
 @font-face {
   font-family: 'MaSuperPolice';
@@ -70,18 +70,17 @@ font-family: Verdana,arial;
        url('MaSuperPolice.svg')  format('svg');
 }
 ```
-
-###### Italique
+###### 3. Italique
 ```css
 font-style: normal;
 font-style: oblique;
 font-style: italic;
 ```
-###### Gras
+###### 4. Gras
 ```css
 font-weight: bold;
 ```
-###### Souligné
+###### 5. Souligné
 ```css
 text-decoration: underline;    /* Souligné        */
 text-decoration: line-through; /* barré           */
@@ -89,7 +88,7 @@ text-decoration: overline;     /* Ligne au-dessus */
 text-decoration: none;         /* Normal (Défaut) */
 ```
 
-#### L'alignement
+###### 6. L'alignement
 ```css
 text-align: left;     /* Aligner le texte à Gauche    */
 text-align: right;    /* Aligner le texte à Droite    */
@@ -113,11 +112,11 @@ background-color: black;
 ```
 
 #### C.Images de fond
-###### Appliquer une image de fond
+###### 1. Appliquer une image de fond
 ```css
 background-image: url("");      /* Image de Fond */
 ```
-###### Options disponibles pour l'image de fond
+###### 2. Options disponibles pour l'image de fond
 ```css
 /* Fixer le fond */
 background-attachment: fixed;   /* Le fond est fixe */
@@ -148,3 +147,17 @@ background: url("soleil.png") fixed no-repeat top right;  /* Fond Fixe + Ne se r
 ```css
 opacity: 0.6; /* 60% */
 ```
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+## IV. [Créez des bordures et des ombres](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605694-creez-des-bordures-et-des-ombres)
+#### A. Bordures standard
+###### 1.
+###### 2.
+###### 3.
+###### 4.
+#### B. Bordures arrondies
+#### C. Les ombres
+
+
+
