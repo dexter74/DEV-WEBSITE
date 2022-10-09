@@ -186,10 +186,6 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 .element-3{}
 ```
 
-
-
-
-
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774944-403707f8-503c-487d-8148-54f830a69827.png" alt="Sublime's custom image"/></p>
 
 
@@ -201,7 +197,7 @@ Sans autre propritété l'orientation est vers la droite.
 display: flex;	/* Permet d'activer le mode FlexBox */
 ```
 
-###### 2. La direction
+###### 2. La direction (Conteneur)
 On peut les positionner verticalement ou encore les inverser
 
 ```css
