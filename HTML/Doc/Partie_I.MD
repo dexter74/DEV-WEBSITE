@@ -111,6 +111,7 @@ li: délimite un élément de la liste.
 **Création d'une liste**
 ````html
 <ul> </ul>
+<ol></ol>
 ````
 **Élément de la liste**
 ````html
