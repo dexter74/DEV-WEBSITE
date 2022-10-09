@@ -160,12 +160,48 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'>[]()</p>
+### <p align='center'>[Faites votre mise en page avec Flexbox](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/3298561-faites-votre-mise-en-page-avec-flexbox)</p>
 
 #### A. 
 ###### 1. 
 ```html
 ```
+```css
+```
+
+
+
+
+
+
+#### A. 
+###### 1. 
+```html
+```
+```css
+```
+
+#### A. 
+###### 1. 
+```html
+```
+```css
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[]()</p>
