@@ -183,6 +183,7 @@ border-radius: 1px 1px 1px 1px;
 ```css
 box-shadow: <Le décalage horizontal de l'ombre> <Le décalage vertical de l'ombre> <L'adoucissement du dégradé> <La couleur de l'ombre>
 box-shadow: 6px 6px 0px black;
+box-shadow: 6px 6px 6px black inset;
 ```
 
 ###### X.
