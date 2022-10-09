@@ -165,12 +165,12 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 #### A. Les Conteneurs
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774895-ccafba54-7a31-4aec-a01c-1196fea91b76.png" alt="Sublime's custom image"/></p>
 
-###### 1. 
+###### 1. Exemple (Espace supprmer !)
 ```html
 <div id="conteneur">
-    <div class="element 1">Element </div>
-    <div class="element 2">Element </div>
-    <div class="element 3">Element </div>
+    <div class="element-1">Element </div>
+    <div class="element-2">Element </div>
+    <div class="element-3">Element </div>
 </div>
 ```
 
