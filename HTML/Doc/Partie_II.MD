@@ -85,7 +85,6 @@ text-decoration: line-through; /* Barré           */
 text-decoration: overline;     /* Ligne au-dessus */ 
 text-decoration: none;         /* Normal (Défaut) */
 ```
-
 ###### 6. L'alignement
 ```css
 text-align: left;     /* Aligner le texte à Gauche    */
