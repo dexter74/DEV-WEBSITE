@@ -8,13 +8,11 @@
 ```
 
 #### B. Appliquer un style : sélectionner une balise
-###### HTML
-```html
+###### HTML et CSS
+```
 <h1>Test </h1>
 <p>Salut à tous.</p> 
-```
-###### CSS
-```css
+
 p, h1 { color: blue; }
 ```
 
@@ -24,16 +22,12 @@ class: Utiliser un . devant le nom. Utilisable une seule Fois.
 id:  : Utiliser un # devant le nom. Objet Unique.
 ```
 
-###### HTML
-```html
+###### HTML et CSS
+```
 <div clss="TEST1"></div>
 <div id="TEST2"></div>
-```
 
-###### CSS
-```css
 .TEST1 { }
-
 #TEST2 { }
 ```
 
