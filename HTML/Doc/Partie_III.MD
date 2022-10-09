@@ -126,11 +126,19 @@ max-width: Xpx;    /* Largeur maximale */
 
 ###### 1. Intérieur
 ```
-padding: 0px;   /* Indique la taille de la marge intérieure. À exprimer en général en pixels (px) */
+padding: 0px;		/* Indique la taille de la marge intérieure. À exprimer en général en pixels (px) */
+padding-top: 0px;	/* Marge intérieure en haut 	*/
+padding-bottom:	0px;	/* Marge intérieure en bas 	*/
+padding-left: 0px;	/* Marge intérieure à gauche 	*/
+padding-right: 0px;	/* Marge intérieure à droite 	*/
 ```
 ###### 2. Extérieur
 ```
-margin: 0px     /* Indique la taille de la marge extérieure. Là encore, on utilise le plus souvent des pixels */
+margin: 0px     	/* Indique la taille de la marge extérieure. Là encore, on utilise le plus souvent des pixels */
+margin-top: 0px; 	/* Marge extérieure en haut 	*/
+margin-bottom: 0px; 	/* Marge extérieure en bas 	*/
+margin-left: 0px; 	/* Marge extérieure à gauche 	*/
+margin-right: 0px; 	/* Marge extérieure à droite	*/
 ```
 
 ###### 3.
