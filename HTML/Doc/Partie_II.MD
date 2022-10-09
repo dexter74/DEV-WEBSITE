@@ -100,7 +100,6 @@ text-align: center;   /* Aligner le texte à Centre    */
 text-align: justify;  /* Aligner le texte à Justifier */
 ```
 
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## III. [Ajoutez de la couleur et un fond](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605551-ajoutez-de-la-couleur-et-un-fond)
 
@@ -119,28 +118,26 @@ background-color: black;
 #### C.Images de fond
 ###### Appliquer une image de fond
 ```css
-background-image: url("");      /* Image de Fond        */
+background-image: url("");      /* Image de Fond */
 ```
 ###### Options disponibles pour l'image de fond
 ```css
-background-attachment: fixed;   /* Le fond restera fixe */
-background-attachment: scroll;  /* Le fond défile       */
+background-attachment: fixed;   /* Le fond est fixe */
+background-attachment: scroll;  /* Le fond défile   */
 background-repeat: no-repeat;   /* Le fond ne sera pas répété. L'image sera donc unique sur la page      */
 background-repeat: repeat-x;    /* Le fond sera répété uniquement sur la première ligne, horizontalement */
 background-repeat: repeat-y;    /* Le fond sera répété uniquement sur la première colonne, verticalement */
 background-repeat: repeat;      /* Le fond sera répété en mosaïque (par défaut)                          */
 ```
 
-
-
 #### D.La transparence
 ```css
-
 ```
-````html
-
+```html
 ```
-`---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### []()
 #### 
 **XXX**
