@@ -193,8 +193,6 @@ li: délimite un élément de la liste.
 <a href="img/pleinformat.jpg"><img src="img/miniformat.jpg" alt="" title="" /></a>
 ```
 
-
-
 #### B. Les figures ===> ???
 ```html
 ```
