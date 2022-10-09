@@ -178,12 +178,12 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 *{margin: 1;}
 
 /* Conteneur */
-#conteneur{display: flex;}				/* Activation du mode Flex */
-#conteneur{height: 25px;}				/* Définir la Hauteur */
-#conteneur{width: 230px;}				/* Définir la Hauteur */
-#conteneur{padding: 5px;}				/* Large Intérieur */
+#conteneur{display: flex;}		/* Activation du mode Flex */
+#conteneur{height: 25px;}		/* Définir la Hauteur */
+#conteneur{width: 230px;}		/* Définir la Hauteur */
+#conteneur{padding: 5px;}		/* Large Intérieur */
 #conteneur{border: 1px black solid;}	/* Taille et couleur de la bordure */
-#conteneur{border-radius: 3px;}			/* Arrondir la bordure */
+#conteneur{border-radius: 3px;}		/* Arrondir la bordure */
 #conteneur{justify-content: center;}	/* Center le contenu */
 
 /* Element 1 */
