@@ -31,8 +31,9 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
         <title>Titre</title>
         <link rel="stylesheet" href="style.css" />
     </head>
-    <body>
-    </body>
+    <header></header>
+    <body></body>
+    <footer></footer>
 </html>
 ```
 ###### 2. CSS
