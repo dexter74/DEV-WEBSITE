@@ -134,12 +134,12 @@ padding-right: 0px;	/* Marge intérieure à droite 	*/
 ```
 ###### 2. Extérieur
 ```
-margin: auto;		/* Centrer les blocs 		*/
+margin: auto;		/* Centrer les blocs (Hauteur Requise)	*/
 margin: 0px     	/* Indique la taille de la marge extérieure. Là encore, on utilise le plus souvent des pixels */
-margin-top: 0px; 	/* Marge extérieure en haut 	*/
-margin-bottom: 0px; 	/* Marge extérieure en bas 	*/
-margin-left: 0px; 	/* Marge extérieure à gauche 	*/
-margin-right: 0px; 	/* Marge extérieure à droite	*/
+margin-top: 0px; 	/* Marge extérieure en haut 		*/
+margin-bottom: 0px; 	/* Marge extérieure en bas 		*/
+margin-left: 0px; 	/* Marge extérieure à gauche 		*/
+margin-right: 0px; 	/* Marge extérieure à droite		*/
 ```
 
 
