@@ -38,8 +38,8 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ```
 ###### 2. CSS
 ```css
-body{ margin:  0px;} /* https://askcodez.com/supprimer-la-marge-du-corps-en-css.html */
-body{ padding: 0px;} 
+*{ margin:  0px;} /* https://askcodez.com/supprimer-la-marge-du-corps-en-css.html */
+*{ padding: 0px;} 
 ```
 
 
