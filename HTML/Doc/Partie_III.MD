@@ -228,24 +228,31 @@ align-items:baseline;		/* Alignés sur la ligne de base (semblable à flex-start
 .element:nth-child(2){}
 ```
 
-
-
-
-
-
-
 #### D. Répartir plusieurs lignes
-###### 1. 
-```html
-<div id="conteneur">
-    <div class="element">Element 1</div>
-    <div class="element">Element 2</div>
-    <div class="element">Element 3</div>
-    <div class="element">Element 4</div>
-    <div class="element">Element 5</div>
-</div>
+```
+Tutorial Incomplet ou pas pertinent
 ```
 
+
+#### E. Rappel à l'ordre
+###### 1. Définir un Ordre dans les éléments
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Titre</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+		<div id="conteneur">
+			<div class="element 1">Element 1</div>
+			<div class="element 2">Element 2</div>
+			<div class="element 3">Element 3</div>
+		</div>
+    </body>
+</html>
+```
 
 ```css
 /* Configuration de la page par défaut */
@@ -253,7 +260,11 @@ align-items:baseline;		/* Alignés sur la ligne de base (semblable à flex-start
 
 /* Conteneur */
 #conteneur{display: flex;}
-#conteneur{flex-wrap: wrap;}
+
+/* Éléments */
+.element:nth-child(1){order: 3;}
+.element:nth-child(2){order: 1;}
+.element:nth-child(3){order: 2;}
 ```
 
 
@@ -264,30 +275,6 @@ align-items:baseline;		/* Alignés sur la ligne de base (semblable à flex-start
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### E. Rappel à l'ordre
-###### 1. 
-```html
-```
-```css
-```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[]()</p>
