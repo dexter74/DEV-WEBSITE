@@ -173,6 +173,22 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
     <div class="element-3">Element </div>
 </div>
 ```
+```css
+/* Suppression de la mage */
+*{margin: 0;}
+
+/* Conteneur */
+#conteneur{display: flex;}
+
+/* Eléments */
+.element-1{}
+.element-2{}
+.element-3{}
+```
+
+
+
+
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774944-403707f8-503c-487d-8148-54f830a69827.png" alt="Sublime's custom image"/></p>
 
