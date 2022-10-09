@@ -182,7 +182,7 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 #conteneur{display: flex;}		/* Activation du mode Flex */
 #conteneur{flex-direction: column;}	/* Orientation: Colonne */
 #conteneur{height: 70px;}		/* Définir la Hauteur */
-#conteneur{width: 210px;}		/* Définir la Hauteur */
+#conteneur{width: 230px;}		/* Définir la Hauteur */
 #conteneur{padding: 5px;}		/* Large Intérieur */
 #conteneur{border: 1px black solid;}	/* Taille et couleur de la bordure */
 #conteneur{border-radius: 3px;}		/* Arrondir la bordure */
