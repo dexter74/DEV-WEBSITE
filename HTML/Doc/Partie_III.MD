@@ -297,56 +297,6 @@ flex: 1;
 .element:nth-child(2){flex: 1;}
 ```
 
-
-
-
-#### G. [TP](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/4214576-pratiquez)
-
-#### Contenu du site 
-```
-Titre du site : Le blog trotter
-
-Titre: Le blog trotter
-Je parcours la planète... et vous la fais découvrir !
-
-Menu:
- - Accueil
- - Archives
- - Contact
-
-
-Titre: La Chine
-
-Paragraphe:
-On peut aujourd’hui aller de Paris à Pékin en 10h d’avion. Si la Chine semble de moins en moins lointaine, son pouvoir d’attraction et son mystère demeurent. Depuis son ouverture économique commencée en 1992, la voilà devenue enfin accessible aux voyageurs et aux routards. Pour aller en Chine, un simple visa suffit.
-
-Pas facile de découvrir en 3 semaines un pays vaste comme 17 fois la France. Au nord et à Pékin, la Grande Muraille, la Cité interdite, le palais d’Été, les musées et les temples. Au centre du pays, l’Armée enterrée de Xi’an. Non loin de la mer, Shanghai, ville symbole du nouveau capitalisme chinois. Enfin, c’est une autre Chine, raffinée, secrète et poétique, qui se cache dans les jardins de Suzhou ou sur les berges de la rivière Li, dans le Sud, près de Guilin ou encore le long des rizières et plantations de thé du Yunnan. Source : Le Routard
-
-
-
-
-
-Titre: L'Espagne
-
-Paragraphe:
-Diversité des paysages, des cultures, des langues (castillan, catalan, basque), des terroirs et des villes. L’Espagne s’offre à tous les goûts : laissons de côté les plages envahies l’été et la Costa del Sol bétonnée par les complexes hôteliers. Aventurons-nous plutôt dans l’intérieur du pays, superbe et naturel, prodigue en paysages saisissants, en monuments splendides, en modes de vie passionnants…
-
-Pour cela, il suffit parfois de s’éloigner d’une dizaine de kilomètres des foules. Découvrir Salamanque, la petite Rome espagnole, ou Tolède la belle médiévale perchée sur son promontoire. Parcourir le rude plateau de Castille, de Ségovie à Léon, à la découverte de magnifiques cathédrales et d’extraordinaires musées. Goûter à la spécificité de l’âme catalane et à ses trésors artistiques, de Dalí à Gaudí en passant par Tapiès et Miró. Prendre le chemin de Saint-Jacques-de-Compostelle pour admirer les beautés de la rurale Galice, aussi verdoyante que la terre des Basques, à laquelle ils sont tant attachés. Ou, enfin, un soir de fête à Séville, Madrid ou Barcelone, succomber à cet éclatant bonheur de vivre qui est la marque du pays tout entier. Car les nuits y sont souvent plus intenses que les jours. Source : <LIENS du routard> 
-Liens: https://www.routard.com/guide/code_dest/espagne.htm
-Terme: Le Routard
-
-
-
-footer: Copyright Le Blog Trotter
-
-
-```
-
-
-
-
-
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[]()</p>
 
