@@ -70,105 +70,104 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ### <p align='center'>[Organisez votre texte](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604534-organisez-votre-texte) </p>
 
 #### Les paragraphes
-````html
+```html
 <p>Bonjour et bienvenue sur mon site !</p>
-````
+```
 **Sauter une ligne**
-````html
+```html
 <br />
-````
+```
 #### Les titres
-````html
+```html
 <h1> </h1>  : signifie « titre très important ». En général, on s'en sert pour afficher le titre de la page au début de celle-ci ;
 <h2> </h2>  : signifie « titre important » ;
 <h3> </h3>  : pareil, c'est un titre un peu moins important (on peut dire un « sous-titre », si vous voulez) ;
 <h4> </h4>  : titre encore moins important ;
 <h5> </h5>  : titre pas important ;
 <h6> </h6>  : titre vraiment, mais alors là vraiment pas important du tout.
-````
+```
 #### La Mise en Valeur
 **Italic**
-````html
+```html
 <em> </em>
-````
+```
 **important**
-````html
+```html
 <strong> </strong>
-````
+```
 **Marquer le texte**
-````html
+```html
 <mark> </mark>
-````
+```
 #### Les Listes
-````
+```
 ul: délimite toute la liste
 li: délimite un élément de la liste.
-````
-
+```
 **Création d'une liste**
-````html
+```html
 <ul> </ul>
 <ol> </ol>
-````
+```
 **Élément de la liste**
-````html
+```html
 <li>Mon Menu</li>
-````
+```
 **Liste Non-ordonnée**
-````html
+```html
 <ul>
  <li>Mon Menu</li>
 </ul>
-````
+```
 **Liste ordonnée**
-````html
+```html
 <ol>
  <li>Mon Menu</li>
 </ol>
-````
+```
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Créez des liens](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604646-creez-des-liens) </p>
 #### Un lien vers un autre site
-````html
+```html
 <a href="#">Menu</a>
-````
+```
 #### Un lien vers une ancre
 **Création d'une Ancre**
-````html
+```html
 <h2 id="mon_ancre">Titre</h2>
-````
+```
 **Liens pointant vers l'ancre**
-````html
+```html
 <a href="#mon_ancre">Aller vers l'ancre</a>
-````
+```
 
 **Divers**
-````html
+```html
 <p>Bonjour. Souhaitez-vous visiter <a href="https://openclassrooms.com" title="Vous ne le regretterez pas !">OpenClassrooms</a> ?</p>
-````
-````html
+```
+```html
 <p>Bonjour. Souhaitez-vous visiter <a href="https://openclassrooms.com" title="Vous ne le regretterez pas !" target="_blank">OpenClassrooms</a> ?</p>
-````
-````html
+```
+```html
 <p><a href="mailto:votrenom@bidule.com">Envoyez-moi un e-mail !</a></p>
-````
-````html
+```
+```html
 <p><a href="monfichier.zip">Télécharger le fichier</a></p>
-````
+```
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[Insérez des images](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604791-inserez-des-images) </p>
 
 #### Insérer une image
-````html
+```html
 <img src="" alt="" title="" />
-````
+```
 #### Miniature Cliquable
-````html
+```html
 <a href="img/pleinformat.jpg"><img src="img/miniformat.jpg" alt="" title="" /></a>
-````
+```
 #### Les figures ===> ???
-````html
-````
+```html
+```
