@@ -159,15 +159,19 @@ border: <largeur px> <Couleur> <Type>;
                                inset;   /* Effet 3D Global enfoncé */
                                outset;  /* effet 3D Global surélevé */
 border: 3px blue dashed; 
-
-/* Définir un côté d'une bordure */
+```
+###### 2. Définir un côté d'une bordure
+```css
 border-top:                   /* Bordure du haut    */
 border-bottom:                /* Bordure du bas     */
 border-left:                  /* Bordure de gauche  */
 border-right:                 /* Bordure de droite  */
 
+border-right: 3px blue dashed;
 ```
-###### 2.
+
+
+
 ###### 3.
 ###### 4.
 #### B. Bordures arrondies
