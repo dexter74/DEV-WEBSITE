@@ -3,24 +3,27 @@
 ### <p align='center'> [Créez votre première page web en HTML](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604361-creez-votre-premiere-page-web-en-html) </p>
 
 #### A Les balises et leurs attributs
-**Les balises en paires**
+##### 1. Les balises en paires
 ````html
 <titre>Ceci est un titre</titre>
 Ceci n'est pas un titre <titre>Ceci est un titre</titre> Ceci n'est pas un titre
 ````
-**Les balises orphelines**
+
+##### 2. Les balises orphelines
 ````html
 <image />
 ````
-**Les Attributs**
+##### 3. Les Attributs
 ````html
 <balise attribut="valeur">
 <image nom="photo.jpg" />
-  
+
 <citation auteur="Neil Armstrong" date="21/07/1969">
 C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 </citation>
 ````
+
+
 #### B. Structure de base d'une page HTML5
 ````html
 <!DOCTYPE html>
