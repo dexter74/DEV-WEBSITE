@@ -204,7 +204,7 @@ On peut les positionner verticalement ou encore les inverser
 flex-direction: row;		/* Organisés sur une ligne				*/
 flex-direction: column;		/* Organisés sur une colonne			 	*/
 flex-direction: row-reverse;	/* Organisés sur une ligne, mais en ordre inversé	*/
-flex-direction:column-reverse;	/* Organisés sur une colonne, mais en ordre inversé	*/
+flex-direction: column-reverse;	/* Organisés sur une colonne, mais en ordre inversé	*/
 ```
 
 
