@@ -93,25 +93,19 @@ L'image au dessus n'est pas représentative du code suivant.
 #### A. Les balises de type block et inline
 
 ###### 1. Les Balises Block
-Une balise Block fait un Retour à la ligne avant et après.
+`Une balise Block fait un Retour à la ligne avant et après.`
 ```
 <p></p>
 ```
 ###### 2. Les Balises Inline
-Une balise Inline est dans une balise Block. Elle ne fait pas de retour à la ligne.
+`Une balise Inline est dans une balise Block. Elle ne fait pas de retour à la ligne.`
 ```
 <a></a>
 ```
 **Exemple**
 ```html
-<p> Mon block contient  le bloc <a/>INLINE</a> dans son contenu. </p>
+<p> Mon block contient  le bloc "<a/>INLINE</a>" dans son contenu. </p>
 ```
-
-
-
-
-
-
 
 
 ###### 3.
