@@ -126,22 +126,41 @@ li: délimite un élément de la liste.
 </ol>
 ```
 
+<br />
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Créez des liens](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604646-creez-des-liens) </p>
 #### A. Un lien vers un autre site
 ```html
-<a href="#">Menu</a>
+<a href="https://openclassrooms.com">OpenClassrooms</a>
 ```
 
-#### Un lien vers une ancre
-**Création d'une Ancre**
+#### B. Un lien vers une autre page de son site
+```html
+<p>Bonjour. Souhaitez-vous consulter <a href="page2.html">la page 2</a> ?</p>
+<a href="contenu/page2.html">
+<a href="../page2.html">
+```
+#### C. Un lien vers une ancre
+##### 1. réation d'une Ancre
 ```html
 <h2 id="mon_ancre">Titre</h2>
 ```
-**Liens pointant vers l'ancre**
+##### 2. Liens pointant vers l'ancre**
 ```html
 <a href="#mon_ancre">Aller vers l'ancre</a>
 ```
+
+
+
+
+#### D. Cas pratiques d'utilisation des liens
+
+
+
+
+
+#### Un lien vers une ancre
 
 **Divers**
 ```html
