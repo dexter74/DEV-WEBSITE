@@ -185,15 +185,11 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 .element-2{}
 .element-3{}
 ```
-
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774944-403707f8-503c-487d-8148-54f830a69827.png" alt="Sublime's custom image"/></p>
-
-
 
 #### B. Soyez flex !
 ###### 1. Activer le mode Flex
 Sans autre propritété l'orientation est vers la droite.
-
 ```css
 display: flex;	/* Permet d'activer le mode FlexBox */
 ```
@@ -206,7 +202,6 @@ flex-direction: column;		/* Organisés sur une colonne			 	*/
 flex-direction: row-reverse;	/* Organisés sur une ligne, mais en ordre inversé	*/
 flex-direction: column-reverse;	/* Organisés sur une colonne, mais en ordre inversé	*/
 ```
-
 ###### 3. Le retour à la ligne
 ```css
 flex-wrap: nowrap;		/* Pas de retour à la ligne 				*/
@@ -220,6 +215,11 @@ flex-wrap: wrap-reverse;	/* Retour à la ligne si plus de place (Sens Inverse)	*
 ```html
 ```
 ```css
+justify-content: flex-start;	/* Alignés au début						*/
+justify-content: flex-end;	/* Alignés à la fin						*/
+justify-content: center;	/* Alignés au centre						*/
+justify-content: space-between;	/* Les éléments sont étirés sur tout l'axe (Espace entre eux)	*/
+justify-content: space-around;	/* Idem, laisse de l'espace sur les extrémités			*/
 ```
 
 
