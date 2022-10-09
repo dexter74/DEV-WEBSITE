@@ -6,43 +6,48 @@
   <link rel="stylesheet" href="style.css" />
 <head>
 ```
+
 #### B. Appliquer un style : sélectionner une balise
-**Code HTML**
+###### HTML
 ```html
 <h1>Test </h1>
 <p>Salut à tous.</p> 
 ```
-**Code CSS**
+###### CSS
 ```css
 p, h1 {
   color: blue;
   }
 ```
+
 #### C. Appliquer un style : class et id
 ```
 class: Utiliser un . devant le nom. Utilisable une seule Fois.
 id:  : Utiliser un # devant le nom. Objet Unique.
 ```
-**HTML**
+
+###### HTML
 ```html
 <div clss="TEST1"></div>
 <div id="TEST2"></div>
 ```
-**CSS**
+
+###### CSS
 ```css
 .TEST1 {
   }
 #TEST1 {
   }
 ```
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## II. [Formatez du texte](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605329-formatez-du-texte)
 #### A. La taille
-**La taille absolue**
+###### La taille absolue
 ```css
 font-size: 16px;
 ```
-**Une valeur relative**
+###### Une valeur relative
 ```css
 font-size: xx-small; /* minuscule   */
 font-size: x-small;  /* très petit  */
@@ -52,6 +57,7 @@ font-size: large;    /* grand       */
 font-size: x-large;  /* très grand  */
 font-size: xx-large; /* Gigantesque */
 ```
+
 #### B. La police
 **Général**
 ```css
