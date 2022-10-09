@@ -119,12 +119,25 @@ background-image: url("");      /* Image de Fond */
 ```
 ###### Options disponibles pour l'image de fond
 ```css
+/* Fixer le fond */
 background-attachment: fixed;   /* Le fond est fixe */
 background-attachment: scroll;  /* Le fond défile   */
+
+/* Répétition du fond */
 background-repeat: no-repeat;   /* Le fond ne sera pas répété. L'image sera donc unique sur la page      */
 background-repeat: repeat-x;    /* Le fond sera répété uniquement sur la première ligne, horizontalement */
 background-repeat: repeat-y;    /* Le fond sera répété uniquement sur la première colonne, verticalement */
 background-repeat: repeat;      /* Le fond sera répété en mosaïque (par défaut)                          */
+
+/* Position du fond */
+background-position: no-repeat;   /* Le fond ne se répéte pas */
+background-position: XXpx XXpx;   /* Gauche, Haut             */
+background-position: top;         /* En haut                  */
+background-position: bottom;      /* En bas                   */
+background-position: left;        /* A Gauche                 */
+background-position: center;      /* Au Centre                */
+background-position: right;       /* A droite                 */
+background-position: top right;   /* Aligner en Haut à droit  */
 ```
 
 #### D.La transparence
