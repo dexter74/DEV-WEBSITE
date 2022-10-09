@@ -134,11 +134,12 @@ padding-right: 0px;	/* Marge intérieure à droite 	*/
 ```
 ###### 2. Extérieur
 ```
-margin: 0px     	/* Marge Extérieur 			*/
-margin-top: 0px; 	/* Marge extérieure en haut 		*/
-margin-bottom: 0px; 	/* Marge extérieure en bas 		*/
-margin-left: 0px; 	/* Marge extérieure à gauche 		*/
-margin-right: 0px; 	/* Marge extérieure à droite		*/
+margin: 2px 0 3px 1px;	/* Marge Extérieur des 4 côtés	*/
+margin-top: 0px; 	/* Marge extérieure en haut 	*/
+margin-bottom: 0px; 	/* Marge extérieure en bas 	*/
+margin-left: 0px; 	/* Marge extérieure à gauche 	*/
+margin-right: 0px; 	/* Marge extérieure à droite	*/
+
 ```
 
 ###### 3. Centrer Bloc
