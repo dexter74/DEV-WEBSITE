@@ -32,6 +32,8 @@ id:  : Utiliser un # devant le nom. Objet Unique.
 #TEST2 { }
 ```
 
+<br />
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Formatez du texte](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605329-formatez-du-texte) </p> 
 
@@ -92,6 +94,8 @@ text-align: center;   /* Aligner le texte à Centre    */
 text-align: justify;  /* Aligner le texte à Justifier */
 ```
 
+<br />
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[Ajoutez de la couleur et un fond](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605551-ajoutez-de-la-couleur-et-un-fond) </p>
 
@@ -144,6 +148,8 @@ background: url("soleil.png") fixed no-repeat top right;  /* Fond Fixe + Ne se r
 opacity: 0.6; /* 60% */
 ```
 
+<br />
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[Créez des bordures et des ombres](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605694-creez-des-bordures-et-des-ombres) </p>
 
@@ -191,6 +197,7 @@ box-shadow: 6px 6px 6px black inset;
 text-shadow: 2px 2px 4px black; 
 ```
 
+<br />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Créez des apparences dynamiques](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605763-creez-des-apparences-dynamiques) </p>
