@@ -332,7 +332,7 @@ Paragraphe:
 Diversité des paysages, des cultures, des langues (castillan, catalan, basque), des terroirs et des villes. L’Espagne s’offre à tous les goûts : laissons de côté les plages envahies l’été et la Costa del Sol bétonnée par les complexes hôteliers. Aventurons-nous plutôt dans l’intérieur du pays, superbe et naturel, prodigue en paysages saisissants, en monuments splendides, en modes de vie passionnants…
 
 Pour cela, il suffit parfois de s’éloigner d’une dizaine de kilomètres des foules. Découvrir Salamanque, la petite Rome espagnole, ou Tolède la belle médiévale perchée sur son promontoire. Parcourir le rude plateau de Castille, de Ségovie à Léon, à la découverte de magnifiques cathédrales et d’extraordinaires musées. Goûter à la spécificité de l’âme catalane et à ses trésors artistiques, de Dalí à Gaudí en passant par Tapiès et Miró. Prendre le chemin de Saint-Jacques-de-Compostelle pour admirer les beautés de la rurale Galice, aussi verdoyante que la terre des Basques, à laquelle ils sont tant attachés. Ou, enfin, un soir de fête à Séville, Madrid ou Barcelone, succomber à cet éclatant bonheur de vivre qui est la marque du pays tout entier. Car les nuits y sont souvent plus intenses que les jours. Source : <LIENS du routard> 
-Liens: https://www.routard.com/guide/code_dest/espagne.ht
+Liens: https://www.routard.com/guide/code_dest/espagne.htm
 Terme: Le Routard
 
 
