@@ -36,7 +36,8 @@ id:  : Utiliser un # devant le nom. Objet Unique.
 ```css
 .TEST1 {
   }
-#TEST1 {
+  
+#TEST2 {
   }
 ```
 
