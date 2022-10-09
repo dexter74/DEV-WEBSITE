@@ -153,11 +153,18 @@ width: Xpx;
 
 
 #### E. Quand ça dépasse…
-###### 1.
+###### 1. Couper un bloc
 ```
+overflow: visible;	/* Le texte sera visible et celui-ci sort volontairement du bloc */
+overflow: hidden;	/* Le texte sera tout simplement coupé Net. */
+overflow: scroll;	/* Le texte sera tout simplement coupé avec barre de navigation */
+overflow: auto;		/* Mode Automatique gérer par le navigateur */
 ```
-###### 2.
+
+###### 2. Couper les textes trop larges
 ```
+word-wrap: break-word; /*  Cette propriété permet de forcer la césure des très longs mots */
+
 ```
 ###### 3.
 ```
