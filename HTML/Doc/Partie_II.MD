@@ -1,5 +1,6 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'> [Mettez en place le CSS](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605060-mettez-en-place-le-css)</p> 
+### <p align='center'> [Mettez en place le CSS](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605060-mettez-en-place-le-css)</p>
+
 #### A. Où écrit-on le CSS ?
 ```html
 <head>
@@ -32,7 +33,8 @@ id:  : Utiliser un # devant le nom. Objet Unique.
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-## II. [Formatez du texte](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605329-formatez-du-texte)
+### <p align='center'> [Formatez du texte](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605329-formatez-du-texte) </p> 
+
 #### A. La taille
 ###### 1. La taille absolue
 ```css
@@ -91,7 +93,7 @@ text-align: justify;  /* Aligner le texte à Justifier */
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-## III. [Ajoutez de la couleur et un fond](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605551-ajoutez-de-la-couleur-et-un-fond)
+### <p align='center'>[Ajoutez de la couleur et un fond](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605551-ajoutez-de-la-couleur-et-un-fond) </p>
 
 #### A. Couleur du texte ([ColorPicker](http://www.colorpicker.com/))
 ```css
@@ -143,7 +145,8 @@ opacity: 0.6; /* 60% */
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-## IV. [Créez des bordures et des ombres](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605694-creez-des-bordures-et-des-ombres)
+### <p align='center'>[Créez des bordures et des ombres](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605694-creez-des-bordures-et-des-ombres) </p>
+
 #### A. Bordures standard
 ###### 1. Les Bordures
 ```css
@@ -190,7 +193,8 @@ text-shadow: 2px 2px 4px black;
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-## IV. [Créez des apparences dynamiques](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605763-creez-des-apparences-dynamiques)
+### <p align='center'> [Créez des apparences dynamiques](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605763-creez-des-apparences-dynamiques) </p>
+
 #### A. Au survol
 ```css
 a /* Liens par défaut (non survolés) */
@@ -230,6 +234,3 @@ a:focus /* Quand le visiteur sélectionne le lien */
     color: #AAA; /* Appliquer une couleur grise */
 }
 ```
-
-
-
