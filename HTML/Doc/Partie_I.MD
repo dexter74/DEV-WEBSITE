@@ -73,11 +73,10 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ```html
 <p>Bonjour et bienvenue sur mon site !</p>
 ```
-**Sauter une ligne**
+##### 1. Sauter une ligne
 ```html
 <br />
 ```
-
 #### B. Les titres
 ```html
 <h1> </h1>  : signifie « titre très important ». En général, on s'en sert pour afficher le titre de la page au début de celle-ci ;
@@ -88,60 +87,52 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 <h6> </h6>  : titre vraiment, mais alors là vraiment pas important du tout.
 ```
 #### C. La Mise en Valeur
-**Italic**
+##### 1. Italic
 ```html
 <em> </em>
 ```
-**important**
+##### 2. important
 ```html
 <strong> </strong>
 ```
-**Marquer le texte**
+##### 3. Marquer le texte
 ```html
 <mark> </mark>
 ```
-
-
 #### C. Les Listes
 ```
 ul: délimite toute la liste
 li: délimite un élément de la liste.
 ```
-**Création d'une liste**
+##### 1. Création d'une liste
 ```html
 <ul> </ul>
 <ol> </ol>
 ```
-**Élément de la liste**
+##### 2. Élément de la liste
 ```html
 <li>Mon Menu</li>
 ```
-**Liste Non-ordonnée**
+##### 3. Liste Non-ordonnée
 ```html
 <ul>
  <li>Mon Menu</li>
 </ul>
 ```
-**Liste ordonnée**
+##### 4. Liste ordonnée
 ```html
 <ol>
  <li>Mon Menu</li>
 </ol>
 ```
 
-
-
-
-
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Créez des liens](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604646-creez-des-liens) </p>
-#### Un lien vers un autre site
+#### A. Un lien vers un autre site
 ```html
 <a href="#">Menu</a>
 ```
+
 #### Un lien vers une ancre
 **Création d'une Ancre**
 ```html
@@ -165,6 +156,9 @@ li: délimite un élément de la liste.
 ```html
 <p><a href="monfichier.zip">Télécharger le fichier</a></p>
 ```
+
+
+
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
