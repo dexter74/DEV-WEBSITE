@@ -134,7 +134,7 @@ padding-right: 0px;	/* Marge intérieure à droite 	*/
 ```
 ###### 2. Extérieur
 ```
-margin: 0px     	/* Indique la taille de la marge extérieure. Là encore, on utilise le plus souvent des pixels */
+margin: 0px     	/* Marge Extérieur 			*/
 margin-top: 0px; 	/* Marge extérieure en haut 		*/
 margin-bottom: 0px; 	/* Marge extérieure en bas 		*/
 margin-left: 0px; 	/* Marge extérieure à gauche 		*/
