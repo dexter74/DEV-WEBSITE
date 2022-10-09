@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-## I. [Mettez en place le CSS](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605060-mettez-en-place-le-css)
+### <p align='center'> [Mettez en place le CSS](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605060-mettez-en-place-le-css)</p> 
 #### A. Où écrit-on le CSS ?
 ```html
 <head>
