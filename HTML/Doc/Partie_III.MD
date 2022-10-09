@@ -165,54 +165,29 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 #### A. Un conteneur, des éléments
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774895-ccafba54-7a31-4aec-a01c-1196fea91b76.png" alt="Sublime's custom image"/></p>
 
-###### 1. Exemple (Espace supprmer !)
+###### 1. Exemple
 ```html
 <div id="conteneur">
-    <div class="element-1">Element </div>
-    <div class="element-2">Element </div>
-    <div class="element-3">Element </div>
+    <div class="element 1">Element 1</div>
+    <div class="element 2">Element 2</div>
+    <div class="element 3">Element 3</div>
 </div>
 ```
 
-
 ```css
-*{margin: 1;}
+*{margin: 0;}
 
 /* Conteneur */
-#conteneur{display: flex;}		/* Activation du mode Flex */
-#conteneur{flex-direction: column;}	/* Orientation: Colonne */
-#conteneur{height: 70px;}		/* Définir la Hauteur */
-#conteneur{width: 230px;}		/* Définir la Hauteur */
-#conteneur{padding: 5px;}		/* Large Intérieur */
-#conteneur{border: 1px black solid;}	/* Taille et couleur de la bordure */
-#conteneur{border-radius: 3px;}		/* Arrondir la bordure */
-#conteneur{justify-content: center;}	/* Centrer le contenu */
+#conteneur{display: flex;}
 
 /* Element 1 */
-.element-1{border: 1px red solid;}
-.element-1{margin-right: 5px;}
-.element-1{margin-bottom: 2px;}
-.element-1{padding: 2px}
-.element-1{border-radius: 3px;}
-.element-1{}
-
+.element:nth-child(1){}
 
 /* Element 2 */
-.element-2{border: 1px green solid;}
-.element-2{margin-right: 5px;}
-.element-2{margin-bottom: 2px;}
-.element-2{padding: 2px}
-.element-2{border-radius: 3px;}
-.element-2{}
-
+.element:nth-child(2){}
 
 /* Element 3 */
-.element-3{border: 1px blue solid;}
-.element-3{margin-right: 5px;}
-.element-3{margin-bottom: 2px;}
-.element-3{padding: 2px}
-.element-3{border-radius: 3px;}
-.element-3{}
+.element:nth-child(3){}
 ```
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774944-403707f8-503c-487d-8148-54f830a69827.png" alt="Sublime's custom image"/></p>
