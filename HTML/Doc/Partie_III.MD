@@ -82,14 +82,10 @@
         </section>
 
     </body>
+
+    <section> </section>
+    <footer> </footer>
 </html>
-
-
-
-
-
-<section> </section>
-<footer> </footer>
 ```
 
 ###### 8. 
