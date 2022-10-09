@@ -21,8 +21,6 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 </citation>
 ````
 
-<br />
-
 #### B. Structure de base d'une page HTML5
 ````html
 <!DOCTYPE html>
@@ -43,23 +41,17 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 
 ###### 2. La balise </html>
 ````html
-<html>
- ..
-</html>
+<html> .. </html>
 ````
 
 ###### 3. L'en-tête
 ````html
-<head>
- ..
-</head>
+<head> .. </head>
 ````
 
 ###### 4. Le Corps
 ````html
-<body>
- ..
-</body>
+<body> .. </body>
 ````
 
 ###### 5. L'encodage
@@ -69,13 +61,14 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 
 ###### 5. Le titre principal de la page
 ````html
-<title>Marc</title>
+<title> Marc </title>
 ````
-
-#### A. Les commentaires
+#### C. Les commentaires
 ````html
 <!-- Ceci est un commentaire -->
 ````
+
+<br />
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[Organisez votre texte](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604534-organisez-votre-texte) </p>
