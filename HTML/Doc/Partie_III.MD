@@ -165,7 +165,6 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 #### A. Un conteneur, des éléments
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774895-ccafba54-7a31-4aec-a01c-1196fea91b76.png" alt="Sublime's custom image"/></p>
 
-
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774944-403707f8-503c-487d-8148-54f830a69827.png" alt="Sublime's custom image"/></p>
 
 #### B. Soyez flex !
@@ -235,17 +234,53 @@ align-items:baseline;		/* Alignés sur la ligne de base (semblable à flex-start
 
 
 
-
-
-
-
-
 #### D. Répartir plusieurs lignes
 ###### 1. 
 ```html
+<div id="conteneur">
+    <div class="element">Element 1</div>
+    <div class="element">Element 2</div>
+    <div class="element">Element 3</div>
+    <div class="element">Element 4</div>
+    <div class="element">Element 5</div>
+</div>
 ```
+
+
 ```css
+/* Configuration de la page par défaut */
+*{margin: 0;}
+
+/* Conteneur */
+#conteneur{display: flex;}
+#conteneur{flex-wrap: wrap;}
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### E. Rappel à l'ordre
 ###### 1. 
@@ -253,16 +288,6 @@ align-items:baseline;		/* Alignés sur la ligne de base (semblable à flex-start
 ```
 ```css
 ```
-
-
-
-
-
-
-
-
-
-
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[]()</p>
