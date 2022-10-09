@@ -233,8 +233,6 @@ a:focus /* Quand le visiteur sélectionne le lien */
 }
 ```
 #### C. Lorsque le lien a déjà été consulté
-
-###### 1. 
  ```css
  a:visited /* Quand le visiteur a déjà vu la page concernée */
 {
