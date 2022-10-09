@@ -172,9 +172,14 @@ border-right: 3px blue dashed;
 
 
 
-###### 3.
-###### 4.
 #### B. Bordures arrondies
+###### X.
+```css
+border-radius: <Haut Gauche> <Haut Droit> <Bas Droit> <Bas Gauche>;
+border-radius: 1px 1px 1px 1px;
+
+```
+
 #### C. Les ombres
 
 
