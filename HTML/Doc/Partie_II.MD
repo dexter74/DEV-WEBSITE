@@ -1,53 +1,49 @@
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### [Mettez en place le CSS](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605060-mettez-en-place-le-css)
-
 #### Où écrit-on le CSS ?
-````html
+```html
 <head>
   <link rel="stylesheet" href="style.css" />
 <head>
-````
+```
 #### Appliquer un style : sélectionner une balise
-
 **Code HTML**
-````html
+```html
 <h1>Test </h1>
 <p>Salut à tous.</p> 
-````
+```
 **Code CSS**
-````css
+```css
 p, h1 {
   color: blue;
   }
-````
+```
 #### Appliquer un style : class et id
 ```
 class: Utiliser un . devant le nom. Utilisable une seule Fois.
 id:  : Utiliser un # devant le nom. Objet Unique.
 ```
 **HTML**
-````html
+```html
 <div clss="TEST1"></div>
 <div id="TEST2"></div>
-````
+```
 **CSS**
-````css
+```css
 .TEST1 {
   }
 #TEST1 {
   }
-````
-
+```
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### [Formatez du texte](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605329-formatez-du-texte)
-
 #### La taille
 **La taille absolue**
-````css
+```css
 font-size: 16px;
-````
+```
 **Une valeur relative**
-````css
+```css
 font-size: xx-small; /* minuscule   */
 font-size: x-small;  /* très petit  */
 font-size: small;    /* petit       */
@@ -55,14 +51,14 @@ font-size: medium;   /* moyen       */
 font-size: large;    /* grand       */
 font-size: x-large;  /* très grand  */
 font-size: xx-large; /* Gigantesque */
-````
+```
 #### La police
 **Général**
-````css
+```css
 font-family: Verdana,arial;
-````
+```
 **Police Personnalisée**
-````css
+```css
 @font-face {
   font-family: 'MaSuperPolice';
   src: url('MaSuperPolice.eot') format('eot'),
@@ -70,95 +66,65 @@ font-family: Verdana,arial;
     url('MaSuperPolice.ttf') format('truetype'),
     url('MaSuperPolice.svg') format('svg');
 }
-````
-
+```
 #### Italique
-````css
+```css
 font-style: normal;
 font-style: oblique;
 font-style: italic;
-````
-
-
+```
 **Gas**
-````css
+```css
 font-weight: bold;
-````
-
+```
 **souligné**
-````css
+```css
 text-decoration: underline;    /* Souligné        */
 text-decoration: line-through; /* barré           */
 text-decoration: overline;     /* Ligne au-dessus */ 
 text-decoration: none;         /* Normal (Défaut) */
-````
-
+```
 #### L'alignement
-
-````css
+```css
 text-align: left;     /* Aligner le texte à Gauche    */
 text-align: right;    /* Aligner le texte à Droite    */
 text-align: center;   /* Aligner le texte à Centre    */
 text-align: justify;  /* Aligner le texte à Justifier */
-````
-
-
+```
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### [Ajoutez de la couleur et un fond](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1605551-ajoutez-de-la-couleur-et-un-fond)
-
 #### Couleur du texte ([ColorPicker](http://www.colorpicker.com/))
-````css
+```css
 color: maroon;
 color: #FFFFFF;
 color: rgb(240,96,204);
-````
-
+```
 #### Couleur de fond
-````css
+```css
 background-color: black;
-````
-
+```
 #### Images de fond
 **XXX**
-````css
-````
-
-
+```css
+background-image: url("neige.png");
+```
 #### La transparence
-
 **XXX**
-````css
-````
-
+```css
+```
 **XXX**
-````html
-````
-
-
-
-
-
-
-
-
-
-
-
-
+```html
+```
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### []()
-
 #### 
-
 **XXX**
-````html
-````
-
-
+```html
+```
 **XXX**
-````css
-````
+```css
+```
 
 
 
