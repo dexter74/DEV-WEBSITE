@@ -5,8 +5,8 @@
 #### A Les balises et leurs attributs
 ###### 1. Les balises en paires
 ```html
-<titre>Ceci est un titre</titre>
-Ceci n'est pas un titre 
+<title>Ceci est un titre</title>
+Ceci n'est pas un titre.
 ```
 ###### 2. Les balises orphelines
 ```html
