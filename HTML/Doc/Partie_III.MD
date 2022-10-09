@@ -165,30 +165,6 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 #### A. Un conteneur, des éléments
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774895-ccafba54-7a31-4aec-a01c-1196fea91b76.png" alt="Sublime's custom image"/></p>
 
-###### 1. Exemple
-```html
-<div id="conteneur">
-    <div class="element 1">Element 1</div>
-    <div class="element 2">Element 2</div>
-    <div class="element 3">Element 3</div>
-</div>
-```
-
-```css
-*{margin: 0;}
-
-/* Conteneur */
-#conteneur{display: flex;}
-
-/* Element 1 */
-.element:nth-child(1){}
-
-/* Element 2 */
-.element:nth-child(2){}
-
-/* Element 3 */
-.element:nth-child(3){}
-```
 
 <p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774944-403707f8-503c-487d-8148-54f830a69827.png" alt="Sublime's custom image"/></p>
 
@@ -235,10 +211,22 @@ align-items:baseline;		/* Alignés sur la ligne de base (semblable à flex-start
 ```
 
 ###### 3. Aligner un seul élément
+```html
+<div id="conteneur">
+    <div class="element 1">Accueil</div>
+    <div class="element 2">Forum</div>
+</div>
+```
 ```css
-.element:nth-child(1)
-	{
-	}
+
+/* Conteneur */
+#conteneur{}
+
+/* Élément 1: XXXX */
+.element:nth-child(1){}
+
+/* Élément 2: XXXX */
+.element:nth-child(2){}
 ```
 
 
