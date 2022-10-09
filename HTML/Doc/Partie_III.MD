@@ -48,8 +48,23 @@
   <img src="https://user-images.githubusercontent.com/35907/194761512-8fe17e2f-450f-440d-9ff0-e3aa81f8f360.png" alt="Sublime's custom image"/>
 </p>
 
-###### 7. 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+###### Exemple
 ```
+<header> </header>
+<nav> </nav>
+
+<section>
+    <article> ... </article>
+    <aside> ... </aside>
+    <aside> ... </aside>
+/<article> 
+</section>
+
+<section> </section>
+<footer> </footer>
 ```
 
 ###### 8. 
