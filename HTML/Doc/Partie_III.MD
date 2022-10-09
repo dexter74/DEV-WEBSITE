@@ -173,20 +173,21 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
     <div class="element-3">Element </div>
 </div>
 ```
+
 ```css
 *{margin: 1;}
 
 /* Conteneur */
 #conteneur{display: flex;}				/* Activation du mode Flex */
-#conteneur{height: 40px;}				/* Définir la Hauteur */
-#conteneur{width: 240px;}				/* Définir la Hauteur */
+#conteneur{height: 25px;}				/* Définir la Hauteur */
+#conteneur{width: 230px;}				/* Définir la Hauteur */
 #conteneur{padding: 5px;}				/* Large Intérieur */
-#conteneur{border: 2px black solid;}	/* Taille et couleur de la bordure */
+#conteneur{border: 1px black solid;}	/* Taille et couleur de la bordure */
 #conteneur{border-radius: 3px;}			/* Arrondir la bordure */
-
+#conteneur{justify-content: center;}	/* Center le contenu */
 
 /* Element 1 */
-.element-1{border: 2px red solid;}
+.element-1{border: 1px red solid;}
 .element-1{margin-right: 5px;}
 .element-1{padding: 2px}
 .element-1{border-radius: 3px;}
@@ -194,7 +195,7 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 
 
 /* Element 2 */
-.element-2{border: 2px green solid;}
+.element-2{border: 1px green solid;}
 .element-2{margin-right: 5px;}
 .element-2{padding: 2px}
 .element-2{border-radius: 3px;}
@@ -202,8 +203,7 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 
 
 /* Element 3 */
-.element-3{border: 2px blue solid;}
-.element-3{margin-right: 5px;}
+.element-3{border: 1px blue solid;}
 .element-3{padding: 2px}
 .element-3{border-radius: 3px;}
 .element-3{}
