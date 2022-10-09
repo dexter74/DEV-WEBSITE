@@ -53,15 +53,31 @@
 
 ###### Exemple
 ```
-<header> </header>
-<nav> </nav>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Titre</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<section>
-    <article> ... </article>
-    <aside> ... </aside>
-    <aside> ... </aside>
-/<article> 
-</section>
+    <body>
+        <header> </header>
+        <nav> </nav>
+        <section>
+            <article> ... </article>
+            <aside> ... </aside>
+            <aside> ... </aside>
+            /<article> 
+        </section>
+
+    </body>
+
+</html>
+
+
+
+
 
 <section> </section>
 <footer> </footer>
