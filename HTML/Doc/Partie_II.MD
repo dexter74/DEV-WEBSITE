@@ -59,11 +59,11 @@ font-size: xx-large; /* Gigantesque */
 ```
 
 #### B. La police
-**Général**
+###### Général
 ```css
 font-family: Verdana,arial;
 ```
-**Police Personnalisée**
+###### Police Personnalisée
 ```css
 @font-face {
   font-family: 'MaSuperPolice';
@@ -73,24 +73,26 @@ font-family: Verdana,arial;
     url('MaSuperPolice.svg') format('svg');
 }
 ```
-#### C. Italique
+
+#### Italique
 ```css
 font-style: normal;
 font-style: oblique;
 font-style: italic;
 ```
-**Gas**
+###### Gras
 ```css
 font-weight: bold;
 ```
-**souligné**
+###### Souligné
 ```css
 text-decoration: underline;    /* Souligné        */
 text-decoration: line-through; /* barré           */
 text-decoration: overline;     /* Ligne au-dessus */ 
 text-decoration: none;         /* Normal (Défaut) */
 ```
-#### D. L'alignement
+
+#### L'alignement
 ```css
 text-align: left;     /* Aligner le texte à Gauche    */
 text-align: right;    /* Aligner le texte à Droite    */
