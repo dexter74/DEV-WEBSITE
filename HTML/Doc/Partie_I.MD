@@ -33,6 +33,12 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
     </body>
 </html>
 ```
+
+```css
+body{ margin:  0px;}
+body{ padding: 0px;}
+```
+
 ###### 1. Le doctype
 ```html
 <!DOCTYPE html>
