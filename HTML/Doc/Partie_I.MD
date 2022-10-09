@@ -69,7 +69,7 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[Organisez votre texte](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604534-organisez-votre-texte) </p>
 
-#### Les paragraphes
+#### A. Les paragraphes
 ```html
 <p>Bonjour et bienvenue sur mon site !</p>
 ```
@@ -77,7 +77,8 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ```html
 <br />
 ```
-#### Les titres
+
+#### B. Les titres
 ```html
 <h1> </h1>  : signifie « titre très important ». En général, on s'en sert pour afficher le titre de la page au début de celle-ci ;
 <h2> </h2>  : signifie « titre important » ;
@@ -86,7 +87,7 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 <h5> </h5>  : titre pas important ;
 <h6> </h6>  : titre vraiment, mais alors là vraiment pas important du tout.
 ```
-#### La Mise en Valeur
+#### C. La Mise en Valeur
 **Italic**
 ```html
 <em> </em>
@@ -99,7 +100,9 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ```html
 <mark> </mark>
 ```
-#### Les Listes
+
+
+#### C. Les Listes
 ```
 ul: délimite toute la liste
 li: délimite un élément de la liste.
@@ -125,6 +128,13 @@ li: délimite un élément de la liste.
  <li>Mon Menu</li>
 </ol>
 ```
+
+
+
+
+
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Créez des liens](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604646-creez-des-liens) </p>
