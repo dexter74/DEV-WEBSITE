@@ -53,7 +53,7 @@
 
 ###### Exemple 
 L'image au dessus n'est pas représentative du code suivant.
-```
+```html
 <!DOCTYPE html>
 
 <html>
@@ -84,7 +84,6 @@ L'image au dessus n'est pas représentative du code suivant.
     <section> </section>
     <footer> </footer>
 </html>
-
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -93,13 +92,13 @@ L'image au dessus n'est pas représentative du code suivant.
 #### A. Les balises de type block et inline
 ###### 1. Les Balises Block
 `Une balise Block fait un Retour à la ligne avant et après.`
-```
+```html
 <p></p>
 <div></div>
 ```
 ###### 2. Les Balises Inline
 `Une balise Inline est dans une balise Block. Elle ne fait pas de retour à la ligne.`
-```
+```html
 <a></a>
 <span></span>
 ```
@@ -119,13 +118,11 @@ min-height: Xpx;    /* Hauteur Minimale */
 max-height: Xpx;    /* Hauteur maximale */
 ```
 ###### 2. Largeur
-```
+```css
 width: Xpx ou X%;  /* Largeur du Bloc  */
 min-width: Xpx;    /* Largeur Minimale */ 
 max-width: Xpx;    /* Largeur maximale */
 ```
-
-
 
 
 #### C. Les marges
