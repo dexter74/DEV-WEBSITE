@@ -126,10 +126,16 @@ max-width: Xpx;    /* Largeur maximale */
 
 
 #### C. Les marges
-###### 1.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/35907/194766690-b5c487d0-912d-43ab-914c-4531a8051baa.png" alt="Sublime's custom image"/>
+</p>
+
+
+###### 1. Intérieur
 ```
 ```
-###### 2.
+###### 2. Extérieur
 ```
 ```
 ###### 3.
