@@ -73,7 +73,7 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ```html
 <p>Bonjour et bienvenue sur mon site !</p>
 ```
-##### 1. Sauter une ligne
+###### 1. Sauter une ligne
 ```html
 <br />
 ```
@@ -89,39 +89,39 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ```
 
 #### C. La Mise en Valeur
-##### 1. Italic
+###### 1. Italic
 ```html
 <em> </em>
 ```
-##### 2. important
+###### 2. important
 ```html
 <strong> </strong>
 ```
-##### 3. Marquer le texte
+###### 3. Marquer le texte
 ```html
 <mark> </mark>
 ```
-#### C. Les Listes
+###### C. Les Listes
 ```
 ul: délimite toute la liste
 li: délimite un élément de la liste.
 ```
-##### 1. Création d'une liste
+###### 1. Création d'une liste
 ```html
 <ul> </ul>
 <ol> </ol>
 ```
-##### 2. Élément de la liste
+###### 2. Élément de la liste
 ```html
 <li>Mon Menu</li>
 ```
-##### 3. Liste Non-ordonnée
+###### 3. Liste Non-ordonnée
 ```html
 <ul>
  <li>Mon Menu</li>
 </ul>
 ```
-##### 4. Liste ordonnée
+###### 4. Liste ordonnée
 ```html
 <ol>
  <li>Mon Menu</li>
@@ -154,10 +154,8 @@ li: délimite un élément de la liste.
 <a href="#mon_ancre">Aller vers l'ancre</a>
 ```
 
-
 #### D. Cas pratiques d'utilisation des liens
-
-**Divers**
+###### 1. Divers
 ```html
 <p>Bonjour. Souhaitez-vous visiter <a href="https://openclassrooms.com" title="Vous ne le regretterez pas !">OpenClassrooms</a> ?</p>
 ```
@@ -179,7 +177,7 @@ li: délimite un élément de la liste.
 ```html
 <img src="" alt="" title="" />
 ```
-##### 1. Miniature Cliquable
+###### 1. Miniature Cliquable
 ```html
 <a href="img/pleinformat.jpg"><img src="img/miniformat.jpg" alt="" title="" /></a>
 ```
