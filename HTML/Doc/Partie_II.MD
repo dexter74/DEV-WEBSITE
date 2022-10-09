@@ -158,8 +158,14 @@ border: <largeur px> <Couleur> <Type>;
                                ridge;   /* Autre effet de relief */
                                inset;   /* Effet 3D Global enfoncé */
                                outset;  /* effet 3D Global surélevé */
+border: 3px blue dashed; 
 
-border: 5px blue 
+/* Définir un côté d'une bordure */
+border-top:                   /* Bordure du haut    */
+border-bottom:                /* Bordure du bas     */
+border-left:                  /* Bordure de gauche  */
+border-right:                 /* Bordure de droite  */
+
 ```
 ###### 2.
 ###### 3.
