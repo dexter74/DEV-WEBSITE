@@ -159,6 +159,14 @@ overflow: auto;		/* Mode Automatique gérer par le navigateur */
 word-wrap: break-word; /*  Cette propriété permet de forcer la césure des très longs mots */
 ```
 
+
+
+
+
+
+
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[Faites votre mise en page avec Flexbox](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/3298561-faites-votre-mise-en-page-avec-flexbox)</p>
 
@@ -261,17 +269,29 @@ Tutorial Incomplet ou pas pertinent
 /* Conteneur */
 #conteneur{display: flex;}
 
-/* Éléments */
-.element:nth-child(1){order: 3;}
+/* Éléments: Pied de Page */
+.element:nth-child(1){border: 1px blue solid}
 .element:nth-child(1){margin: 1px;}
+.element:nth-child(1){order: 3;}
 
-.element:nth-child(2){order: 1;}
+/* Éléments: Bandeau*/
+.element:nth-child(2){border: 1px red solid}
 .element:nth-child(2){margin: 1px;}
+.element:nth-child(2){order: 1;}
 
-.element:nth-child(3){order: 2;}
+/* Éléments: Header */
+.element:nth-child(3){border: 1px green solid}
 .element:nth-child(3){margin: 1px;}
+.element:nth-child(3){order: 2;}
 ```
 
+
+
+
+#### F. Encore plus flex : faire grossir ou maigrir les éléments
+```css
+flex: 1;
+```
 
 
 
