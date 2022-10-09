@@ -138,6 +138,10 @@ background-position: left;        /* A Gauche                 */
 background-position: center;      /* Au Centre                */
 background-position: right;       /* A droite                 */
 background-position: top right;   /* Aligner en Haut à droit  */
+
+/* Combiner les Propriétés */
+background: url("soleil.png") fixed no-repeat top right;  /* Fond Fixe + Ne se répète pas +  Haut + droite
+
 ```
 
 #### D.La transparence
