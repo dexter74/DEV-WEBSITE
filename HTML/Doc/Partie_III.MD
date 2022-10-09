@@ -162,7 +162,9 @@ word-wrap: break-word; /*  Cette propriété permet de forcer la césure des tr�
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[Faites votre mise en page avec Flexbox](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/3298561-faites-votre-mise-en-page-avec-flexbox)</p>
 
-#### A. 
+#### A. Les Conteneurs
+<p align="center"> <img src="https://user-images.githubusercontent.com/35907/194774895-ccafba54-7a31-4aec-a01c-1196fea91b76.png" alt="Sublime's custom image"/></p>
+
 ###### 1. 
 ```html
 ```
