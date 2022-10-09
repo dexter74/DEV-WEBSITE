@@ -19,8 +19,8 @@ p, h1 { color: blue; }
 
 #### C. Appliquer un style : class et id
 ```
-class: Utiliser un . devant le nom. Utilisable une seule Fois.
-id:  : Utiliser un # devant le nom. Objet Unique.
+id:  :  Utilisable une seule Fois. (CSS: #)
+class:  Utilisable infinie (CSS: .) 
 ```
 
 ###### HTML et CSS
