@@ -1,6 +1,6 @@
 ------------------------------------------------------------------------------------------------------------------------------------------
 
-### [Créez votre première page web en HTML](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604361-creez-votre-premiere-page-web-en-html)
+### <p align='center'> [Créez votre première page web en HTML](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604361-creez-votre-premiere-page-web-en-html) </p>
 
 #### Les balises et leurs attributs
 **Les balises en paires**
@@ -70,7 +70,7 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 ````
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-### [Organisez votre texte](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604534-organisez-votre-texte)
+### <p align='center'>[Organisez votre texte](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604534-organisez-votre-texte) </p>
 
 #### Les paragraphes
 ````html
@@ -131,7 +131,7 @@ li: délimite un élément de la liste.
 ````
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-### [Créez des liens](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604646-creez-des-liens)
+### <p align='center'> [Créez des liens](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604646-creez-des-liens) </p>
 #### Un lien vers un autre site
 ````html
 <a href="#">Menu</a>
@@ -162,7 +162,7 @@ li: délimite un élément de la liste.
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-### [Insérez des images](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604791-inserez-des-images)
+### <p align='center'>[Insérez des images](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1604791-inserez-des-images) </p>
 
 #### Insérer une image
 ````html
