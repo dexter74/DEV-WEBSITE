@@ -21,6 +21,7 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 </citation>
 ````
 
+<br />
 
 #### B. Structure de base d'une page HTML5
 ````html
