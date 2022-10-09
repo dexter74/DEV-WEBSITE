@@ -170,10 +170,10 @@ border: 3px blue dashed;
 ```
 ###### 2. Définir un côté d'une bordure
 ```css
-border-top:                   /* Bordure du haut    */
-border-bottom:                /* Bordure du bas     */
-border-left:                  /* Bordure de gauche  */
-border-right:                 /* Bordure de droite  */
+border-top: 1px;    /* Bordure du haut    */
+border-bottom: 1px; /* Bordure du bas     */
+border-left: 1px;   /* Bordure de gauche  */
+border-right: 1px;  /* Bordure de droite  */
 
 border-right: 3px blue dashed;
 ```
