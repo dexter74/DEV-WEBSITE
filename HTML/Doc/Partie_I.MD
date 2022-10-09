@@ -4,25 +4,24 @@
 
 #### A Les balises et leurs attributs
 ###### 1. Les balises en paires
-````html
+```html
 <titre>Ceci est un titre</titre>
 Ceci n'est pas un titre <titre>Ceci est un titre</titre> Ceci n'est pas un titre
-````
+```
 ###### 2. Les balises orphelines
-````html
+```html
 <image />
-````
+```
 ###### 3. Les Attributs
-````html
+```html
 <balise attribut="valeur">
 <image nom="photo.jpg" />
 <citation auteur="Neil Armstrong" date="21/07/1969">
 C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
 </citation>
-````
-
+```
 #### B. Structure de base d'une page HTML5
-````html
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -33,40 +32,37 @@ C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité.
     <body>
     </body>
 </html>
-````
+```
 ###### 1. Le doctype
-````html
+```html
 <!DOCTYPE html>
-````
+```
 
 ###### 2. La balise </html>
-````html
+```html
 <html> .. </html>
-````
+```
 
 ###### 3. L'en-tête
-````html
+```html
 <head> .. </head>
-````
-
+```
 ###### 4. Le Corps
-````html
+```html
 <body> .. </body>
-````
-
+```
 ###### 5. L'encodage
-````html
+```html
 <meta charset="utf-8" />
-````
-
+```
 ###### 5. Le titre principal de la page
-````html
+```html
 <title> Marc </title>
-````
+```
 #### C. Les commentaires
-````html
+```html
 <!-- Ceci est un commentaire -->
-````
+```
 
 <br />
 
