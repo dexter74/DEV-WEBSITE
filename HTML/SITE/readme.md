@@ -10,3 +10,15 @@
 
 
 #### Eléments:
+```
+ID: SITE
+ > ID: TOP
+ > ID: CORPS
+  > ID: GAUCHE
+   > CLASS: MENU_1
+   > CLASS: MENU_2
+  > ID: MILIEU
+   > CLASS: HAUT
+   > CLASS: BAS
+  > ID: DROITE
+```
