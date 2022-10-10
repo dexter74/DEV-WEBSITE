@@ -23,3 +23,36 @@ ID: SITE
    > CLASS: BAS
   > ID: DROITE
 ```
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Website par Marc Jaffré</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+	<body>
+		<div id='SITE'>
+			<div id='TOP'></div>
+			<!-- ############################# -->
+			<div id='CORPS'></div>
+			<!-- ############################# -->
+			<div id='GAUCHE'>
+				<div class='Module_1'></div>
+				<div class='Module_2'></div>
+				<div class='Module_3'></div>
+			</div>
+			<!-- ############################# -->
+			<div id='MILIEU'>
+				<div class='HAUT'></div>
+				<div class='BAS'></div>
+			</div>
+			<!-- ############################# -->
+			<div id='DROITE'></div>
+			<!-- ############################# -->
+		</div>
+	<body>
+</html>
+```
+
