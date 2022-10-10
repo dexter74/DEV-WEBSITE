@@ -191,7 +191,7 @@ box-shadow: 6px 6px 0px black;
 box-shadow: 6px 6px 6px black inset;
 ```
 
-###### 2. L'mbre du texte
+###### 2. L'ombre du texte
 ```css
 text-shadow: 2px 2px 4px black; 
 ```
