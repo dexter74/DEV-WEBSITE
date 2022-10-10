@@ -56,3 +56,21 @@ ID: SITE
 </html>
 ```
 
+```css
+*{margin: 0;}
+
+body{background-color: #0574B8;}
+
+#SITE{}
+#TOP{}
+#CORPS{}
+#GAUCHE{}
+#MILIEU{}
+#DROITE{}
+
+.HAUT{}
+.BAS{}
+.MODULE_1{}
+.MODULE_2{}
+.MODULE_3{}
+```
