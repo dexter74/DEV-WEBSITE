@@ -15,8 +15,9 @@ ID: SITE
  > ID: TOP
  > ID: CORPS
   > ID: GAUCHE
-   > CLASS: MENU_1
-   > CLASS: MENU_2
+   > CLASS: MODULE_1
+   > CLASS: MODULE_2
+   > CLASS: MODULE_3
   > ID: MILIEU
    > CLASS: HAUT
    > CLASS: BAS
