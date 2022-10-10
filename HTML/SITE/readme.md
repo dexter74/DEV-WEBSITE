@@ -33,44 +33,79 @@ ID: SITE
         <link rel="stylesheet" href="style.css" />
     </head>
 	<body>
-		<div id='SITE'>
-			<div id='TOP'></div>
-			<!-- ############################# -->
-			<div id='CORPS'></div>
-			<!-- ############################# -->
-			<div id='GAUCHE'>
-				<div class='Module_1'></div>
-				<div class='Module_2'></div>
-				<div class='Module_3'></div>
-			</div>
-			<!-- ############################# -->
-			<div id='MILIEU'>
-				<div class='HAUT'></div>
-				<div class='BAS'></div>
-			</div>
-			<!-- ############################# -->
-			<div id='DROITE'></div>
-			<!-- ############################# -->
+		<div id='TOP'>
+			<div class='MENU 1'>ACCUEIL</div>
+			|
+			<div class='MENU 2'>FORUM</div>
+			|
+			<div class='MENU 3'>SUPERVISION</div>
+			|
+			<div class='MENU 4'>SUPPORT</div>
 		</div>
+		<div id='MID'>
+			<div class='MILIEU 1'>GAUCHE</div>
+			<div class='MILIEU 2'>
+				<div class='TITRE'>TITRE</div>
+				<div class='CONTENU'>CONTENU</div>
+			</div>
+				<div class='MILIEU 3'>DROITE</div>
+		</div>
+				<div id='BAS'>Copyright</div>
 	<body>
 </html>
 ```
 
 ```css
-*{margin: 0;}
+/* https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive2	 */
+*{
+	margin: 0;
+	box-sizing: border-box;
+	}
+/* ----------------------------------------------------------------------------- */
+body{
+	background-color: #DAF7A6;
+	}
+/* ----------------------------------------------------------------------------- */
+#TOP{
+	display: flex;flex-wrap: wrap;
+	line-height: 200%;
+	font-size: 140%;
+	margin-bottom: 20px;
+	color: white;
+	background-color: black;
+}
 
-body{background-color: #0574B8;}
+.MENU:nth-child(1){margin: auto}
+.MENU:nth-child(2){margin: auto}
+.MENU:nth-child(3){margin: auto}
+.MENU:nth-child(4){margin: auto}
 
-#SITE{}
-#TOP{}
-#CORPS{}
-#GAUCHE{}
-#MILIEU{}
-#DROITE{}
 
-.HAUT{}
-.BAS{}
-.MODULE_1{}
-.MODULE_2{}
-.MODULE_3{}
+/* ----------------------------------------------------------------------------- */
+#MID{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+	min-height: 300px;
+
+	margin: 5px;
+}
+
+#BAS{
+	background-color: black;
+	text-align: center;
+	color: white;
+}
+
+
+/* Gauche */
+.MILIEU:nth-child(1){width: 15%   ;margin-right: 0.3%; background-color: cyan;}
+
+/* Milieu */
+.MILIEU:nth-child(2){width: 69.4%;background-color: green;}
+.TITRE{text-align: center;}
+.CONTENU p{text-align: justify; font-size: 100%;}
+/* Droite */
+.MILIEU:nth-child(3){width: 15%;margin-left: 0.3%; background-color: red;}
+
 ```
