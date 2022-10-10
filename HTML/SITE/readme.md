@@ -55,6 +55,9 @@ ID: SITE
 </html>
 ```
 
+
+
+
 ```css
 /* https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive2	 */
 *{
@@ -95,6 +98,7 @@ body{
 	background-color: black;
 	text-align: center;
 	color: white;
+	margin: 5px;
 }
 
 
