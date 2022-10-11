@@ -299,7 +299,12 @@ flex: 1;
 
 ##### 3. [Responsive](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive)
 ```css
-box-sizing: border-box;
+/* Prise en charge du mode Responsive */
+* {
+  box-sizing: border-box;
+}
+
+/* Si résolution max 800px */
 @media (max-width: 800px) {
   .CONTENEUR {
     flex-direction: column;
