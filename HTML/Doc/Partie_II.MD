@@ -165,7 +165,7 @@ border: <largeur px> <Couleur> <Type>;
                                ridge;   /* Autre effet de relief */
                                inset;   /* Effet 3D Global enfoncé */
                                outset;  /* effet 3D Global surélevé */
-border: 3px black solid; 
+border: 2px black solid; 
 ```
 ###### 2. Définir un côté d'une bordure
 ```css
@@ -174,26 +174,27 @@ border-bottom: 1px; /* Bordure du bas     */
 border-left: 1px;   /* Bordure de gauche  */
 border-right: 1px;  /* Bordure de droite  */
 
-border-right: 3px blue dashed;
+border-right: 3px black solid;
 ```
 
 #### B. Bordures arrondies
 ```css
 border-radius: <Haut Gauche> <Haut Droit> <Bas Droit> <Bas Gauche>;
-border-radius: 1px 1px 1px 1px;
+border-radius: 0px 0px 15px 15px;
 ```
 
 #### C. Les ombres
 ###### 1. Les ombres des boîtes
 ```css
 box-shadow: <Le décalage horizontal de l'ombre> <Le décalage vertical de l'ombre> <L'adoucissement du dégradé> <La couleur de l'ombre>
-box-shadow: 6px 6px 0px black;
-box-shadow: 6px 6px 6px black inset;
+
+box-shadow: 0px 0px 0px red inset;
+box-shadow: 0px 0px 0px red;
 ```
 
 ###### 2. L'ombre du texte
 ```css
-text-shadow: 2px 2px 4px black; 
+text-shadow: 0px 0px 0px black; 
 ```
 
 <br />
