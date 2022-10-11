@@ -306,10 +306,8 @@ flex: 1;
 
 /* Si résolution max 800px */
 @media (max-width: 800px) {
-  .CONTENEUR {
-    flex-direction: column;
-  }
-}
+	#CONTENEUR {flex-direction: column;}
+	}
 ```
 
 
