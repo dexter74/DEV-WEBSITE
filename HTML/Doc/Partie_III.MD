@@ -297,6 +297,25 @@ flex: 1;
 .element:nth-child(2){flex: 1;}
 ```
 
+##### 3. [Responsive](https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_responsive)
+```css
+box-sizing: border-box;
+@media (max-width: 800px) {
+  .CONTENEUR {
+    flex-direction: column;
+  }
+}
+```
+
+
+```html
+<div class="CONTENEUR">
+  <div class="flex-item-left">1</div>
+  <div class="flex-item-right">2</div>
+</div>
+```
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'>[]()</p>
 
