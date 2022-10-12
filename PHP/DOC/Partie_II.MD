@@ -44,25 +44,20 @@ userAge : Nom de la Variable
   $email = 'mathieu.nebra@exemple.com';
   $prenom1 = "Mon \"nom\" est Mathieu";
   $prenom2 = 'Je m\'appelle Mathieu';
-  
-  echo "Email: $email";
-  echo "Nom: $fullname";
-  echo "Prénom1: $prenom1";
-  echo "Prénom2: $prenom2";
 ?>
 ```
 ###### 2. Le type int  (nombre entier)
 ```php
 <?php
 $userAge = 17;
-echo "$userAge"
+
 ?>
 ```
 ###### 3. Le type float  (nombre décimal)
 ```php
 <?php
 $price = 57.3;
-echo "$price"
+
 ?>
 ```
 ###### 4. Le type bool  (booléen)
@@ -70,17 +65,15 @@ echo "$price"
 <?php
 $isAuthor = true;
 $isAdministrator = false;
-echo "$isAuthor"
+
 ?>
 ```
 ###### 5. Une variable vide avec NULL
 ```php
 <?php
 $noValue = NULL;
-echo "La variable noValue est égale : $noValue"
 ?>
 ```
-
 
 
 
@@ -88,9 +81,15 @@ echo "La variable noValue est égale : $noValue"
 #### D. Affichez le contenu d'une variable
 
 ###### 1. 
-```html
-```
 ```php
+  echo "Email: $email";
+  echo "Nom: $fullname";
+  echo "Prénom1: $prenom1";
+  echo "Prénom2: $prenom2";
+  echo "$isAuthor";
+  echo "$userAge";
+  echo "$price";
+  echo "La variable noValue est égale : $noValue";
 ```
 
 #### E. Faites des calculs simples
