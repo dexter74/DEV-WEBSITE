@@ -239,13 +239,13 @@ if (! $ACCESS){echo "Accès refusé";}
 ?>
 ```
 
+#### 3. Posez des conditions multiples
+| Mot-clé | Signification | Symbole équivalent |
+| ------- | ------------- | ------------------ | 
+| AND     | Et            | &&                 |
+| OR      | Ou            | ||                 | 
 
 
-
-
-#### 3. 
-```html
-```
 
 #### 4. 
 ```html
