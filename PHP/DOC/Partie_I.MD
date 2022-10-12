@@ -41,12 +41,12 @@
         <p>
             Bonjour <!-- Insérer le pseudo du visiteur ici --> !
         </p>
-
+        <!-- ###################### -->        
         <?php
         /* Encore du PHP
         Toujours du PHP */
         ?>
-        
+        <!-- ###################### -->        
     </body>
 </html>
 ```
@@ -61,7 +61,12 @@ ou
 <?php echo("Ceci est du texte"); ?>
 ```
 
+###### Exemple
+```
+<?php echo "Ceci est du <strong>texte</strong>"; ?>
+<?php echo "Cette ligne a été écrite \"uniquement\" en PHP."; ?>
 
+```
 ###### 2. 
 ```html
 ```
