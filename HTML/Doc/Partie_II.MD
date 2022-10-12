@@ -141,6 +141,11 @@ background-position: top right;   /* Aligner en Haut à droit  */
 /* Combiner les Propriétés */
 background: url("soleil.png") fixed no-repeat top right;  /* Fond Fixe + Ne se répète pas +  Haut + droite
 
+
+/* Exemple */
+	background-image: url(/image/background.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
 ```
 
 #### D.La transparence
