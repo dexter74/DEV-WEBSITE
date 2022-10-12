@@ -72,7 +72,6 @@ $noValue = NULL;
 ?>
 ```
 
-
 ### D. Affichez le contenu d'une variable
 #### 1. 
 ```php
@@ -85,7 +84,6 @@ $noValue = NULL;
   echo $price;
   echo $noValue;
 ```
-
 
 ### E. Concaténez une variable
 #### 1. Exemple
@@ -118,7 +116,6 @@ $fullname = 'Mathieu Nebra';
 echo 'Bonjour ' . $fullname . ' et bienvenue sur le site !'; // OK
 ?>
 ```
-
 
 ### F. Faites des calculs simples
 #### 1. Les opérations de base : addition, soustraction…
@@ -225,8 +222,6 @@ else {echo "Code retour en abend";}
 
 ?>
 ```
-
-
 ##### SI c'est vrai
 ```php
 <?php
@@ -294,9 +289,32 @@ else {echo"Accès interdit ! ❌";}
 ?>
 ```
 
-###### 
+###### Utilisez cette astuce bonus
 ```php
+<?php
+//Variable
+$chickenRecipesEnabled = true;
+
+//SI
+if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>';}
+?>
 ```
+
+```php
+//Variable
+<?php $chickenRecipesEnabled = true; ?>
+
+//SI (Ne pas oublier le :)
+<?php if ($chickenRecipesEnabled): ?>
+
+//Phrase à afficher
+<h1>Liste des recettes à base de poulet</h1>
+
+//Fin de la condition (Ne pas oublier le ;)
+<?php endif; ?>
+```
+
+
 
 ###### 
 ```php
