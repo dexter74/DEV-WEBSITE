@@ -158,7 +158,57 @@ echo $number
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Adaptez le comportement de votre application à l'aide des conditions](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912046-adaptez-le-comportement-de-votre-application-a-laide-des-conditions)</p>
 
-#### A 
+#### A. Appropriez-vous la structure de base :  if… else
+###### 1. Les symboles 
+| Symbole | Signification           |
+| ------- | ----------------------- |
+|   ==    | Est égal à              |
+|   >     | Est supérieur à         |
+|   <     | Est inférieur à         |
+|   >=    | Est supérieur ou égal à |
+|   <=    | Est inférieur ou égal à |
+|   !)    | Est différent de        |
+
+
+```html
+``` 
+###### 2. 
+```html
+``` 
+###### 3. 
+```html
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### B. Utilisez la condition switch pour optimiser votre code
+###### 1. 
+```html
+``` 
+###### 2. 
+```html
+``` 
+###### 3. 
+```html
+```
+###### 4. 
+```html
+```
+#### C. Découvrez les ternaires : des conditions condensées
 ###### 1. 
 ```html
 ``` 
@@ -172,20 +222,11 @@ echo $number
 
 ###### 4. 
 ```html
-
-
-
-
-
 ```
-
-
-
-
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> []()</p>
-#### A 
+#### A.  
 ###### 1. 
 ```html
 ``` 
