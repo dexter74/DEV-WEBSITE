@@ -51,50 +51,36 @@
 </html>
 ```
 
-
 #### B Affichez du texte
-
 ###### 1. Instrcution echo (2 méthodes)
 ```php
 <?php echo "Ceci est du texte"; ?>
 ou
 <?php echo("Ceci est du texte"); ?>
 ```
-
 ###### Exemple
-```
+```php
 <?php echo "Ceci est du <strong>texte</strong>"; ?>
 <?php echo "Cette ligne a été écrite \"uniquement\" en PHP."; ?>
-
 ```
-###### 2. 
-```html
-```
-```php
-```
-```css
-```
-
-
-###### 2. 
-```html
-```
-```php
-```
-```css
-```
-
-
-
-
 
 #### C Commentez votre code
-###### 1. 
-```html
-```
+###### 1. Mono-Ligne
 ```php
+<?php
+    echo "J'habite en Chine."; // Cette ligne indique où j'habite
+    // La ligne suivante indique mon âge
+    echo "J'ai 92 ans.";
+?>
 ```
-```css
+
+###### 1. Multi-Lignes
+```php
+<?php
+    /* Début de Mon commentaire
+       Fin de commentaire */
+    echo "J'ai 92 ans.";
+?>
 ```
 
 
