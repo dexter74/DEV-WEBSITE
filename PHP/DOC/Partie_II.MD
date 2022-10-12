@@ -82,14 +82,14 @@ $noValue = NULL;
 
 ###### 1. 
 ```php
-  echo "Email: $email";
-  echo "Nom: $fullname";
-  echo "Prénom1: $prenom1";
-  echo "Prénom2: $prenom2";
-  echo "$isAuthor";
-  echo "$userAge";
-  echo "$price";
-  echo "La variable noValue est égale : $noValue";
+  echo $email;
+  echo $fullname;
+  echo $prenom1;
+  echo $prenom2;
+  echo $isAuthor;
+  echo $userAge;
+  echo $price;
+  echo $noValue;
 ```
 
 #### E. Faites des calculs simples
