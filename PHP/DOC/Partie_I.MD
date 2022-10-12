@@ -52,18 +52,17 @@
 ```
 
 
+#### B Affichez du texte
+
+###### 1. Instrcution echo (2 méthodes)
+```php
+<?php echo "Ceci est du texte"; ?>
+ou
+<?php echo("Ceci est du texte"); ?>
+```
 
 
-
-
-
-
-
-
-
-
-#### B 
-###### 1. 
+###### 2. 
 ```html
 ```
 ```php
@@ -71,7 +70,20 @@
 ```css
 ```
 
-#### C 
+
+###### 2. 
+```html
+```
+```php
+```
+```css
+```
+
+
+
+
+
+#### C Commentez votre code
 ###### 1. 
 ```html
 ```
