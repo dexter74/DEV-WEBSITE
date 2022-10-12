@@ -81,9 +81,6 @@ $noValue = NULL;
   echo $price;
   echo $noValue;
 ```
-
-
-
 #### E. Concaténez une variable
 
 ###### 1. Exemple
@@ -95,7 +92,6 @@ echo $fullname;
 echo " et bienvenue sur le site !";
 ?>
 ```
-
 ###### 2. Concaténez avec des guillemets doubles
 ```php
 <?php
@@ -103,7 +99,6 @@ $fullname = "Mathieu Nebra";
 echo "Bonjour $fullname et bienvenue sur le site !";
 ?>
 ```
-
 ###### 3. Concaténez avec des guillemets simples (Abend !!!)
 ```php
 <?php
@@ -118,9 +113,7 @@ $fullname = 'Mathieu Nebra';
 echo 'Bonjour ' . $fullname . ' et bienvenue sur le site !'; // OK
 ?>
 ```
-
 #### F. Faites des calculs simples
-
 ###### 1. Les opérations de base : addition, soustraction…
 | Symbole | Signification  |
 | ------- | -------------- |
@@ -150,8 +143,6 @@ $number = 10;
 $result = ($number + 5) * $number; // $result prend la valeur 150
 ?>
 ```
-
-
 ###### 2. Le modulo
 Modulo représente le reste de la division entière.
 Si la valeur est entier, elle retourne 0 sinon 1.
@@ -162,5 +153,25 @@ $number = 10 % 3; // $number prend la valeur 1 car il reste 1
 echo $number 
 ?>
 ```
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+### <p align='center'> []()</p>
+#### A 
+###### 1. 
+```html
+``` 
+###### 2. 
+```html
+``` 
+
+###### 3. 
+```html
+```
+
+###### 4. 
+```html
+```
+
 
 
