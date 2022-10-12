@@ -26,7 +26,8 @@ HEURE = 1951
 ###### 1. Définir une Variable à une valeur
 ```php
 <?php
-$userAge = 17;
+  $userAge = 17;
+  echo $userAge
 ?>
 ```
 
@@ -38,37 +39,17 @@ userAge : Nom de la Variable
 ;       : Permet de conclure la valeur
 ```
 
-
-###### 3. 
-```php
-```
-
-###### 4. 
-```php
-```
-
-###### 5. 
-```php
-```
-
-###### 5. 
-```php
-```
-
-###### 6. 
-```php
-```
-
-
-
-
-
 #### C. Utilisez les types de données
 
-###### 1. 
-```html
-```
+###### 1. Utilisation de la valeur String
 ```php
+<?php
+  $fullname = "Mathieu Nebra";
+  $email = 'mathieu.nebra@exemple.com';
+
+  echo "Email: $email";
+  echo "Nom: $fullname";
+?>
 ```
 
 #### D. Affichez le contenu d'une variable
