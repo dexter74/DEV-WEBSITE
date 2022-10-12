@@ -3,13 +3,11 @@
 
 
 #### A. Comprenez ce qu'est une variable
-
 ###### 1. Donnez toujours un nom et une valeur aux variables
 ```php
 DATE = 221012
 HEURE = 1951
 ```
-
 ###### 2. Découvrez les différents types de variables
 | Type   | Description           | Donnée                | 
 | ------ | --------------------- | --------------------- |
@@ -18,7 +16,6 @@ HEURE = 1951
 | float  | Nombre avec virgule   | 14,5 30.2             |
 | bool   | Vrai ou Faux          | true, false           |
 | NULL   | Valeur NUL            |                       |
-
 
 
 
@@ -39,21 +36,56 @@ userAge : Nom de la Variable
 ;       : Permet de conclure la valeur
 ```
 
+
+
+
+
+
+
+
+
+
+
 #### C. Utilisez les types de données
 
-###### 1. Utilisation de la valeur String
+###### 1. Le type string  (chaîne de caractères)
 ```php
 <?php
   $fullname = "Mathieu Nebra";
   $email = 'mathieu.nebra@exemple.com';
   $prenom1 = "Mon \"nom\" est Mathieu";
   $prenom2 = 'Je m\'appelle Mathieu';
+  
   echo "Email: $email";
   echo "Nom: $fullname";
   echo "Prénom1: $prenom1";
   echo "Prénom2: $prenom2";
 ?>
 ```
+
+###### 2. Le type int  (nombre entier)
+```php
+<?php
+$userAge = 17;
+echo "$userAge"
+?>
+```
+
+###### 3. 
+```php
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### D. Affichez le contenu d'une variable
 
