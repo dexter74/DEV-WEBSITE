@@ -243,7 +243,7 @@ if (! $ACCESS){echo "Accès refusé";}
 | Mot-clé | Signification | Symbole équivalent |
 | ------- | ------------- | ------------------ | 
 | AND     | Et            | &&                 |
-| OR      | Ou            | '||'               | 
+| OR      | Ou            |  \|\|              | 
 
 
 
