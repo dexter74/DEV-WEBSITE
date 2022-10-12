@@ -130,8 +130,7 @@ echo 'Bonjour ' . $fullname . ' et bienvenue sur le site !'; // OK
 |    /    | Division       |
 |    %    | Modulo         |
 
-
-Exemple 1:
+**Exemple 1**
 ```php
 <?php
 $number = 2 + 4; // $number prend la valeur 6
@@ -144,8 +143,7 @@ $number = 3 * 5 + 1; // $number prend la valeur 16
 $number = (1 + 2) * 2; // $number prend la valeur 6
 ?>
 ```
-
-Exemple 2:
+**Exemple 2**
 ```php
 <?php
 $number = 10;
@@ -154,9 +152,17 @@ $result = ($number + 5) * $number; // $result prend la valeur 150
 ```
 
 
-###### 2. 
+###### 2. Le modulo
+Modulo représente le reste de la division entière.
+Si la valeur est entier, elle retourne 0 sinon 1.
 ```php
+<?php
+$number = 10 % 5; // $number prend la valeur 0 car la division tombe juste
+$number = 10 % 3; // $number prend la valeur 1 car il reste 1
+echo $number 
+?>
 ```
+
 ###### 3. 
 ```php
 ```
