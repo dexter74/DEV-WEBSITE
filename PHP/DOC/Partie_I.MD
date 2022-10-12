@@ -85,29 +85,47 @@ ou
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'> []()</p>
+### <p align='center'> [Configurez PHP pour visualiser les erreurs](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4238821-configurez-php-pour-visualiser-les-erreurs)</p>
 
-#### A 
+
+#### A Configurez PHP pour afficher les erreurs
+###### 1. Localisez le fichier de configuration PHP du serveur web
+```php
+<?php
+phpinfo();
+```
+###### Exemple
+```
+Loaded Configuration File	/usr/local/AppCentral/php7/etc/php.ini
+```
+
+###### 2. Modifiez le fichier de configuration PHP
+Il faut s'assurer des valeurs suivantes
+```php
+error_reporting = E_ALL
+display_errors = On
+```
+
+
+
+
+###### 2. 
+```php
+
+```
+
+
+
+
+
+
+#### B Testez l'affichage des erreurs
 ###### 1. 
 ```html
 ```
 ```php
 ```
-```css
-```
-
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> []()</p>
