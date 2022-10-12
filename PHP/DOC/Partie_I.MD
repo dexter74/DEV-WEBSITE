@@ -107,6 +107,24 @@ error_reporting = E_ALL
 display_errors = On
 ```
 
+**Chec**
+```console
+grep "display_errors" /usr/local/AppCentral/php7/etc/php.ini
+```
+
+**Backup**
+```console
+cp  /usr/local/AppCentral/php7/etc/php.ini /usr/local/AppCentral/php7/etc/php.ini.old
+chattr +i  /usr/local/AppCentral/php7/etc/php.ini.old
+```
+
+**Edittion**
+```console
+chattr -i /usr/local/AppCentral/php7/etc/php.ini
+sed -i -e 's/display_errors \= Off/display_errors \= On/' /usr/local/AppCentral/php7/etc/php.ini
+chattr +i /usr/local/AppCentral/php7/etc/php.ini
+
+```
 
 
 
