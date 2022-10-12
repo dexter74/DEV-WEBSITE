@@ -158,6 +158,7 @@ echo $number
 ?>
 ```
 
+<br />
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Adaptez le comportement de votre application à l'aide des conditions](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912046-adaptez-le-comportement-de-votre-application-a-laide-des-conditions)</p>
@@ -316,6 +317,7 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 <?php endif; ?>
 ```
 
+<br />
 
 #### B. Utilisez la condition switch pour optimiser votre code
 ###### 1. 
