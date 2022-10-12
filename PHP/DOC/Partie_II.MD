@@ -293,6 +293,8 @@ else {echo"Accès interdit ! ❌";}
 ```
 
 #### 4. Utilisez cette astuce bonus (2 manières d'écritures)
+
+##### Méthode 1
 ```php
 <?php
 // Variable
@@ -303,6 +305,7 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 ?>
 ```
 
+##### méthode 2
 ```php
 // Variable
 <?php $chickenRecipesEnabled = true; ?>
