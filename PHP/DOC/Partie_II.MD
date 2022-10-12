@@ -323,44 +323,37 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 <br />
 
 ### B. Utilisez la condition switch pour optimiser votre code
-##### 1. Différe,tes écritures
+##### 1. Différentes écritures
 
 ####
 ```php
 ``` 
+
 #### 2. 
 ```php
 ``` 
+
 #### 3. 
 ```php
 ```
+
 #### 4. 
 ```php
 ```
+
 #### 5. 
 ```php
 ```
+
 #### 6. 
 ```php
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-```
 #### C. Découvrez les ternaires : des conditions condensées
 ###### 1. 
 ```php
 ``` 
+
 #### 2. 
 ```php
 ``` 
@@ -372,6 +365,8 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 #### 4. 
 ```php
 ```
+
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> []()</p>
