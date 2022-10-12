@@ -1,7 +1,6 @@
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Décrivez les éléments de votre projet à l'aide de variables](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/911847-decrivez-les-elements-de-votre-projet-a-laide-de-variables)</p>
 
-
 #### A. Comprenez ce qu'est une variable
 ###### 1. Donnez toujours un nom et une valeur aux variables
 ```php
@@ -18,7 +17,6 @@ HEURE = 1951
 | NULL   | Valeur NUL            |                       |
 
 
-
 #### B. Affectez une valeur à une variable
 ###### 1. Définir une Variable à une valeur
 ```php
@@ -27,7 +25,7 @@ HEURE = 1951
   echo $userAge
 ?>
 ```
-
+Explication:
 ```
 $       : Permet de définir une variable
 userAge : Nom de la Variable
@@ -50,14 +48,12 @@ userAge : Nom de la Variable
 ```php
 <?php
 $userAge = 17;
-
 ?>
 ```
 ###### 3. Le type float  (nombre décimal)
 ```php
 <?php
 $price = 57.3;
-
 ?>
 ```
 ###### 4. Le type bool  (booléen)
@@ -65,7 +61,6 @@ $price = 57.3;
 <?php
 $isAuthor = true;
 $isAdministrator = false;
-
 ?>
 ```
 ###### 5. Une variable vide avec NULL
@@ -74,12 +69,7 @@ $isAdministrator = false;
 $noValue = NULL;
 ?>
 ```
-
-
-
-
 #### D. Affichez le contenu d'une variable
-
 ###### 1. 
 ```php
   echo $email;
@@ -92,19 +82,63 @@ $noValue = NULL;
   echo $noValue;
 ```
 
-#### E. Faites des calculs simples
 
-###### 1. 
-```html
+
+#### E. Concaténez une variable
+
+###### 1. Exemple
+```php
+<?php
+$fullname = "Mathieu Nebra";
+echo "Bonjour ";
+echo $fullname;
+echo " et bienvenue sur le site !";
+?>
 ```
+
+###### 2. Concaténez avec des guillemets doubles
+```php
+<?php
+$fullname = "Mathieu Nebra";
+echo "Bonjour $fullname et bienvenue sur le site !";
+?>
+```
+
+###### 3. Concaténez avec des guillemets simples (Abend !!!)
+```php
+<?php
+$fullname = 'Mathieu Nebra';
+echo 'Bonjour $fullname et bienvenue sur le site !'; // ERREUR !
+?>
+```
+Correctif:
+```
+<?php
+$fullname = 'Mathieu Nebra';
+echo 'Bonjour ' . $fullname . ' et bienvenue sur le site !'; // OK
+?>
+```
+
+#### F. Faites des calculs simples
+
+###### 1. Les opérations de base : addition, soustraction…
+| Symbole | Signification  |
+| ------- | -------------- |
+|    +    | Addition       |
+|    -    | Soustraction   |
+|    *    | Multiplication |
+|    /    | Division       |
+|    %    | Modulo         |
+
+
+
+###### 2. 
 ```php
 ```
-
-#### F. Concaténez une variable
-
-###### 1. 
-```html
+###### 3. 
+```php
 ```
+###### 4. 
 ```php
 ```
 
