@@ -156,8 +156,8 @@ echo $number
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'> [Adaptez le comportement de votre application à l'aide des conditions
-](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912046-adaptez-le-comportement-de-votre-application-a-laide-des-conditions)</p>
+### <p align='center'> [Adaptez le comportement de votre application à l'aide des conditions](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912046-adaptez-le-comportement-de-votre-application-a-laide-des-conditions)</p>
+
 #### A 
 ###### 1. 
 ```html
