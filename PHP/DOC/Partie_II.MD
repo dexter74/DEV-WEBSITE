@@ -171,13 +171,30 @@ echo $number
 
 
 ###### 2. Utilisez la structure  if… else
-```hp
-<?php
-$isEnabled = true; // La condition d'accès
 
-if ($isEnabled == true) { echo "Vous êtes autorisé(e) à accéder au site ✅"; }
+###### IF
+```php
+<?php
+$isEnabled = true;
+if ($isEnabled == true) {
+  echo "Vous êtes autorisé(e) à accéder au site ✅"; 
+  }
 ?>
 ```
+
+###### IF + ELSE
+```php
+<?php
+$isEnabled = true;
+if ($isEnabled == true) {
+  echo "Vous êtes autorisé(e) à accéder au site ✅";
+  }
+else {
+  echo "Accès refusé ❌ ";
+  }
+?>
+```
+
 
 
 ###### 3. 
