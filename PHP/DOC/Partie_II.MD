@@ -46,9 +46,12 @@ userAge : Nom de la Variable
 <?php
   $fullname = "Mathieu Nebra";
   $email = 'mathieu.nebra@exemple.com';
-
+  $prenom1 = "Mon \"nom\" est Mathieu";
+  $prenom2 = 'Je m\'appelle Mathieu';
   echo "Email: $email";
   echo "Nom: $fullname";
+  echo "Prénom1: $prenom1";
+  echo "Prénom2: $prenom2";
 ?>
 ```
 
