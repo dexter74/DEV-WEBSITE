@@ -259,7 +259,7 @@ if (! $ACCESS){echo "Accès refusé";}
 | OR      | Ou            |  \|\|              | 
 
 
-#### 4. AND
+##### AND
 ```php
 <?php
 
@@ -275,7 +275,7 @@ else {echo"Accès refusé! ❌";}
 
 ?>
 ```
-#### 5. Multi-condition
+##### Multi-condition
 ```php
 <?php
 // Variable
@@ -292,7 +292,7 @@ else {echo"Accès interdit ! ❌";}
 ?>
 ```
 
-#### 6. Utilisez cette astuce bonus (2 manières d'écritures)
+#### 4. Utilisez cette astuce bonus (2 manières d'écritures)
 ```php
 <?php
 // Variable
