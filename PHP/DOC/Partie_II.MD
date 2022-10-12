@@ -2,7 +2,7 @@
 ### <p align='center'> [Décrivez les éléments de votre projet à l'aide de variables](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/911847-decrivez-les-elements-de-votre-projet-a-laide-de-variables)</p>
 
 #### A. Comprenez ce qu'est une variable
-###### 1. Donnez toujours un nom et une valeur aux variables
+##### 1. Donnez toujours un nom et une valeur aux variables
 ```php
 DATE = 221012
 HEURE = 1951
@@ -18,7 +18,7 @@ HEURE = 1951
 
 
 #### B. Affectez une valeur à une variable
-###### 1. Définir une Variable à une valeur
+##### 1. Définir une Variable à une valeur
 ```php
 <?php
   $userAge = 17;
@@ -35,7 +35,7 @@ userAge : Nom de la Variable
 ```
 
 #### C. Utilisez les types de données
-###### 1. Le type string  (chaîne de caractères)
+##### 1. Le type string  (chaîne de caractères)
 ```php
 <?php
   $fullname = "Mathieu Nebra";
@@ -44,33 +44,33 @@ userAge : Nom de la Variable
   $prenom2 = 'Je m\'appelle Mathieu';
 ?>
 ```
-###### 2. Le type int  (nombre entier)
+##### 2. Le type int  (nombre entier)
 ```php
 <?php
 $userAge = 17;
 ?>
 ```
-###### 3. Le type float  (nombre décimal)
+##### 3. Le type float  (nombre décimal)
 ```php
 <?php
 $price = 57.3;
 ?>
 ```
-###### 4. Le type bool  (booléen)
+##### 4. Le type bool  (booléen)
 ```php
 <?php
 $isAuthor = true;
 $isAdministrator = false;
 ?>
 ```
-###### 5. Une variable vide avec NULL
+##### 5. Une variable vide avec NULL
 ```php
 <?php
 $noValue = NULL;
 ?>
 ```
 #### D. Affichez le contenu d'une variable
-###### 1. 
+##### 1. 
 ```php
   echo $email;
   echo $fullname;
@@ -83,7 +83,7 @@ $noValue = NULL;
 ```
 #### E. Concaténez une variable
 
-###### 1. Exemple
+##### 1. Exemple
 ```php
 <?php
 $fullname = "Mathieu Nebra";
@@ -92,14 +92,14 @@ echo $fullname;
 echo " et bienvenue sur le site !";
 ?>
 ```
-###### 2. Concaténez avec des guillemets doubles
+##### 2. Concaténez avec des guillemets doubles
 ```php
 <?php
 $fullname = "Mathieu Nebra";
 echo "Bonjour $fullname et bienvenue sur le site !";
 ?>
 ```
-###### 3. Concaténez avec des guillemets simples (Abend !!!)
+##### 3. Concaténez avec des guillemets simples (Abend !!!)
 ```php
 <?php
 $fullname = 'Mathieu Nebra';
@@ -114,7 +114,7 @@ echo 'Bonjour ' . $fullname . ' et bienvenue sur le site !'; // OK
 ?>
 ```
 #### F. Faites des calculs simples
-###### 1. Les opérations de base : addition, soustraction…
+##### 1. Les opérations de base : addition, soustraction…
 | Symbole | Signification  |
 | ------- | -------------- |
 |    +    | Addition       |
@@ -143,7 +143,7 @@ $number = 10;
 $result = ($number + 5) * $number; // $result prend la valeur 150
 ?>
 ```
-###### 2. Le modulo
+##### 2. Le modulo
 Modulo représente le reste de la division entière.
 Si la valeur est entier, elle retourne 0 sinon 1.
 ```php
@@ -159,7 +159,7 @@ echo $number
 ### <p align='center'> [Adaptez le comportement de votre application à l'aide des conditions](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912046-adaptez-le-comportement-de-votre-application-a-laide-des-conditions)</p>
 
 #### A. Appropriez-vous la structure de base :  if… else
-###### 1. Les symboles 
+##### 1. Les symboles 
 | Symbole | Signification           |
 | ------- | ----------------------- |
 |   ==    | Est égal à              |
@@ -170,7 +170,7 @@ echo $number
 |   !)    | Est différent de        |
 
 
-###### 2. Utilisez la structure  if… else
+##### 2. Utilisez la structure  if… else
 ```php
 <?php
 $isEnabled = true;
@@ -192,20 +192,22 @@ else {
 ?>
 ```
 
+
+**A Vérifier**
 ```php
 <?php
 $ACCES="AUTORISER";
-
-if ($ACCES == NULL) { echo "La valeur est Video"}
-
-// SI 
-if ($ACCES == "AUTORISER") {echo "Accès Autorisé"}
+// Si NULL
+  if ($ACCES == NULL) { echo "La valeur est Video"; }
 
 // Sinon si
-elseif ($ACCES == "REFUSER") {echo "Accès refusé"}
+  elseif ($ACCES == "AUTORISER") {echo "Accès Autorisé"; }
+
+// Sinon si
+  elseif ($ACCES == "REFUSER") {echo "Accès refusé"; }
 
 // Autre
-else {echo "Code retour en abend";}
+  else {echo "Code retour en abend"; }
 
 ?>
 ```
