@@ -261,7 +261,6 @@ if (! $ACCESS){echo "Accès refusé";}
 | OR      | Ou            |  \|\|              | 
 
 
-
 ###### AND
 ```php
 <?php
@@ -280,6 +279,18 @@ else {echo"Accès refusé";}
 
 ###### 
 ```php
+<?php
+// Variable
+$ACTIF = true;
+$AUTEUR = true;
+
+// Si
+if ($ACTIF || $AUTEUR) {echo "Accès Autorisé";}
+
+//Sinon
+else {echo"Accès refusé";}
+
+?>
 ```
 
 ###### 
