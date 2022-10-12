@@ -15,23 +15,27 @@
 	<!-- ################################################################ -->
 		<div id='TOP'>
 			<div class='TOP 1'> <a href='#'>Accueil</a></div>
-			<div class='TOP 2'> <a href='#'>NAS</a></div>
-			<div class='TOP 3'> <a href='#'>Proxmox</a></div>
-			<div class='TOP 4'> <a href='#'>Documents</a></div>
-			<div class='TOP 5'> <a href='#'>Images</a></div>
-			<div class='TOP 6'> <a href='#'>Musique</a></div>
-			<div class='TOP 7'> <a href='#'>Téléchargements</a></div>
-			<div class='TOP 8'> <a href='#'>Vidéos</a></div>
+			<div class='TOP 1'> <a href='http://192.168.1.1/' target="_blank">Routeur</a></div>
+			<div class='TOP 2'> <a href='https://192.168.1.2:8001/' target="_blank">NAS</a></div>
+			<div class='TOP 3'> <a href='http://192.168.1.2:1007/' target="_blank">Torrent</a></div>
+			<div class='TOP 4'> <a href='http://192.168.1.2:81/login' target="_blank">Reverse</a></div>
+			<div class='TOP 5'> <a href='192.168.1.2:3272' target="_blank">DNS</a></div>
+			<div class='TOP 6'> <a href='#' target="_blank">Vidéos</a></div>
+			<div class='TOP 9'> <a href='#'>Proxmox</a></div>
 		</div>
 		<!-- ################################################################ -->
 		<div id='ANN'> <h2>Liens Utiles </h2>
 		<p align='left'>
 			- [Github] <a href='https://github.com/dexter74/DEV-WEBSITE'>DEV-WEBSITE</a>
 			<br />
+			
 			- [HTML]
-				 <a href='https://github.com/dexter74/DEV-WEBSITE/blob/main/HTML/Doc/Partie_I.MD'>I</a> |
-				 <a href='https://github.com/dexter74/DEV-WEBSITE/blob/main/HTML/Doc/Partie_II.MD'>II</a> |
-				 <a href='https://github.com/dexter74/DEV-WEBSITE/blob/main/HTML/Doc/Partie_III.MD'>III</a> |
+				 <a href='https://github.com/dexter74/DEV-WEBSITE/blob/main/HTML/Doc/Partie_I.MD' target="_blank">I</a> |
+				 <a href='https://github.com/dexter74/DEV-WEBSITE/blob/main/HTML/Doc/Partie_II.MD' target="_blank">II</a> |
+				 <a href='https://github.com/dexter74/DEV-WEBSITE/blob/main/HTML/Doc/Partie_III.MD' target="_blank">III</a> |
+				 <br />
+			- [PHP]
+				 <a href='https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql' target="_blank">Concevez votre site web avec PHP et MySQL</a>
 		</p>
 		</div>
 		<!-- ################################################################ -->
@@ -67,6 +71,14 @@
 					[Changelog] XX/10/2022
 					<br />
 				</p>
+
+
+
+
+
+
+
+				
 				</div>
 			<!-- ############################################################ -->
 			</div>
