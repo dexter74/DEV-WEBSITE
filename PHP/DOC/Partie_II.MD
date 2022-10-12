@@ -1,6 +1,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Décrivez les éléments de votre projet à l'aide de variables](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/911847-decrivez-les-elements-de-votre-projet-a-laide-de-variables)</p>
 
+
 ### A. Comprenez ce qu'est une variable
 #### 1. Donnez toujours un nom et une valeur aux variables
 ```php
@@ -33,6 +34,7 @@ userAge : Nom de la Variable
 17      : Valeur de la variables
 ;       : Permet de conclure la valeur
 ```
+
 
 ### C. Utilisez les types de données
 #### 1. Le type string  (chaîne de caractères)
@@ -69,7 +71,6 @@ $isAdministrator = false;
 $noValue = NULL;
 ?>
 ```
-
 
 
 ### D. Affichez le contenu d'une variable
@@ -176,46 +177,53 @@ echo $number
 |   !)    | Est différent de        |
 
 #### 2. Utilisez la structure  if… else
+
+##### Si
 ```php
 <?php
+// Déclaration de la Variable
 $isEnabled = true;
-if ($isEnabled == true) {
-  echo "Vous êtes autorisé(e) à accéder au site ✅"; 
-  }
+
+// Vérifier Condition
+if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
+?>
+```
+##### SI + SINON
+```php
+<?php
+// Déclaration de la Variable
+$isEnabled = true;
+
+// Si
+if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
+  
+// Sinon
+else {echo "Accès refusé ❌ ";}
 ?>
 ```
 
+##### SI + SINON + SINON SI
 ```php
 <?php
-$isEnabled = true;
-if ($isEnabled == true) {
-  echo "Vous êtes autorisé(e) à accéder au site ✅";
-  }
-else {
-  echo "Accès refusé ❌ ";
-  }
-?>
-```
-
-
-**A Vérifier**
-```php
-<?php
+// Déclaration de la Variable
 $ACCES="AUTORISER";
+
 // Si NULL
-  if ($ACCES == NULL) { echo "La valeur est Video"; }
+if ($ACCES == NULL) {echo "La valeur est Video";}
 
 // Sinon si
-  elseif ($ACCES == "AUTORISER") {echo "Accès Autorisé"; }
+elseif ($ACCES == "AUTORISER") {echo "Accès Autorisé";}
 
 // Sinon si
-  elseif ($ACCES == "REFUSER") {echo "Accès refusé"; }
+elseif ($ACCES == "REFUSER") {echo "Accès refusé";}
 
 // Autre
-  else {echo "Code retour en abend"; }
-
+else {echo "Code retour en abend";}
 ?>
 ```
+
+
+
 
 
 
