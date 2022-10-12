@@ -28,7 +28,6 @@
 		<p align='left'>
 			- [Github] <a href='https://github.com/dexter74/DEV-WEBSITE'>DEV-WEBSITE</a>
 			<br />
-			
 			- [HTML]
 				 <a href='https://github.com/dexter74/DEV-WEBSITE/blob/main/HTML/Doc/Partie_I.MD'>I</a> |
 				 <a href='https://github.com/dexter74/DEV-WEBSITE/blob/main/HTML/Doc/Partie_II.MD'>II</a> |
@@ -68,14 +67,6 @@
 					[Changelog] XX/10/2022
 					<br />
 				</p>
-
-
-
-
-
-
-
-				
 				</div>
 			<!-- ############################################################ -->
 			</div>
