@@ -113,7 +113,8 @@ background-color: black;
 #### C.Images de fond
 ###### 1. Appliquer une image de fond
 ```css
-background-image: url("");      /* Image de Fond */
+background-image: url("");      /* Image de Fond  */
+background-size: 100%;          /* Etirer le fond */    
 ```
 ###### 2. Options disponibles pour l'image de fond
 ```css
