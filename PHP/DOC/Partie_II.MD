@@ -81,14 +81,14 @@ echo "$price"
 <?php
 $isAuthor = true;
 $isAdministrator = false;
-echo "$isAuthor et $isAdministrator"
+echo "$isAuthor"
 ?>
 ```
 ###### 5. Une variable vide avec NULL
 ```php
 <?php
 $noValue = NULL;
-echo "La variable noValue est égale à $noValue"
+echo "La variable noValue est égale : $noValue"
 ?>
 ```
 
