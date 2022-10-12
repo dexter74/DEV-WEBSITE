@@ -36,18 +36,7 @@ userAge : Nom de la Variable
 ;       : Permet de conclure la valeur
 ```
 
-
-
-
-
-
-
-
-
-
-
 #### C. Utilisez les types de données
-
 ###### 1. Le type string  (chaîne de caractères)
 ```php
 <?php
@@ -91,32 +80,6 @@ $noValue = NULL;
 echo "La variable noValue est égale : $noValue"
 ?>
 ```
-
-
-
-###### 3. 
-```php
-```
-
-
-
-###### 3. 
-```php
-```
-
-
-
-###### 3. 
-```php
-```
-
-
-
-
-
-
-
-
 
 
 
