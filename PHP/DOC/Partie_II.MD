@@ -322,9 +322,10 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 
 <br />
 
-### B. Utilisez la condition switch pour optimiser votre code
-##### 1. Différentes écritures
+### B. Utilisez la condition switch 
+**/!\ Le switch ne peut tester que l'égalité /!\**
 
+##### 1. Différentes écritures
 ##### Méthode if elseif else
 ```php
 <?php
@@ -336,7 +337,6 @@ elseif ($grade == 20) {echo "Excellent travail, c'est parfait !";}
 else {echo "Désolé, je n'ai pas de message à afficher pour cette note";}
 ?>
 ```
-
 ##### Méthode Swtich
 ```php
 <?php
@@ -361,8 +361,6 @@ switch ($grade)
 }
 ?>
 ```
-
-
 
 #### 2. 
 ```php
