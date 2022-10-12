@@ -171,7 +171,6 @@ echo $number
 
 
 ###### 2. Utilisez la structure  if… else
-
 ```php
 <?php
 $isEnabled = true;
@@ -196,6 +195,8 @@ else {
 ```php
 <?php
 $ACCES="AUTORISER";
+
+if ($ACCES == NULL) { echo "La valeur est Video"}
 
 // SI 
 if ($ACCES == "AUTORISER") {echo "Accès Autorisé"}
