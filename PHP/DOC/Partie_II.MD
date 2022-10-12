@@ -305,7 +305,7 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 ?>
 ```
 
-##### méthode 2
+##### Méthode 2
 ```php
 // Variable
 <?php $chickenRecipesEnabled = true; ?>
@@ -325,9 +325,44 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 ### B. Utilisez la condition switch pour optimiser votre code
 ##### 1. Différentes écritures
 
-####
+##### Méthode if elseif else
 ```php
-``` 
+<?php
+$grade = 16;
+if ($grade == 0) {echo "Tu es vraiment un gros nul !!!";}
+elseif ($grade == 5) {echo "Tu es très mauvais";}
+elseif ($grade == 16) {echo "Tu te débrouilles très bien !";}
+elseif ($grade == 20) {echo "Excellent travail, c'est parfait !";}
+else {echo "Désolé, je n'ai pas de message à afficher pour cette note";}
+?>
+```
+
+##### Méthode Swtich
+```php
+<?php
+$grade = 1;
+
+switch ($grade)
+{ 
+    case 0:
+        echo "Tu es vraiment un gros nul !!!";
+    break;
+
+    case 1:
+        echo "Tu as pile poil la moyenne, c'est un peu juste…";
+    break;
+
+    case 3:
+        echo "Excellent travail, c'est parfait !";
+    break;
+
+    default:
+        echo "Désolé, je n'ai pas de message à afficher pour cette note";
+}
+?>
+```
+
+
 
 #### 2. 
 ```php
