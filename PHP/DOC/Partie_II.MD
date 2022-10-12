@@ -62,7 +62,6 @@ userAge : Nom de la Variable
   echo "Prénom2: $prenom2";
 ?>
 ```
-
 ###### 2. Le type int  (nombre entier)
 ```php
 <?php
@@ -70,6 +69,42 @@ $userAge = 17;
 echo "$userAge"
 ?>
 ```
+###### 3. Le type float  (nombre décimal)
+```php
+<?php
+$price = 57.3;
+echo "$price"
+?>
+```
+###### 4. Le type bool  (booléen)
+```php
+<?php
+$isAuthor = true;
+$isAdministrator = false;
+echo "$isAuthor et $isAdministrator"
+?>
+```
+###### 5. Une variable vide avec NULL
+```php
+<?php
+$noValue = NULL;
+echo "La variable noValue est égale à $noValue"
+?>
+```
+
+
+
+###### 3. 
+```php
+```
+
+
+
+###### 3. 
+```php
+```
+
+
 
 ###### 3. 
 ```php
