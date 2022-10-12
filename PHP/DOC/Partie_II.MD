@@ -170,15 +170,23 @@ echo $number
 |   !)    | Est différent de        |
 
 
-```html
-``` 
-###### 2. 
-```html
-``` 
+###### 2. Utilisez la structure  if… else
+```hp
+<?php
+$isEnabled = true; // La condition d'accès
+
+if ($isEnabled == true) { echo "Vous êtes autorisé(e) à accéder au site ✅"; }
+?>
+```
+
+
 ###### 3. 
 ```html
 ```
 
+###### 4. 
+```html
+```
 
 
 
