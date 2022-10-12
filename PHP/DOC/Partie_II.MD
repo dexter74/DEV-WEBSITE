@@ -7,7 +7,7 @@
 DATE = 221012
 HEURE = 1951
 ```
-###### 2. Découvrez les différents types de variables
+##### 2. Découvrez les différents types de variables
 | Type   | Description           | Donnée                | 
 | ------ | --------------------- | --------------------- |
 | string | chaînes de caractères | Texte                 |
