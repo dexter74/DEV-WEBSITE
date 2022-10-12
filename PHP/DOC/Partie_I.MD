@@ -1,7 +1,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Écrivez votre premier script](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4238116-ecrivez-votre-premier-script)</p>
 
-#### A Utilisez des balises PHP
+#### A. Utilisez des balises PHP
 ###### 1. Page HTML de Base
 ```html
 <!DOCTYPE html>
@@ -51,7 +51,7 @@
 </html>
 ```
 
-#### B Affichez du texte
+#### B. Affichez du texte
 ###### 1. Instrcution echo (2 méthodes)
 ```php
 <?php echo "Ceci est du texte"; ?>
@@ -64,7 +64,7 @@ ou
 <?php echo "Cette ligne a été écrite \"uniquement\" en PHP."; ?>
 ```
 
-#### C Commentez votre code
+#### C. Commentez votre code
 ###### 1. Mono-Ligne
 ```php
 <?php
@@ -83,13 +83,11 @@ ou
 ?>
 ```
 
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Configurez PHP pour visualiser les erreurs](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4238821-configurez-php-pour-visualiser-les-erreurs)</p>
 
 
-#### A Configurez PHP pour afficher les erreurs
+#### A. Configurez PHP pour afficher les erreurs
 ###### 1. Localisez le fichier de configuration PHP du serveur web
 ```php
 <?php
@@ -126,7 +124,7 @@ sed -i -e 's/display_errors \= Off/display_errors \= On/' /usr/local/AppCentral/
 #Relancer le service Web
 ```
 
-#### B Testez l'affichage des erreurs
+#### B. Testez l'affichage des erreurs
 ```php
 <?php
 phpinfo(;
