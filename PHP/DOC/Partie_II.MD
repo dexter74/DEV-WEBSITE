@@ -323,7 +323,7 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 <br />
 
 ### B. Utilisez la condition switch 
-**/!\ Le switch ne peut tester que l'égalité /!\**
+`/!\ Le switch ne peut tester que l'égalité`
 
 ##### 1. Différentes écritures
 ##### Méthode if elseif else
