@@ -21,6 +21,24 @@ HEURE = 1951
 
 
 
+
+#### B. Affectez une valeur à une variable
+###### 1. Définir une Variable à une valeur
+```php
+<?php
+$userAge = 17;
+?>
+```
+
+```
+$       : Permet de définir une variable
+userAge : Nom de la Variable
+=       : Egale à
+17      : Valeur de la variables
+;       : Permet de conclure la valeur
+```
+
+
 ###### 3. 
 ```php
 ```
@@ -41,13 +59,9 @@ HEURE = 1951
 ```php
 ```
 
-#### B. Affectez une valeur à une variable
 
-###### 1. 
-```html
-```
-```php
-```
+
+
 
 #### C. Utilisez les types de données
 
