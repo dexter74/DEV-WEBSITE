@@ -269,26 +269,27 @@ $ACTIF = true;
 $AUTEUR = true;
 
 // Si
-if ($ACTIF && $AUTEUR) {echo "Accès Autorisé";}
+if ($ACTIF && $AUTEUR) {echo "Accès Autorisé! ✅";}
 
 //Sinon
-else {echo"Accès refusé";}
+else {echo"Accès refusé! ❌";}
 
 ?>
 ```
 
-###### 
+###### Multi-condition
 ```php
 <?php
 // Variable
 $ACTIF = true;
 $AUTEUR = true;
+$ADMIN = true;
 
 // Si
-if ($ACTIF || $AUTEUR) {echo "Accès Autorisé";}
+if ($ACTIF && $AUTEUR) || $ADMIN) {echo "Accès Autorisé! ✅";}
 
 //Sinon
-else {echo"Accès refusé";}
+else {echo"Accès interdit ! ❌";}
 
 ?>
 ```
