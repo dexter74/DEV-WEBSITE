@@ -4,9 +4,40 @@
 
 #### A. Comprenez ce qu'est une variable
 
-###### 1. 
-```html
+###### 1. Donnez toujours un nom et une valeur aux variables
+```php
+DATE = 221012
+HEURE = 1951
 ```
+
+###### 2. Découvrez les différents types de variables
+| Type   | Description           | Donnée                | 
+| ------ | --------------------- | --------------------- |
+| string | chaînes de caractères | Texte                 |
+| int    | Nombre Entier         | 1 2 3 ou -1 -2 -3     |
+| float  | Nombre avec virgule   | 14,5 30.2             |
+| bool   | Vrai ou Faux          | true, false           |
+| NULL   | Valeur NUL            |                       |
+
+
+
+###### 3. 
+```php
+```
+
+###### 4. 
+```php
+```
+
+###### 5. 
+```php
+```
+
+###### 5. 
+```php
+```
+
+###### 6. 
 ```php
 ```
 
