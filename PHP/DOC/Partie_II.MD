@@ -9,13 +9,13 @@ DATE = 221012
 HEURE = 1951
 ```
 #### 2. Découvrez les différents types de variables
-| Type   | Description           | Donnée                | 
-| ------ | --------------------- | --------------------- |
-| string | chaînes de caractères | Texte                 |
-| int    | Nombre Entier         | 1 2 3 ou -1 -2 -3     |
-| float  | Nombre avec virgule   | 14,5 30.2             |
-| bool   | Vrai ou Faux          | true, false           |
-| NULL   | Valeur NUL            |                       |
+| Type   | Description           | Donnée                          | 
+| ------ | --------------------- | ------------------------------- |
+| string | chaînes de caractères | Texte                           |
+| int    | Nombre Entier         | 1 2 3 ou -1 -2 -3               |
+| float  | Nombre avec virgule   | 14,5 30.2                       |
+| bool   | Vrai ou Faux          | true, false (Pas de Parenthèse) |
+| NULL   | Valeur NULL           |                                 |
 
 
 ### B. Affectez une valeur à une variable
@@ -183,7 +183,6 @@ echo $number
 <?php
 // Déclaration de la Variable
 $isEnabled = true;
-
 // Vérifier Condition
 if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
 ?>
@@ -193,10 +192,8 @@ if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";
 <?php
 // Déclaration de la Variable
 $isEnabled = true;
-
 // Si
 if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
-  
 // Sinon
 else {echo "Accès refusé ❌ ";}
 ?>
@@ -206,24 +203,41 @@ else {echo "Accès refusé ❌ ";}
 ```php
 <?php
 // Déclaration de la Variable
-$ACCES="AUTORISER";
-
+$ACCES = "AUTORISER";
 // Si NULL
 if ($ACCES == NULL) {echo "La valeur est Video";}
-
 // Sinon si
 elseif ($ACCES == "AUTORISER") {echo "Accès Autorisé";}
-
 // Sinon si
 elseif ($ACCES == "REFUSER") {echo "Accès refusé";}
-
 // Autre
 else {echo "Code retour en abend";}
 ?>
 ```
 
 
+##### SI c'est vrai
+```php
+<?php
+// Variable
+$ACCESS = true
+//SI
+if ($ACCESS){echo "Accès autorisé";}
+//Sinon
+else {echo "Accès refusé";}
+?>
+```
 
+##### SI c'est faux
+```php
+<?php
+// Variable
+$ACCESS = true
+
+//SI
+if (! $ACCESS){echo "Accès refusé";}
+?>
+```
 
 
 
