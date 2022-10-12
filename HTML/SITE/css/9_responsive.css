@@ -1,0 +1,3 @@
+@media (max-width: 800px) {
+	#TOP, #ANN, #MID, #BOT {flex-direction: column}
+	}

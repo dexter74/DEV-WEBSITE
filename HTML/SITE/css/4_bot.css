@@ -1,0 +1,20 @@
+/* Taille des fenêtres */
+.BOT{max-height: 25px}
+
+#BOT{
+	border-radius: 0px 0px 15px 15px;
+	box-shadow: 1px 1px 3px 5px red;
+	background-color: #131313;
+	padding: 0.5%;
+	overflow: auto;
+	opacity: 0.8;	
+}
+#BOT{
+	text-align: center;
+	}
+.BOT{
+	line-height: 20px;
+	font-size: 20px;
+	color: white;
+	border-radius: 0px 0px 15px 15px;
+	}

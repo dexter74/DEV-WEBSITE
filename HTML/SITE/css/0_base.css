@@ -1,0 +1,29 @@
+/* Configuration du site en général */
+*{
+	margin: 0;
+	box-sizing: border-box;
+	}
+
+/* Arrière-plan du site # DAF7A6 et #38B3D5 */
+body{
+	background-color: #38B3D5;
+	background-image: url(/image/fond.jpg);
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	}
+
+#GLOBAL{
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+
+/* Aide au codage */
+/* #TOP{border: 1px red solid} */
+/* .TOP{border: 1px white solid} */
+/* #ANN{border: 5px red solid} */
+
+/* #MID{border: 5px red solid} */
+/* .MID{border: 5px white solid} */
+
+/* #BOT{border: 5px red solid} */
+/* .BOT{border: 5px white solid} */

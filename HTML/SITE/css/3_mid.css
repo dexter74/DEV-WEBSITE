@@ -1,0 +1,17 @@
+/* Taille des fenêtres */
+.MID{max-height: 600px}
+
+#MID{
+	background-color: #131313;
+	color: white;
+	text-align: center;
+	box-shadow: 1px 1px 3px 5px red;
+	margin-bottom: 20px;
+	opacity: 0.6;
+	padding: 0.5%;
+	overflow: auto;	
+	}
+
+#CONTENU{
+	display: flex;
+}

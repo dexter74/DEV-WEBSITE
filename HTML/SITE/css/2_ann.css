@@ -1,0 +1,26 @@
+#ANN{
+	max-height: 120px;
+	margin-bottom: 15px;
+	padding: 10px;
+	overflow: auto;
+	}
+
+#ANN{
+	color: white;
+	box-shadow: 1px 1px 3px 5px red;
+	background-color: #131313;
+	opacity: 0.8;
+	border-radius: 5px 5px 0px 0px;
+}
+
+
+#ANN{
+	text-align: center;
+	}
+
+.ANN{
+	text-shadow: 0px 0px 0px red;
+}
+
+#ANN a{color: white}
+#ANN a:hover{color: red}
