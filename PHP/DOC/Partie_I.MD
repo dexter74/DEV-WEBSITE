@@ -122,8 +122,8 @@ chattr +i  /usr/local/AppCentral/php7/etc/php.ini.old
 ```console
 chattr -i /usr/local/AppCentral/php7/etc/php.ini
 sed -i -e 's/display_errors \= Off/display_errors \= On/' /usr/local/AppCentral/php7/etc/php.ini
-chattr +i /usr/local/AppCentral/php7/etc/php.ini
 
+#Relancer le service Web
 ```
 
 
