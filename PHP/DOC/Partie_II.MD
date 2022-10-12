@@ -179,7 +179,7 @@ echo $number
 ```php
 <?php
 
-// Déclaration del a Variable
+// Variable
 $isEnabled = true;
 
 // Vérifier Condition
@@ -191,7 +191,7 @@ if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";
 ```php
 <?php
 
-// Déclaration de la Variable
+// Variable
 $isEnabled = true;
 
 // Si
@@ -206,8 +206,9 @@ else {echo "Accès refusé ❌ ";}
 ```php
 <?php
 
-// Déclaration de la Variable
+// Variable
 $ACCES = "AUTORISER";
+
 // Si NULL
 if ($ACCES == NULL) {echo "La valeur est Video";}
 
@@ -241,6 +242,7 @@ else {echo "Accès refusé";}
 ##### SI c'est faux
 ```php
 <?php
+
 // Variable
 $ACCESS = true;
 
@@ -256,9 +258,10 @@ if (! $ACCESS){echo "Accès refusé";}
 | OR      | Ou            |  \|\|              | 
 
 
-###### AND
+#### 4. AND
 ```php
 <?php
+
 // Variable
 $ACTIF = true;
 $AUTEUR = true;
@@ -271,8 +274,7 @@ else {echo"Accès refusé! ❌";}
 
 ?>
 ```
-
-###### Multi-condition
+#### 5. Multi-condition
 ```php
 <?php
 // Variable
@@ -289,10 +291,10 @@ else {echo"Accès interdit ! ❌";}
 ?>
 ```
 
-###### Utilisez cette astuce bonus
+#### 6. Utilisez cette astuce bonus (2 manières d'écritures)
 ```php
 <?php
-//Variable
+// Variable
 $chickenRecipesEnabled = true;
 
 //SI
@@ -301,7 +303,7 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 ```
 
 ```php
-//Variable
+// Variable
 <?php $chickenRecipesEnabled = true; ?>
 
 //SI (Ne pas oublier le :)
@@ -313,36 +315,6 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 //Fin de la condition (Ne pas oublier le ;)
 <?php endif; ?>
 ```
-
-
-
-###### 
-```php
-```
-
-###### 
-```php
-```
-
-
-
-#### 4. 
-```php
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #### B. Utilisez la condition switch pour optimiser votre code
@@ -357,6 +329,26 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 ```
 ###### 4. 
 ```php
+```
+###### 5. 
+```php
+```
+###### 6. 
+```php
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 #### C. Découvrez les ternaires : des conditions condensées
 ###### 1. 
