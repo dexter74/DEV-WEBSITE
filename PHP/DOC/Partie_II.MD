@@ -172,7 +172,6 @@ echo $number
 
 ###### 2. Utilisez la structure  if… else
 
-###### IF
 ```php
 <?php
 $isEnabled = true;
@@ -182,7 +181,6 @@ if ($isEnabled == true) {
 ?>
 ```
 
-###### IF + ELSE
 ```php
 <?php
 $isEnabled = true;
@@ -194,6 +192,24 @@ else {
   }
 ?>
 ```
+
+```php
+<?php
+$ACCES="AUTORISER";
+
+// SI 
+if ($ACCES == "AUTORISER") {echo "Accès Autorisé"}
+
+// Sinon si
+elseif ($ACCES == "REFUSER") {echo "Accès refusé"}
+
+// Autre
+else {echo "Code retour en abend";}
+
+?>
+```
+
+
 
 
 
