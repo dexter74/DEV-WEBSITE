@@ -107,7 +107,7 @@ error_reporting = E_ALL
 display_errors = On
 ```
 
-**Chec**
+**Check**
 ```console
 grep "display_errors" /usr/local/AppCentral/php7/etc/php.ini
 ```
@@ -126,24 +126,12 @@ sed -i -e 's/display_errors \= Off/display_errors \= On/' /usr/local/AppCentral/
 #Relancer le service Web
 ```
 
-
-
-###### 2. 
-```php
-
-```
-
-
-
-
-
-
 #### B Testez l'affichage des erreurs
-###### 1. 
-```html
-```
 ```php
+<?php
+phpinfo(;
 ```
+
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> []()</p>
