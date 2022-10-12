@@ -181,19 +181,25 @@ echo $number
 ##### Si
 ```php
 <?php
-// Déclaration de la Variable
+
+// Déclaration del a Variable
 $isEnabled = true;
+
 // Vérifier Condition
 if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
+
 ?>
 ```
 ##### SI + SINON
 ```php
 <?php
+
 // Déclaration de la Variable
 $isEnabled = true;
+
 // Si
 if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
+
 // Sinon
 else {echo "Accès refusé ❌ ";}
 ?>
@@ -202,16 +208,21 @@ else {echo "Accès refusé ❌ ";}
 ##### SI + SINON + SINON SI
 ```php
 <?php
+
 // Déclaration de la Variable
 $ACCES = "AUTORISER";
 // Si NULL
 if ($ACCES == NULL) {echo "La valeur est Video";}
+
 // Sinon si
 elseif ($ACCES == "AUTORISER") {echo "Accès Autorisé";}
+
 // Sinon si
 elseif ($ACCES == "REFUSER") {echo "Accès refusé";}
+
 // Autre
 else {echo "Code retour en abend";}
+
 ?>
 ```
 
@@ -219,12 +230,16 @@ else {echo "Code retour en abend";}
 ##### SI c'est vrai
 ```php
 <?php
+
 // Variable
-$ACCESS = true
+$ACCESS = true;
+
 //SI
 if ($ACCESS){echo "Accès autorisé";}
+
 //Sinon
 else {echo "Accès refusé";}
+
 ?>
 ```
 
@@ -232,7 +247,7 @@ else {echo "Accès refusé";}
 ```php
 <?php
 // Variable
-$ACCESS = true
+$ACCESS = true;
 
 //SI
 if (! $ACCESS){echo "Accès refusé";}
@@ -247,8 +262,42 @@ if (! $ACCESS){echo "Accès refusé";}
 
 
 
+###### AND
+```php
+<?php
+// Variable
+$ACTIF = true;
+$AUTEUR = true;
+
+// Si
+if ($ACTIF && $AUTEUR) {echo "Accès Autorisé";}
+
+//Sinon
+else {echo"Accès refusé";}
+
+?>
+```
+
+###### 
+```php
+```
+
+###### 
+```php
+```
+
+###### 
+```php
+```
+
+###### 
+```php
+```
+
+
+
 #### 4. 
-```html
+```php
 ```
 
 
@@ -268,48 +317,48 @@ if (! $ACCESS){echo "Accès refusé";}
 
 #### B. Utilisez la condition switch pour optimiser votre code
 ###### 1. 
-```html
+```php
 ``` 
 ###### 2. 
-```html
+```php
 ``` 
 ###### 3. 
-```html
+```php
 ```
 ###### 4. 
-```html
+```php
 ```
 #### C. Découvrez les ternaires : des conditions condensées
 ###### 1. 
-```html
+```php
 ``` 
 ###### 2. 
-```html
+```php
 ``` 
 
 ###### 3. 
-```html
+```php
 ```
 
 ###### 4. 
-```html
+```php
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> []()</p>
 #### A.  
 ###### 1. 
-```html
+```php
 ``` 
 ###### 2. 
-```html
+```php
 ``` 
 
 ###### 3. 
-```html
+```php
 ```
 
 ###### 4. 
-```html
+```php
 ```
 
