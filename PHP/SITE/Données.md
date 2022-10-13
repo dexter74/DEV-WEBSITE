@@ -14,7 +14,9 @@ La table Users sert pour la gestion des utilisateurs.
 | int      | Dern. connexion    | 13-10-2022 04:00    | NON       |
 | int      | Date de Naissance  | 01-01-1998          | NON       |
 | bool     | Compte activé      | true                | NON       |
+| bool     | BANNIE             | false               | OUI       |
 | string   | Utilisateur        | MyUsername          | OUI       |
+| string   | Statut             | Super Admin         | OUI       |
 | string   | Mot de passe       | Passw0rd2022        | NON       |
 | string   | Adresse EMAIL      | support@support.com | OUI       |
 | string   | Nom                | MyName              | OUI       |
