@@ -218,9 +218,27 @@ td{border: 1px black solid}
 	</body>
 </html>
 ```
+#### 4. Fusion
+```
+Pour effectuer une fusion, on rajoute un attribut à la balise <td>
+```
 
+##### Fusion de colonnes
+```
+Il faut utiliser colspan puis définir le nombre de colonne à fusionnées.
 
+<td colspan="X">
+```
 
+##### Fusion de lignes
+```
+Il faut utiliser rowspan puis définir le nombre de colonne à fusionnées.
+<td rowspan="X">
+```
+
+###### Exmple
+```
+```
 
 
 
