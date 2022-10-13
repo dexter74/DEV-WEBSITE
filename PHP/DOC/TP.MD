@@ -74,12 +74,14 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## B. Appropriez-vous la structure de base : if… else
 
-### SI, SINON, SINON SI
+### SI, SINON, SINON SI, AND, OR
 ```php
 <?php
 	$TEST1 = '0';
 	$TEST2 = '1';
 	$TEST3 = '2';
+	$TEST4 = false; /* Jamais de " ou de ' sinon sa fuite le résultat */
+	$TEST5 = false; /* Jamais de " ou de ' sinon sa fuite le résultat */
 	$OK    = '✅';
 	$KO    = '❌';
 	$ABEND = '???';
@@ -105,7 +107,9 @@
 	else{echo $KO;}
 	echo '<br />';
 // ------------------------------------------------------------------------------
-//	echo "<b>Exercice 5: OR: </b>";
+	echo "<b>Exercice 5: OR: </b>";
+	if(($TEST4 = false) || $TEST5){echo $OK;}
+	elseif(($TEST4 = true) || $TEST5 = true){echo $KO;}
 ?>
 ```
 
