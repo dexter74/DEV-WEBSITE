@@ -48,7 +48,8 @@
 #### 5. Mise en forme du tableau
 ```css
 
-/* Bordure des cellules*/
+/* Bordures */
+th{border: 1px black solid}
 td{border: 1px solid black}
 
 /* Coller les Cellules entre-elles */
@@ -61,36 +62,53 @@ table{border-collapse: collapse}
 
 #### Exemple:
 ```html
-<table>
-	<tr>
-		<td>ID</td>
-		<td>User</td>
-		<td>Password</td>
-		<td>Prénom</td>
-		<td>Nom</td>
-		<td>Age</td>
-		<td>Email</td>
-		<td>Activation</td>
-		<td>Permission</td>
-	</tr>
+		<table>
+			<!-- ########################### -->
+			<tr>
+				<th>ID</th>
+				<th>User</th>
+				<th>Password</th>
+				<th>Prénom</th>
+				<th>Nom</th>
+				<th>Age</th>
+				<th>Email</th>
+				<th>Activation</th>
+				<th>Permission</th>
+			</tr>
+			<!-- ########################### -->
+			<tr>
+				<td>0</td>
+				<td>Drthrax74</td>
+				<td>Passw0rd2022</td>
+				<td>Marc</td>
+				<td>Jaffré</td>
+				<td>31</td>
+				<td>teste74@hotmail.fr</td>
+				<td>enabled</td>
+				<td>Administrateur</td>
+			</tr>
+			<!-- --------------------------- -->
+			<!-- ########################### -->
 
-	<tr>
-		<td>0</td>
-		<td>Drthrax74</td>
-		<td>Passw0rd2022</td>
-		<td>Marc</td>
-		<td>Jaffré</td>
-		<td>31</td>
-		<td>teste74@hotmail.fr</td>
-		<td>enabled</td>
-		<td>Administrateur</td>
-	</tr>
-</table>
+			<tr>
+				<td>1</td>
+				<td>Stitch74</td>
+				<td>Passw0rd2022</td>
+				<td>Fabrice</td>
+				<td>Jaffré</td>
+				<td>31</td>
+				<td>Drthrax74@hotmail.fr</td>
+				<td>enabled</td>
+				<td>Administrateur</td>
+			</tr>
+			<!-- ########################### -->
+		<table>
 ```
 
 ```css
 table{border-collapse: collapse}
-td{border: 2px black solid}
+td{border: 1px black solid}
+th{border: 1px black solid}
 ```
 
 
