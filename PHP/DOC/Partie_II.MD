@@ -377,13 +377,28 @@ if ($userAge >= 18) {$isAdult = true;}
 // SINON
 else {$isAdult = false;}
 
-// Vérification
+// Message de sorti
 if ($isAdult){echo "L'utilisateur est un adulte"}
 ?>
 ``` 
 
-##### méthode 1
+##### méthode 2
 ```php
+<?php
+
+// Variable
+$userAge = 24;
+
+// Vérification
+$isAdult = ($userAge >= 18) ? true : false;
+
+// Ou mieux, dans ce cas précis
+$isAdult = ($userAge >= 18);
+
+// Message de sorti
+if ($isAdult){echo "L'utilisateur est un adulte"}
+
+?>
 ```
 
 
