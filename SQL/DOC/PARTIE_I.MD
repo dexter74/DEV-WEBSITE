@@ -35,6 +35,9 @@ La clé primaire permet d'identifier de manière unique une entrée dans la tabl
 En général, on utilise le champ id comme clé primaire, comme on vient de le faire.
 ```
 
+| Champ | INDEX   | Option         |
+| ----- | ------- | -------------- |
+| ID    | PRIMARY | AUTO_INCREMENT | 
 
 
 
