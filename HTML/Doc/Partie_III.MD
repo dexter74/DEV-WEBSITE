@@ -141,7 +141,7 @@ margin-left: 0px; 	/* Marge extérieure à gauche 	*/
 margin-right: 0px; 	/* Marge extérieure à droite	*/
 ```
 
-###### 3. Centrer Bloc
+###### 3. Centrer Bloc (center)
 ```css
 margin: auto;	/* Requiert: width */
 width: 0px;
