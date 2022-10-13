@@ -8,17 +8,17 @@
 
 La table Users sert pour la gestion des utilisateurs.
 
-|  TYPE    | Nom de l'objet     | Exemple de contenu  |
-| -------- | ------------------ | ------------------- |
-| int      | ID                 | 0                   |
-| int      | Date d'inscription | 13-10-2022          |
-| int      | Dern. connexion    | 13-10-2022 04:00    |
-| int      | Date de Naissance  | 01-01-1998          |
-| bool     | Compte activé      | true                |
-| string   | Utilisateur        | MyUsername          |
-| string   | Mot de passe       | Passw0rd2022        |
-| string   | Adresse EMAIL      | support@support.com |
-| string   | Nom                | MyName              |
-| string   | Prénom             | MySurname           |
-| string   | Informations       | Signature:          |
-| int      | Permission         | Administrateurs     |
+|  TYPE    | Nom de l'objet     | Exemple de contenu  | Confirmer |
+| -------- | ------------------ | ------------------- | --------- |
+| int      | ID                 | 0                   | OUI       |
+| int      | Date d'inscription | 13-10-2022          | NON       |
+| int      | Dern. connexion    | 13-10-2022 04:00    | NON       |
+| int      | Date de Naissance  | 01-01-1998          | NON       |
+| bool     | Compte activé      | true                | NON       |
+| string   | Utilisateur        | MyUsername          | OUI       |
+| string   | Mot de passe       | Passw0rd2022        | NON       |
+| string   | Adresse EMAIL      | support@support.com | OUI       |
+| string   | Nom                | MyName              | OUI       |
+| string   | Prénom             | MySurname           | OUI       |
+| string   | Informations       | Signature:          | OUI       |
+| string   | Permission         | Administrateurs     | OUI       |
