@@ -2,7 +2,7 @@
 ## <p align='center'> Tous les TP sont justes </p>
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### A. Affectez une valeur à une variable
+#### A. Affectez une valeur à une variable (Plusieurs affichage de sortie)
 ```php
 <?php
   // ---------------------------------------------------
