@@ -552,21 +552,21 @@ for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('.
 ### <p align='center'> [Organisez vos données à l'aide des tableaux](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4238931-organisez-vos-donnees-a-laide-des-tableaux)</p>
 
 ### A. Familiarisez-vous avec les tableaux numérotés
-#### 1. 
-```php
-```
-#### 2. 
-```php
-```
-#### 3. 
-```php
-```
-#### 4. 
-```php
-```
+#### 1. Construisez un tableau numéroté
+
+###### Tableau de Base
+| ID | VALEUR      |
+| -- | ----------- |
+| 0  | Jean-Claude |
+| 1  | Halidi      |
+| 3  | Pilous      |
+
+
+
+
+
 
 <br />
-
 
 --------------------------------------------------------
 ### B. Familiarisez-vous avec les tableaux associatifs
