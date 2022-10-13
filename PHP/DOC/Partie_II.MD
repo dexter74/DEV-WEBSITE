@@ -555,8 +555,7 @@ for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('.
 
 
 #### 1. Variable Tableau (Array)
-La variable array à comme valeur selon la colonne qu'on interroge.
-Si on interroge la colonne ID qui sont des numéros, elle aura la valeur sur laquel est ce trouve. 
+
 
 #### 2. Construisez un tableau numéroté
 
@@ -569,14 +568,6 @@ Si on interroge la colonne ID qui sont des numéros, elle aura la valeur sur laq
 | 3  | Pilous      |
 
 ```php
-<?php
-
-// Création du Tableau
-$TABLEAU = ['Jean-Claude', 'Halidi', 'Luc', 'Pilous'];
-
-// La fonction array permet aussi de créer un array
-$TABLEAU = array('Jean-Claude', 'Halidi', 'Luc', 'Pilous');
-?>
 ```
 
 
