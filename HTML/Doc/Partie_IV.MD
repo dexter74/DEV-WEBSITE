@@ -35,14 +35,12 @@
 
 #### 4. Afficher les rebords du tableau
 ```css
-	td{border: 1px solid black;}
+td{border: 1px solid black}
 ```
 
-#### 5. Mise en forme du table
+#### 5. Cller les cellules entre elles
 ```css
-table{
-	border-collapse: collapse; /* Permet de coller les cellules entre elles */
-}
+table{border-collapse: collapse}
 ```
 
 #### Exemple:
