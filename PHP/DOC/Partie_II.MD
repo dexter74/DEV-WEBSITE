@@ -284,6 +284,7 @@ else {echo"Accès refusé! ❌";}
 ##### Multi-condition
 ```php
 <?php
+
 // Variable
 $ACTIF = true;
 $AUTEUR = true;
