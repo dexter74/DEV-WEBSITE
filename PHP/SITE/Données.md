@@ -23,6 +23,13 @@
 | string   | Informations       | Signature:          | OUI       |
 | string   | Permission         | Administrateurs     | OUI       |
 
+```sql
+DROP TABLE users;
+
+
+```
+
+
 <br />
 
 
