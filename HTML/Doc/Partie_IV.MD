@@ -38,9 +38,12 @@
 td{border: 1px solid black}
 ```
 
-#### 5. Cller les cellules entre elles
+#### 5. Cller les cellules entre elles (Choisir le mode !)
 ```css
-table{border-collapse: collapse}
+table{
+     border-collapse: collapse;  /* collapse  : les bordures seront collées entre elles, c'est l'effet qu'on recherche ici */
+     border-collapse: collapse;  /* separate  : les bordures seront dissociées (valeur par défaut). */
+     }
 ```
 
 #### Exemple:
