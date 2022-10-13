@@ -45,8 +45,13 @@
 	echo '<b>- USERNAME: </b>' . $user0[1];
 	echo '<br />';
 	echo '<b>- Email: </b>' . $user0[6];
+	
+	// Retour de page
 	echo '<br />';
+	
+	// Saut de page
 	echo '<br />';
+	
 	echo '<b>Interroger dans un tableau dans un tableau:</b>';
 	echo '<br />';
 	echo '<b>- ID: </b>' . $users[0][0];
