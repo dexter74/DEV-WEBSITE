@@ -381,7 +381,7 @@ Tester la valeur d'une variable dans une condition.
 Affecter une valeur à une variable selon que la condition est vraie ou non.
 ```
 #### 2. Exemples
-##### méthode 1
+##### Méthode 1
 ```php
 <?php
 
