@@ -552,13 +552,11 @@ for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('.
 ### <p align='center'> [Organisez vos données à l'aide des tableaux](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4238931-organisez-vos-donnees-a-laide-des-tableaux)</p>
 
 ### A. Familiarisez-vous avec les tableaux numérotés
-
-
-#### 1. Variable Tableau (Array)
-
+#### 1. Tableau (Array)
+La variable Array prend la valeur de la case du tableau sur laquel elle traite.
+Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 
 #### 2. Construisez un tableau numéroté
-
 ###### Tableau de Base
 | ID | VALEUR      |
 | -- | ----------- |
@@ -567,6 +565,7 @@ for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('.
 | 2  | Luc         |
 | 3  | Pilous      |
 
+###### Construire un Tableau Numéroté
 ```php
 ```
 
