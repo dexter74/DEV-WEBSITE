@@ -287,21 +287,23 @@ else {echo"Accès refusé! ❌";}
 ```
 ##### Multi-condition
 ```php
-<?php
-
-// Variable
-$ACTIF = true;
-$AUTEUR = true;
-$ADMIN = true;
-
-// Si
-if ($ACTIF && $AUTEUR) || $ADMIN) {echo "Accès Autorisé! ✅";}
-
-//Sinon
-else {echo"Accès interdit ! ❌";}
-
-?>
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br />
 
