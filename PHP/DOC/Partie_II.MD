@@ -287,6 +287,17 @@ else {echo"Accès refusé! ❌";}
 ```
 ##### Multi-condition
 ```php
+<?php
+$BYPASS = false;
+$USER   = 'Marc'; 
+$ADMIN  = true;
+$ETAT   = '1';
+$OK     = '✅';
+$KO     = '❌';
+
+echo "<b>Accès à l'administration: </b>";
+if(($BYPASS == 'true') || ($USER == 'Marc' && $ADMIN == 'true' && $ETAT == '1'))  {echo $OK;} else{echo $KO;}
+?>
 ```
 
 
