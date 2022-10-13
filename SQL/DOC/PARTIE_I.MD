@@ -15,7 +15,11 @@
 |  1  | Halidi      | Halidi@mail.com  | 20  | Qwerty123 |
 |  2  | Luc         | Luc@mail.com     | 20  | Soleil123 |
 
-## C. [Type de données](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913893-mettez-en-place-une-base-de-donnees-avec-phpmyadmin)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### <p align='center'><a href='https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913893-mettez-en-place-une-base-de-donnees-avec-phpmyadmin'>Mettez en place une base de données avec phpMyAdmin</a></p>
+
+## A. Type de données
 
 | Type    | Description            | Exemple    |
 | ------- | ---------------------- | ---------- |
@@ -24,7 +28,7 @@
 | TEXT    | Texte (Sans Limite)    | Articles   |
 | DATE    | Jour, Mois, Année      | 22-10-2022 |
 
-## D. Les clés primaires
+## B. Les clés primaires
 ```
 Toute table doit posséder un champ qui joue le rôle de clé primaire. 
 La clé primaire permet d'identifier de manière unique une entrée dans la table.
