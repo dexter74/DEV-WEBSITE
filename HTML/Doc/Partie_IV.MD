@@ -38,6 +38,13 @@
 td{border: 1px solid black;}
 ```
 
+#### 5. Mise en forme du table
+```css
+table{
+border-collapse: collapse; /* Permet de coller les cellules entre elles*/
+}
+
+
 #### Exemple:
 ```
 		<table>
