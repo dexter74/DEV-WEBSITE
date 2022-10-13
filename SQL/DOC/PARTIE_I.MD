@@ -3,6 +3,8 @@
 
 ## A. Structurez votre base de données
 
+`A corriger !`
+
 |  TYPE    | Nom de l'objet     | Exemple de contenu  | Confirmer |
 | -------- | ------------------ | ------------------- | --------- |
 | int      | ID                 | 0                   | OUI       |
