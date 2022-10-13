@@ -1,11 +1,4 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'>Sommaire</p>
- 
-<p align='left'>
-- <a href='#D#-d%C3%A9crivez-les-%C3%A9l%C3%A9ments-de-votre-projet-%C3%A0-laide-de-variables'>Décrivez les éléments de votre projet à l'aide de variables</a> 
-</p>
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Décrivez les éléments de votre projet à l'aide de variables](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/911847-decrivez-les-elements-de-votre-projet-a-laide-de-variables)</p>
 
 ### A. Comprenez ce qu'est une variable
