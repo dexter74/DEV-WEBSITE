@@ -43,8 +43,15 @@ action
 ```
 <input type='XXXX' name='YYYY' />
 ```
+#### 4. Les libellés
+Permet d'afficher une information pour l'utilisateur (Pseudo: <case à remplir>)
+```
+<label>Information</label> : <input type='XXXX' name='YYYY' />
+```
 
-#### 4. Zone de Texte
+
+
+#### 5. Zone de Texte
 ```
 <input type="text" name="pseudo" />
 ```
