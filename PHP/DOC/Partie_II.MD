@@ -508,10 +508,6 @@ while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE
 
 
 
-
-
-
-
 ### C. Découvrez une boucle plus complexe :  for
 `for  et while  donnent le même résultat et servent à la même chose : répéter des instructions en boucle`
 
@@ -522,8 +518,14 @@ while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE
 for ($lines = 0; $lines <= 2; $lines++) {echo $users[$lines][0] . ' ' . $users[$lines][1] . '<br />';}
 ?>
 ```
-#### 2. 
-```php
+#### 2. Choisir For ou While
+```
+while  est plus simple et plus flexible : on peut faire tous les types de boucles avec, mais on peut oublier de faire certaines étapes, comme l'incrémentation de la variable.
+for  est bien adapté quand on doit compter le nombre de fois que l'on répète les instructions, et il permet de ne pas oublier de faire l'incrémentation pour augmenter la valeur de la variable !
+
+Est-ce que je sais d'avance combien de fois je veux que mes instructions soient répétées ? 
+Si oui: for
+Si Non: while
 ```
 
 <br />
