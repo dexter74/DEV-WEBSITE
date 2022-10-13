@@ -19,32 +19,45 @@
 
 
 ### A. Un tableau simple
+
+
+
 #### 1. Les balises de base
 ```
 <table> </table>
 ```
 
-#### 2. La balise de Ligne
+
+#### 2. La balise En-tête
+```
+<th> </th>
+```
+
+#### 3. La balise de Ligne
 ```
 <tr> </tr>
 ```
-#### 3.La balise de Cellule
+
+#### 4.La balise de Cellule
 ```
 <td> </td>
 ```
 
-#### 4. Afficher les rebords du tableau
+
+
+#### 5. Mise en forme du tableau
 ```css
+
+/* Bordure des cellules*/
 td{border: 1px solid black}
+
+/* Coller les Cellules entre-elles */
+table{border-collapse: collapse}
 ```
 
-#### 5. Cller les cellules entre elles (Choisir le mode !)
-```css
-table{
-     border-collapse: collapse;  /* collapse  : les bordures seront collées entre elles, c'est l'effet qu'on recherche ici */
-     border-collapse: collapse;  /* separate  : les bordures seront dissociées (valeur par défaut). */
-     }
-```
+
+
+
 
 #### Exemple:
 ```html
