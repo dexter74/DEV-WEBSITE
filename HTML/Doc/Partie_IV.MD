@@ -77,6 +77,14 @@ td{border: 1px black solid}
 
 #### Exemple:
 ```php
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Titre</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
 		<table>
 			<!-- ########################### -->
 			table{border-collapse: collapse}
@@ -105,8 +113,6 @@ td{border: 1px black solid}
 				<td>Administrateur</td>
 			</tr>
 			<!-- --------------------------- -->
-			<!-- ########################### -->
-
 			<tr>
 				<td>1</td>
 				<td>Stitch74</td>
@@ -120,12 +126,21 @@ td{border: 1px black solid}
 			</tr>
 			<!-- ########################### -->
 		<table>
+	</body>
+</html>
 ```
-
 ```css
+/* Cellule collé entre-elles */
+table{border-collapse: collapse}
 
+/* Titre du tableau au dessus */
+caption{caption-side: top;border: 1px black solid;font-weight: bold;}
+
+/* Bordure sur la balise En-tête */
+th{border: 1px black solid}
+
+/* Bordure sur la balise de Cellule */
 td{border: 1px black solid}
-
 ```
 
 
