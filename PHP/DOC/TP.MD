@@ -60,11 +60,11 @@
 ### 3. Calculs Simples
 ```php
 <?php
-$ANNEE      = '2022';
-$NAISSANCE  = '1980';
-$AGE        =($ANNEE - $NAISSANCE); 
-$CENTENAIRE =($NAISSANCE + 100); 
-echo '<b> Calcul ton age: </b>' . $ANNEE . ' - ' . $NAISSANCE . ' = ' . $AGE . ' ans';
+	$ANNEE      = '2022';
+	$NAISSANCE  = '1980';
+	$AGE        =($ANNEE - $NAISSANCE); 
+	$CENTENAIRE =($NAISSANCE + 100); 
+	echo '<b> Calcul ton age: </b>' . $ANNEE . ' - ' . $NAISSANCE . ' = ' . $AGE . ' ans';
 ?>
 ```
 
@@ -82,12 +82,11 @@ echo '<b> Calcul ton age: </b>' . $ANNEE . ' - ' . $NAISSANCE . ' = ' . $AGE . '
 
 ```php
 <?php
-$ADMIN = 'true';
-$ETAT  = '1';
-$OK    = '✅';
-$KO    = '❌';
-$ABEND = 'Abend';
-
+	$ADMIN = 'true';
+	$ETAT  = '1';
+	$OK    = '✅';
+	$KO    = '❌';
+	$ABEND = 'Abend';
 ?>
 ```
 
