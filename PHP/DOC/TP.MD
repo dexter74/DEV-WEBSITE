@@ -1,3 +1,27 @@
+#### Afficher une Variables
+```php
+<?php
+  $fullname = "Mathieu Nebra";
+  $email = 'mathieu.nebra@exemple.com';
+  $prenom1 = "Mon \"nom\" est Mathieu";
+  $prenom2 = 'Je m\'appelle Mathieu';
+  $userAge = 17;
+  $price = 57.3;
+  $isAuthor = true;
+  $isAdministrator = false;
+  $noValue = NULL;
+  
+  echo $email    . '<br />';
+  echo $fullname . '<br />';
+  echo $prenom1  . '<br />';
+  echo $prenom2  . '<br />';
+  echo $isAuthor . '<br />';
+  echo $userAge  . '<br />';
+  echo $price    . '<br />';
+  echo $noValue  . '<br />';
+?>
+```
+
 
 #### Tableau (Non numéroté)
 ```php
