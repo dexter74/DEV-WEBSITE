@@ -57,16 +57,17 @@
 ?>
 ```
 
-### 3. Calculs Simples
+### 3. Calculs Simples avec de la concaténation 
 ```php
 <?php
-$ANNEE     = '2022';
-$NAISSANCE = '1980';
-$AGE       = ($ANNEE - $NAISSANCE); 
-
-echo "Ton âge est de ";
+$ANNEE      = '2022';
+$NAISSANCE  = '1980';
+$AGE        =($ANNEE - $NAISSANCE); 
+$CENTENAIRE =($NAISSANCE + 100); 
+echo 'Ton âge est de ';
 echo $AGE;
-echo "."
+echo '. ';
+echo 'En ' . $CENTENAIRE . ' tu seras centenaire';
 ?>
 ```
 
