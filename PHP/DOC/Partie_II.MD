@@ -507,7 +507,6 @@ while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE
 <br />
 
 
-
 ### C. Découvrez une boucle plus complexe :  for
 `for  et while  donnent le même résultat et servent à la même chose : répéter des instructions en boucle`
 
@@ -531,13 +530,20 @@ Si Non: while
 <br />
 
 ### D. Affichez des recettes
-#### 1. 
+#### 1. Complex (Possiblement une erreur sur le résultat)
 ```php
+<?php
+
+$BDD = [
+  ['20','Dexter74','Passw0rd2022','Jaques','Levin','31','dexter74@mail.com','users'],
+  ['21','Drthrax74','Passw0rd2022','Paul','Courrier','31','drthrax74@mail.com','Administrateur'],
+  ['22','Snake','Passw0rd2022','Alain','Charles','31','drthrax74@mail.com','Administrateur'],
+  ];
+
+// Lecture de la ligne 0 à 1 du tableau
+for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('. $BDD[$LIGNE][7] .')"}
+?>
 ```
-#### 2. 
-```php
-```
-<br />
 
 
 
