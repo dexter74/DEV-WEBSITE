@@ -2,7 +2,9 @@
 ## <p align='center'> Tous les TP sont justes </p>
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### A. Affectez une valeur à une variable (Plusieurs affichage de sortie)
+## A. Décrivez les éléments de votre projet à l'aide de variables
+
+### 1. Affectez une valeur à une variable / Affichez le contenu d'une variable
 ```php
 <?php
   // ---------------------------------------------------
@@ -44,7 +46,8 @@
 ?>
 ```
 
-#### B. Concaténez une variable
+
+### 2. Concaténez une variable
 ```php
 <?php
 	$NOMINATION = 'Marc Jaffré';
@@ -54,10 +57,41 @@
 ?>
 ```
 
+### 3. Calculs Simples
+```php
+<?php
+$ANNEE     = '2022';
+$NAISSANCE = '1980';
+$AGE       = ($ANNEE - $NAISSANCE); 
+
+echo "Ton âge est de ";
+echo $AGE;
+echo "."
+?>
+```
+
+
+
+
+
+
+
+
 <br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#### Tableau (Non numéroté)
+#### B. Appropriez-vous la structure de base : if… else
+
+```php
+$ETAT  = '1';
+$OK    = '✅';
+$KO    = '❌';
+$ABEND = 'Abend';
+```
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### C.
 ```php
 <?php
 	// Tableau (Non numéroté)
