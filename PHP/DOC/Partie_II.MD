@@ -497,7 +497,7 @@ while ($TEST) {echo "Mon Message qui se répéte à l'infini <br />";}
 $LIGNE = 1;
 
 // Message + Incrémentation
-while ($LIGNE <= 10){echo 'Mon messsage à répété <br />';$LIGNE++;}
+while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE++;}
 
 ?>
 ```
