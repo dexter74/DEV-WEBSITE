@@ -471,7 +471,9 @@ echo $users[2][2]; // Drthrax74
 <br />
 
 ### B. Utilisez une boucle simple :  while
+
 <p align='center'> <img src='https://user-images.githubusercontent.com/35907/195473771-ffc49bf0-353d-4e73-9361-5bc9bd4514c5.png'> </p>
+
 ```
 Les instructions sont lancés dans l'ordre de haut en bas.
 puis la boucle relance le processus à l'infini sauf si elle est conditionnée.
@@ -501,6 +503,14 @@ while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE
 
 <br />
 
+
+
+
+
+
+
+
+
 ### C. Découvrez une boucle plus complexe :  for
 #### 1. 
 ```php
@@ -519,6 +529,17 @@ while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE
 ```php
 ```
 <br />
+
+
+
+
+
+
+
+
+
+
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> []()</p>
