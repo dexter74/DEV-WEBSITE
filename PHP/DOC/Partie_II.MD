@@ -115,7 +115,7 @@ echo 'Bonjour $fullname et bienvenue sur le site !'; // ERREUR !
 ?>
 ```
 Correctif:
-```
+```php
 <?php
 $fullname = 'Mathieu Nebra';
 echo 'Bonjour ' . $fullname . ' et bienvenue sur le site !'; // OK
