@@ -82,11 +82,30 @@
 
 ```php
 <?php
-	$ADMIN = 'true';
-	$ETAT  = '1';
+<?php
+	$TEST1 = '0';
+	$TEST2 = '1';
+	$TEST3 = '2';
 	$OK    = '✅';
 	$KO    = '❌';
-	$ABEND = 'Abend';
+	$ABEND = '???';
+
+// ------------------------------------------------------------------------------
+	echo "<b>Exercice 1: SI: </b>";
+	if($TEST1 == 0){echo $OK;}
+	echo '<br />';
+// ------------------------------------------------------------------------------
+	echo "<b>Exercice 2: SI + SINON: </b>";
+	if($TEST2 == 0){echo $OK;}
+	else{echo $KO;}
+	echo '<br />';
+// ------------------------------------------------------------------------------
+	echo "<b>Exercice 3: Si + SINON + SINON SI: </b>";
+	if($TEST3 == 0){echo $OK;}
+	elseif($TEST3 == 1){echo $KO;}
+	else{echo $ABEND;}
+	echo '<br />';
+?>
 ?>
 ```
 
