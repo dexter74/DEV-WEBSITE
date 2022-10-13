@@ -39,8 +39,9 @@ table{border-collapse: collapse}
 ```
 ```css
 caption{
-	caption-side: top;	/* Titre au-dessus  du Tableau */
-	caption-side: bottom;	/* Titre en-dessous du Tableau */
+	caption-side: top;		/* Titre au-dessus  du Tableau */
+	caption-side: bottom;		/* Titre en-dessous du Tableau */
+	border: 1px black solid;	/* Bordure */
 	}
 ```
 
