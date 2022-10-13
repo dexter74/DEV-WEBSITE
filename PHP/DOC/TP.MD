@@ -82,7 +82,6 @@
 
 ```php
 <?php
-<?php
 	$TEST1 = '0';
 	$TEST2 = '1';
 	$TEST3 = '2';
@@ -105,7 +104,6 @@
 	elseif($TEST3 == 1){echo $KO;}
 	else{echo $ABEND;}
 	echo '<br />';
-?>
 ?>
 ```
 
