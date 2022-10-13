@@ -357,13 +357,36 @@ switch ($grade)
 
 
 #### C. Découvrez les ternaires : des conditions condensées
-###### 1. 
+###### 1. Présentation
+```
+Un ternaire est une condition condensée qui sert à faire deux choses sur une seule ligne :
+Tester la valeur d'une variable dans une condition.
+Affecter une valeur à une variable selon que la condition est vraie ou non.
+```
+#### 2. Exemples
+##### méthode 1
 ```php
+<?php
+
+// Variable
+$userAge = 24;
+
+// Si
+if ($userAge >= 18) {$isAdult = true;}
+
+// SINON
+else {$isAdult = false;}
+
+// Vérification
+if ($isAdult){echo "L'utilisateur est un adulte"}
+?>
 ``` 
 
-#### 2. 
+##### méthode 1
 ```php
-``` 
+```
+
+
 
 #### 3. 
 ```php
