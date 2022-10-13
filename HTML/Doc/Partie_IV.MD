@@ -33,12 +33,12 @@
 <td> </td>
 ```
 
+#### 4. Afficher les rebords du tableau
+```css
+td{border: 1px solid black;}
+```
+
 #### Exemple:
-```
-
-
-
-```
 
 
 
@@ -47,7 +47,7 @@
 #### 1.
 
 
-#### 4.
+
 #### 5.
 ```
 ```
