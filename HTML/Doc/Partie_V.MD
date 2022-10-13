@@ -25,20 +25,64 @@ action
 <p>Texte après le formulaire</p>
 ```
 
-
-#### 3.
-#### 4.
-#### 5.
-
-```
-```
-
-
-
-
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### B. Les zones de saisie basiques
+
+### A. Balise
+```
+<input />
+```
+
+### B. Attribut
+```
+type=''
+```
+
+### C. Type
+```
+date
+time
+week
+month
+datetime
+datetime-local
+email
+search
+url
+tel
+number
+range   (Curseur)
+color (Choisir couleur)
+
+```
+##### Exemple: 
+```
+<input type='date' />
+<input type='time' />
+<input type='week' />
+<input type='month' />
+<input type='datetime' />
+<input type='datetime-local' />
+<input type='email' />
+<input type='search' />
+<input type='url' />
+<input type='tel' />
+<input type='number' />
+<input type='range' />
+<input type='color' />
+```
+
+
+### D.
+### E.
+
+
+#### 1.
+#### 2.
+#### 3.
+#### 4.
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### C. Les zones de saisie enrichies
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
