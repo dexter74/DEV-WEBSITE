@@ -478,7 +478,7 @@ echo $users[2][2]; // Drthrax74
 Les instructions sont lancés dans l'ordre de haut en bas.
 puis la boucle relance le processus à l'infini sauf si elle est conditionnée.
 ```
-#### 1. La Boucle simple
+
 ##### Boucle Infini
 ```php
 <?php
@@ -488,6 +488,7 @@ while ($TEST) {echo "Mon Message qui se répéte à l'infini <br />";}
 
 ?>
 ```
+
 ##### La Boucle qui se répète X fois avec incrémentation
 ```php
 <?php
@@ -502,8 +503,6 @@ while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE
 ```
 
 <br />
-
-
 
 
 
@@ -559,7 +558,6 @@ while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE
 
 <br />
 
-
 ### B. 
 #### 1. 
 ```php
@@ -567,20 +565,16 @@ while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE
 #### 2. 
 ```php
 ```
-
 #### 3. 
 ```php
 ```
-
 #### 4. 
 ```php
 ```
 
 <br />
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'> []()</p>
-### A. 
+### C. 
 #### 1. 
 ```php
 ```
@@ -595,57 +589,3 @@ while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE
 ```
 
 <br />
-
-
-### B. 
-#### 1. 
-```php
-```
-#### 2. 
-```php
-```
-
-#### 3. 
-```php
-```
-
-#### 4. 
-```php
-```
-
-<br />
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'> []()</p>
-### A. 
-#### 1. 
-```php
-```
-#### 2. 
-```php
-```
-#### 3. 
-```php
-```
-#### 4. 
-```php
-```
-
-<br />
-
-
-### B. 
-#### 1. 
-```php
-```
-#### 2. 
-```php
-```
-
-#### 3. 
-```php
-```
-
-#### 4. 
-```php
-```
