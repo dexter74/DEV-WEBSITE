@@ -44,7 +44,7 @@ table{border-collapse: collapse}
 ```
 
 #### Exemple:
-```
+```html
 <table>
 	<tr>
 		<td>ID</td>
@@ -72,17 +72,11 @@ table{border-collapse: collapse}
 </table>
 ```
 
+```css
+table{border-collapse: collapse}
+td{border: 2px black solid}
+```
 
-
-ID
-User
-Password
-Prénom
-Nom
-Age
-Email
-Activation
-Permissions
 
 
 
