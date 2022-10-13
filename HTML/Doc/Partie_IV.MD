@@ -129,16 +129,97 @@ td{border: 1px black solid}
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### B. Un tableau structuré
+### B. Un tableau structuré (Gros Tableau)
 
-#### 1.
-#### 2.
-#### 3.
-#### 4.
-#### 5.
+#### 1. En-tête
+```php
+<thead></thead>
+```
+#### 2. Corps
+```php
+<tfoot> </tfoot>
+```
+#### 3. Pied de tableau
+```php
+<tbody> </tbody>
+```
 
+##### Exemple
 ```
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Titre</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<table>
+			<!-- ############################################ -->
+			<caption>Base de donnée des utilisateurs</caption>
+			<!-- ############################################ -->
+			<thead>
+				<tr>
+					<th>ID</th>
+					<th>User</th>
+					<th>Password</th>
+					<th>Prénom</th>
+					<th>Nom</th>
+					<th>Age</th>
+					<th>Email</th>
+					<th>Activation</th>
+					<th>Permission</th>
+				</tr>
+			</thead>
+			<!-- ############################################ -->
+			<tbody>
+			<tr>
+				<td>0</td>
+				<td>Drthrax74</td>
+				<td>Passw0rd2022</td>
+				<td>Marc</td>
+				<td>Jaffré</td>
+				<td>31</td>
+				<td>teste74@hotmail.fr</td>
+				<td>enabled</td>
+				<td>Administrateur</td>
+			</tr>
+			<!-- -------------------------------------------- -->
+			<tr>
+				<td>1</td>
+				<td>Stitch74</td>
+				<td>Passw0rd2022</td>
+				<td>Fabrice</td>
+				<td>Jaffré</td>
+				<td>31</td>
+				<td>Drthrax74@hotmail.fr</td>
+				<td>enabled</td>
+				<td>Administrateur</td>
+			</tr>
+			<!-- ############################################ -->
+			<tfoot>
+				<tr>
+					<th>ID</th>
+					<th>User</th>
+					<th>Password</th>
+					<th>Prénom</th>
+					<th>Nom</th>
+					<th>Age</th>
+					<th>Email</th>
+					<th>Activation</th>
+					<th>Permission</th>
+				</tr>
+			</tfoot>
+			
+			
+			</tbody>
+			
+		<table>
+	</body>
+</html>
 ```
+
+
 
 
 
