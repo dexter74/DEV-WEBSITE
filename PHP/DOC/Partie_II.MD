@@ -421,6 +421,7 @@ if ($isAdult){echo "L'utilisateur est un adulte"}
 
 
 ### A. Utilisez un tableau pour lister des éléments
+`Le numéro de ligne: []`
 #### 1. Utilisateurs
 ```php
 <?php
