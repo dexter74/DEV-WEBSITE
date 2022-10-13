@@ -372,7 +372,7 @@ switch ($grade)
 <br />
 
 #### C. Découvrez les ternaires : des conditions condensées
-###### 1. Présentation
+##### 1. Présentation
 ```
 Un ternaire est une condition condensée qui sert à faire deux choses sur une seule ligne :
 Tester la valeur d'une variable dans une condition.
