@@ -79,6 +79,8 @@ td{border: 1px black solid}
 ```php
 		<table>
 			<!-- ########################### -->
+			table{border-collapse: collapse}
+			<!-- ########################### -->
 			<tr>
 				<th>ID</th>
 				<th>User</th>
