@@ -45,7 +45,20 @@ table{border-collapse: collapse}
 
 #### Exemple:
 ```
-	<table>
+<table>
+	<tr>
+		<td>ID</td>
+		<td>User</td>
+		<td>Password</td>
+		<td>Prénom</td>
+		<td>Nom</td>
+		<td>Age</td>
+		<td>Email</td>
+		<td>Activation</td>
+		<td>Permission</td>
+	</tr>
+
+	<tr>
 		<td>0</td>
 		<td>Drthrax74</td>
 		<td>Passw0rd2022</td>
@@ -55,7 +68,8 @@ table{border-collapse: collapse}
 		<td>teste74@hotmail.fr</td>
 		<td>enabled</td>
 		<td>Administrateur</td>
-	</table>
+	</tr>
+</table>
 ```
 
 
