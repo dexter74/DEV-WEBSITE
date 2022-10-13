@@ -438,7 +438,7 @@ Ensuite il faut déclarer les indices echo $TEST[<indice>]
 <?php
 
 //Variable
-$user1 = ['Mickaël Andrieu', 'email', 'S3cr3t', 34];
+$user1 = ['Mickaël Andrieu', 'email', 'S3cr3t', '34'];
 
 //Tableau
 echo $user1[0];
