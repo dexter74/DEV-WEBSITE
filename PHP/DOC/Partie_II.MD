@@ -76,7 +76,6 @@ $noValue = NULL;
 <br />
 
 ### D. Affichez le contenu d'une variable
-#### 1. 
 ```php
   echo $email;
   echo $fullname;
