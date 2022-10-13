@@ -86,9 +86,9 @@ td{border: 1px black solid}
 	</head>
 	<body>
 		<table>
-			<!-- ########################### -->
-			table{border-collapse: collapse}
-			<!-- ########################### -->
+			<!-- ############################################ -->
+			<caption>Base de donnée des utilisateurs</caption>
+			<!-- ############################################ -->
 			<tr>
 				<th>ID</th>
 				<th>User</th>
@@ -100,7 +100,7 @@ td{border: 1px black solid}
 				<th>Activation</th>
 				<th>Permission</th>
 			</tr>
-			<!-- ########################### -->
+			<!-- ############################################ -->
 			<tr>
 				<td>0</td>
 				<td>Drthrax74</td>
@@ -112,7 +112,7 @@ td{border: 1px black solid}
 				<td>enabled</td>
 				<td>Administrateur</td>
 			</tr>
-			<!-- --------------------------- -->
+			<!-- -------------------------------------------- -->
 			<tr>
 				<td>1</td>
 				<td>Stitch74</td>
@@ -124,7 +124,7 @@ td{border: 1px black solid}
 				<td>enabled</td>
 				<td>Administrateur</td>
 			</tr>
-			<!-- ########################### -->
+			<!-- ############################################ -->
 		<table>
 	</body>
 </html>
