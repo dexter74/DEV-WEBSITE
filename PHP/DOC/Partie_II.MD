@@ -452,8 +452,7 @@ echo $user1[3];
 #### 2. Création d'un tableau d'un tableau  
 ```php
 <?php
-
-// Tableau des correspondances: ID, USERNAME, PASSWORD, PRENOM, NOM,  AGE , EMAIL, PERMISSIONS
+// Tableau des correspondances
 $user0 ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.com','users'];
 $user1 ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.com','Administrateur'];
 
