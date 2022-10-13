@@ -421,8 +421,12 @@ if ($isAdult){echo "L'utilisateur est un adulte"}
 
 
 ### A. Utilisez un tableau pour lister des éléments
-`Le numéro de ligne: []`
-#### 1. Utilisateurs
+```
+Pour crée un tableau, il faut déclarer les données du tableau $TEST = ['<Contenu de l'indice 0>','<Contenu de l'indice 1>'];
+Ensuite il faut déclarer les indices echo $TEST[<indice>]
+```
+
+#### 1. Utilisateurs, Email, Mot de passe et Age
 ```php
 <?php
 
@@ -430,10 +434,10 @@ if ($isAdult){echo "L'utilisateur est un adulte"}
 $user1 = ['Mickaël Andrieu', 'email', 'S3cr3t', 34];
 
 //Tableau
-echo $user1[0]; // "Mickaël Andrieu"
-echo $user1[1]; // "email"
-echo $user1[2]; // "S3cr3t"
-echo $user1[3]; // 34
+echo $user1[0];
+echo $user1[1];
+echo $user1[2];
+echo $user1[3];
 
 ?>
 ```
