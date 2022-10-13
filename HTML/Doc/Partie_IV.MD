@@ -1,21 +1,57 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'> [Ajoutez des tableaux](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606851-ajoutez-des-tableaux)</p>
-
-#### A.
-#### B.
-#### C.
-#### D.
-#### E.
+## <p align='center'> [Ajoutez des tableaux](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606851-ajoutez-des-tableaux)</p>
 
 
-###### 1.
-###### 2.
-###### 3.
-###### 4.
-###### 5.
+### Structure de base d'une page HTML
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Titre</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <header></header>
+    <body></body>
+    <footer></footer>
+</html>
+```
+
+
+### A. Un tableau simple
+#### 1. Les balises de base
+```
+<table> </table>
+```
+
+#### 2. La balise de Ligne
+```
+<tr> </tr>
+```
+#### 3.La balise de Cellule
+```
+<td> </td>
+```
+
+#### Exemple:
+```
+
+
 
 ```
+
+
+
+
+### B. Un tableau structuré
+#### 1.
+
+
+#### 4.
+#### 5.
 ```
+```
+
 
 
 
@@ -30,20 +66,20 @@
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'> []()</p>
+## <p align='center'> []()</p>
 
-#### A.
-#### B.
-#### C.
-#### D.
-#### E.
+### A.
+### B.
+### C.
+### D.
+### E.
 
 
-###### 1.
-###### 2.
-###### 3.
-###### 4.
-###### 5.
+#### 1.
+#### 2.
+#### 3.
+#### 4.
+#### 5.
 
 ```
 ```
