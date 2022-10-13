@@ -476,9 +476,39 @@ Les instructions sont lancés dans l'ordre de haut en bas.
 puis la boucle relance le processus à l'infini sauf si elle est conditionnée.
 ```
 
-#### 1. 
+#### 1. La Boucle simple
+
+##### Boucle Infini
 ```php
+<?php
+
+//Tant que $TEST est vrai: 
+while ($TEST) {echo 'Mon Message qui se répéte à l'infini <br />';}
+?>
 ```
+##### Boucle qui se répète X fois avec incrémentation
+```php
+<?php
+
+// Variable
+$LIGNE = 1;
+
+// Message + Incrémentation
+while ($LIGNE <= 10){echo 'Mon messsage à répété <br />';$LIGNE++;}
+
+?>
+```
+
+
+
+
+
+
+
+
+
+
+
 #### 2. 
 ```php
 ```
