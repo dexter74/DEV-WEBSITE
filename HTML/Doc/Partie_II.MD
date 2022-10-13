@@ -80,10 +80,11 @@ font-weight: bold;
 ```
 ###### 5. Souligné
 ```css
-text-decoration: underline;    /* Souligné        */
-text-decoration: line-through; /* Barré           */
-text-decoration: overline;     /* Ligne au-dessus */ 
-text-decoration: none;         /* Normal (Défaut) */
+text-decoration: none;         /* Aucun soulignement	*/
+text-decoration: underline;    /* Souligné        	*/
+
+text-decoration: line-through; /* Barré           	*/
+text-decoration: overline;     /* Ligne au-dessus 	*/ 
 ```
 ###### 6. L'alignement
 ```css
