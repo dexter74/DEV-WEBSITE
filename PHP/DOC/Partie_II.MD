@@ -425,8 +425,7 @@ if ($isAdult){echo "L'utilisateur est un adulte"}
 Pour crée un tableau, il faut déclarer les données du tableau $TEST = ['<Contenu de l'indice 0>','<Contenu de l'indice 1>'];
 Ensuite il faut déclarer les indices echo $TEST[<indice>]
 ```
-
-#### 1. Utilisateurs, Email, Mot de passe et Age
+#### 1. Création d'un tableau
 ```php
 <?php
 
@@ -442,8 +441,22 @@ echo $user1[3];
 ?>
 ```
 
-#### 2. 
+#### 2. Création d'un tableau d'un tableau  
 ```php
+
+
+// Tableau des correspondances: ID, USERNAME, PASSWORD, PRENOM, NOM,  AGE , EMAIL, PERMISSIONS
+$user0 ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.com','users'];
+$user1 ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.com','Administrateur'];
+
+// Tableau regroupant les correspondances
+$users [$user0, $user1];
+
+// Interroge le tableau regroupant
+echo $users[1][1]; // 20
+echo $users[1][2]; // Dexter74
+echo $users[2][1]; // 21
+echo $users[2][2]; // Drthrax74
 ```
 
 #### 3. 
