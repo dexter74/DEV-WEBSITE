@@ -39,32 +39,34 @@ td{border: 1px solid black;}
 ```
 
 #### Exemple:
+```
+		<table>
+			<tr> 
+			<td>ID</td>
+			<td>user</td>
+			<td>Password</td>
+			<td>Prénom</td>
+			<td>Nom</td>
+			<td>Age</td>
+			<td>Email</td>
+			<td>Activation</td>
+			<td>Permissions</td>
+			</tr>	
+		</table>
+```
+
+
+
+
+
+
+
+
 
 
 
 
 ### B. Un tableau structuré
-#### 1.
-
-
-
-#### 5.
-```
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> []()</p>
 
