@@ -1,4 +1,4 @@
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Décrivez les éléments de votre projet à l'aide de variables](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/911847-decrivez-les-elements-de-votre-projet-a-laide-de-variables)</p>
 
 
@@ -160,9 +160,11 @@ echo $number
 
 <br />
 
-------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'> [Adaptez le comportement de votre application à l'aide des conditions](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912046-adaptez-le-comportement-de-votre-application-a-laide-des-conditions)</p>
 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### <p align='center'> [Adaptez le comportement de votre application à l'aide des conditions](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912046-adaptez-le-comportement-de-votre-application-a-laide-des-conditions)</p>
 ### A. Appropriez-vous la structure de base :  if… else
 #### 1. Les symboles 
 | Symbole | Signification           |
@@ -173,9 +175,7 @@ echo $number
 |   >=    | Est supérieur ou égal à |
 |   <=    | Est inférieur ou égal à |
 |   !)    | Est différent de        |
-
 #### 2. Utilisez la structure  if… else
-
 ##### Si
 ```php
 <?php
@@ -202,7 +202,6 @@ if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";
 else {echo "Accès refusé ❌ ";}
 ?>
 ```
-
 ##### SI + SINON + SINON SI
 ```php
 <?php
@@ -239,7 +238,6 @@ else {echo "Accès refusé";}
 
 ?>
 ```
-
 ##### SI c'est faux
 ```php
 <?php
@@ -257,7 +255,6 @@ if (! $ACCESS){echo "Accès refusé";}
 | ------- | ------------- | ------------------ | 
 | AND     | Et            | &&                 |
 | OR      | Ou            |  \|\|              | 
-
 
 ##### AND
 ```php
@@ -291,7 +288,6 @@ else {echo"Accès interdit ! ❌";}
 
 ?>
 ```
-
 #### 4. Utilisez cette astuce bonus (2 manières d'écritures)
 
 ##### Méthode 1
@@ -304,7 +300,6 @@ $chickenRecipesEnabled = true;
 if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>';}
 ?>
 ```
-
 ##### Méthode 2
 ```php
 // Variable
@@ -319,14 +314,10 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 //Fin de la condition (Ne pas oublier le ;)
 <?php endif; ?>
 ```
-
 <br />
-
 ### B. Utilisez la condition switch 
 `/!\ Le switch ne peut tester que l'égalité`
-
 `L'instruction break  demande à PHP de sortir du  switch  .`
-
 ##### 1. Différentes écritures
 ##### Méthode if elseif else
 ```php
@@ -364,25 +355,6 @@ switch ($grade)
 ?>
 ```
 
-#### 2. 
-```php
-``` 
-
-#### 3. 
-```php
-```
-
-#### 4. 
-```php
-```
-
-#### 5. 
-```php
-```
-
-#### 6. 
-```php
-```
 
 #### C. Découvrez les ternaires : des conditions condensées
 ###### 1. 
@@ -402,8 +374,24 @@ switch ($grade)
 ```
 
 
+#### 5. 
+```php
+```
 
-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> []()</p>
 ### A.  
 #### 1. 
