@@ -5,15 +5,16 @@
 ### Structure de base d'une page HTML
 ```
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <title>Titre</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <header></header>
-    <body></body>
-    <footer></footer>
+	<head>
+		<meta charset="utf-8" />
+		<title>Titre</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+
+	</body>
 </html>
 ```
 
