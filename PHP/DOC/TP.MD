@@ -13,6 +13,7 @@
   $isAdministrator = false;
   $noValue = NULL;
   
+  // Afficher le résultat sur plusieurs ligne:
   echo $email    . '<br />';
   echo $fullname . '<br />';
   echo $prenom1  . '<br />';
@@ -21,6 +22,10 @@
   echo $userAge  . '<br />';
   echo $price    . '<br />';
   echo $noValue  . '<br />';
+  
+  // Afficher résultat sur une ligne:
+  echo $email . ' | ' . $fullname . ' | ' . $prenom1 . ' | ' . $prenom2  . ' | ' .  $isAuthor . ' | ' .  $userAge . ' | ' . $price . ' | ' . $noValue;
+  
 ?>
 ```
 
