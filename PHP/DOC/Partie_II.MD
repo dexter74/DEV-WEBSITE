@@ -453,8 +453,8 @@ echo $user1[3];
 ```php
 <?php
 // Tableau des correspondances
-$user0 ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.com','users',];
-$user1 ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.com','Administrateur',];
+$user0 ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.com','users'];
+$user1 ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.com','Administrateur'];
 
 // Tableau regroupant les correspondances
 $users [$user0, $user1];
@@ -536,9 +536,9 @@ Si Non: while
 
 // // Déclaration du tableau (Non numérotés)
 $BDD = [
-  ['20','Dexter74','Passw0rd2022','Jaques','Levin','31','dexter74@mail.com','users',],
-  ['21','Drthrax74','Passw0rd2022','Paul','Courrier','31','drthrax74@mail.com','Administrateur',],
-  ['22','Snake','Passw0rd2022','Alain','Charles','31','drthrax74@mail.com','Administrateur',],
+  ['20','Dexter74','Passw0rd2022','Jaques','Levin','31','dexter74@mail.com','users'],
+  ['21','Drthrax74','Passw0rd2022','Paul','Courrier','31','drthrax74@mail.com','Administrateur'],
+  ['22','Snake','Passw0rd2022','Alain','Charles','31','drthrax74@mail.com','Administrateur'],
   ];
 
 // Lecture de la ligne 0 à 1 du tableau
@@ -570,7 +570,7 @@ Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 <?php
 
 // Déclaration d'un Tableau (Non numérotés)
-$VALEUR0 = ['Jean-Claude', 'Halidi', 'Luc', 'Marc',];
+$VALEUR0 = ['Jean-Claude', 'Halidi', 'Luc', 'Marc'];
 
 // Déclaration d'un tableau indexé numériquement
 $VALEUR1 = array('Jean-Claude', 'Halidi', 'Luc', 'Marc');
