@@ -47,28 +47,30 @@ table{
 
 #### Exemple:
 ```
-		<table>
-			<tr> 
-			<td>ID</td>
-			<td>user</td>
-			<td>Password</td>
-			<td>Prénom</td>
-			<td>Nom</td>
-			<td>Age</td>
-			<td>Email</td>
-			<td>Activation</td>
-			<td>Permissions</td>
-			</tr>	
-		</table>
+	<table>
+		<td>0</td>
+		<td>Drthrax74</td>
+		<td>Passw0rd2022</td>
+		<td>Marc</td>
+		<td>Jaffré</td>
+		<td>31</td>
+		<td>teste74@hotmail.fr</td>
+		<td>enabled</td>
+		<td>Administrateur</td>
+	</table>
 ```
 
 
 
-
-
-
-
-
+ID
+User
+Password
+Prénom
+Nom
+Age
+Email
+Activation
+Permissions
 
 
 
