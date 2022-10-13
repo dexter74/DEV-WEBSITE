@@ -1,6 +1,10 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'><a href='https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913655-travaillez-avec-une-base-de-donnees'>
-Travaillez avec une Base De Données</a></p>
+### <p align='center'><a href='https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913655-travaillez-avec-une-base-de-donnees'>Travaillez avec une Base De Données</a></p>
 
+## A.
+#### I. 
+```sql
 
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+```
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
