@@ -513,8 +513,14 @@ while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE
 
 
 ### C. Découvrez une boucle plus complexe :  for
-#### 1. 
+`for  et while  donnent le même résultat et servent à la même chose : répéter des instructions en boucle`
+
+#### 1. Exemple 1
 ```php
+<?php
+// Initiation + condition de bouclage et incrémentation à chaque boucle 
+for ($lines = 0; $lines <= 2; $lines++) {echo $users[$lines][0] . ' ' . $users[$lines][1] . '<br />';}
+?>
 ```
 #### 2. 
 ```php
