@@ -56,14 +56,25 @@ Permet d'afficher une information pour l'utilisateur (Pseudo: <case à remplir>)
 <input type="text" name="pseudo" />
 ```
 
-
-
-
 #### 4.
+```
+```
+
 #### 5.
 
 ```
 ```
+
+#### 6.
+
+```
+```
+
+
+
+
+
+
 
 <br />
 
