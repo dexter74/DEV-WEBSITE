@@ -29,6 +29,9 @@
 ```css
 table{border-collapse: collapse}
 ```
+
+<br />
+
 #### 2. Titre du tableau
 ```php
 <caption></caption>
@@ -40,6 +43,8 @@ caption{
 	}
 ```
 
+<br />
+
 #### 3. La balise En-tête
 ```php
 <th> </th>
@@ -47,6 +52,8 @@ caption{
 ```css
 th{border: 1px black solid}
 ```
+
+<br />
 
 #### 4. La balise de Ligne
 ```php
@@ -61,17 +68,8 @@ th{border: 1px black solid}
 td{border: 1px black solid}
 ```
 
+<br />
 
-#### 6. Mise en forme du tableau
-```css
-
-/* Bordures */
-th{border: 1px black solid}
-td{border: 1px solid black}
-
-/* Coller les Cellules entre-elles */
-table{border-collapse: collapse}
-```
 
 #### Exemple:
 ```php
