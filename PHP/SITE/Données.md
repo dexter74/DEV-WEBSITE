@@ -15,8 +15,8 @@ La table Users sert pour la gestion des utilisateurs.
 | int      | Dern. connexion    | 13-10-2022 04:00    |
 | int      | Date de Naissance  | 01-01-1998          |
 | bool     | Compte activé      | true                |
-| string   | Utilisateur        | Dexter74            |
-| string   | Mot de passe       | admin123            |
+| string   | Utilisateur        | MyUsername          |
+| string   | Mot de passe       | Passw0rd2022        |
 | string   | Adresse EMAIL      | support@support.com |
 | string   | Nom                | MyName              |
 | string   | Prénom             | MySurname           |
