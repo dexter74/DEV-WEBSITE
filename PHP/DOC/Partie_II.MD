@@ -443,7 +443,7 @@ echo $user1[3];
 
 #### 2. Création d'un tableau d'un tableau  
 ```php
-
+<?php
 
 // Tableau des correspondances: ID, USERNAME, PASSWORD, PRENOM, NOM,  AGE , EMAIL, PERMISSIONS
 $user0 ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.com','users'];
@@ -457,17 +457,9 @@ echo $users[1][1]; // 20
 echo $users[1][2]; // Dexter74
 echo $users[2][1]; // 21
 echo $users[2][2]; // Drthrax74
+
+?>
 ```
-
-#### 3. 
-```php
-```
-<br />
-
-
-
-
-
 
 
 
