@@ -483,7 +483,7 @@ puis la boucle relance le processus à l'infini sauf si elle est conditionnée.
 <?php
 
 //Tant que $TEST est vrai: 
-while ($TEST) {echo 'Mon Message qui se répéte à l'infini <br />';}
+while ($TEST) {echo "Mon Message qui se répéte à l'infini <br />";}
 ?>
 ```
 ##### Boucle qui se répète X fois avec incrémentation
