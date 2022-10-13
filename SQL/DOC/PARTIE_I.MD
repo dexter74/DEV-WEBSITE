@@ -7,12 +7,23 @@
 <br /> 
 
 ## B. Structurez votre base de données
+
+#### 1. Users
 | ID  | Utilisateur |       EMAIL      | AGE | Password  |
 | --- | ----------- | ---------------- | --- | --------- |
 |  0  | Marc        | Marc@mail.com    | 20  | Azerty123 |
 |  1  | Halidi      | Halidi@mail.com  | 20  | Qwerty123 |
 |  2  | Luc         | Luc@mail.com     | 20  | Soleil123 |
 
+### 2. [Type de données](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913893-mettez-en-place-une-base-de-donnees-avec-phpmyadmin)
 
-## C. Enregistrez les données
+| Type    | Description            | Exemple    |
+| ------- | ---------------------- | ---------- |
+| INT     | Nombre entier          | 33         |
+| VARCHAR : Texte court (Max: 255) | Marc       |
+| TEXT    | Texte (Sans Limite)    | Articles   |
+| DATE    | Jour, Mois, Année      | 22-10-2022 |
 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### <p align='center'><a href=''></a></p>
