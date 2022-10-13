@@ -253,17 +253,10 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 ##### AND
 ```php
 <?php
-
-// Variable
-$ACTIF = true;
-$AUTEUR = true;
-
-// Si
-if ($ACTIF && $AUTEUR) {echo "Accès Autorisé! ✅";}
-
-//Sinon
-else {echo"Accès refusé! ❌";}
-
+	$ACTIF = true;
+	$AUTEUR = true;
+	if ($ACTIF && $AUTEUR) {echo "Accès Autorisé! ✅";}
+	else {echo"Accès refusé! ❌";}
 ?>
 ```
 ##### Multi-condition
@@ -279,21 +272,6 @@ else {echo"Accès refusé! ❌";}
 	if(($BYPASS == 'true') || ($USER == 'Marc' && $ADMIN == 'true' && $ETAT == '1'))  {echo $OK;} else{echo $KO;}
 ?>
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <br />
