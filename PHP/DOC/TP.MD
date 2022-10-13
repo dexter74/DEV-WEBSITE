@@ -35,13 +35,13 @@
 	echo "<br />";
 	echo "<b> Afficher le résultat sur plusieurs ligne: </b>";
 	echo "<br />";
-	echo $email		. '<br />';
-	echo $fullname . '<br />';
+	echo $email	. '<br />';
+	echo $fullname  . '<br />';
 	echo $prenom1	. '<br />';
 	echo $prenom2	. '<br />';
-	echo $isAuthor . '<br />';
+	echo $isAuthor  . '<br />';
 	echo $userAge	. '<br />';
-	echo $price		. '<br />';
+	echo $price	. '<br />';
 	echo $noValue	. '<br />';
 ?>
 ```
@@ -115,18 +115,18 @@
 ### 2. Utilisez la condition switch
 ```php
 <?php
-$ETAT   = '0';
-$OK     = '✅';
-$KO     = '❌';
-$ERREUR = 'Code retour ???';
+	$ETAT   = '0';
+	$OK     = '✅';
+	$KO     = '❌';
+	$ERREUR = 'Code retour ???';
 
-echo "<b> État du test: </b>";
-switch($ETAT){
-	case 0:	 echo $OK; break;
-	case 1:	 echo $KO; break;
-	case 2:	 echo $ERREUR; break;
-	default: echo "Phrase par défaut";
-}
+	echo "<b> État du test: </b>";
+	switch($ETAT){
+		case 0:	 echo $OK; break;
+		case 1:	 echo $KO; break;
+		case 2:	 echo $ERREUR; break;
+		default: echo "Phrase par défaut"; 
+		}
 ?>
 ```
 
