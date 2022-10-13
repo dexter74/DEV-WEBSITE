@@ -460,10 +460,12 @@ echo $users[2][2]; // Drthrax74
 
 ?>
 ```
+<br />
 
 
 
 ### B. Utilisez une boucle simple :  while
+<p align='center'> <img src='https://user-images.githubusercontent.com/35907/195473771-ffc49bf0-353d-4e73-9361-5bc9bd4514c5.png'> </p>
 #### 1. 
 ```php
 ```
