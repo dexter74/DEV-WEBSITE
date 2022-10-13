@@ -1,4 +1,4 @@
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'><a href='https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913655-travaillez-avec-une-base-de-donnees'>Travaillez avec une Base De Données</a></p>
 
 ## A. Présentation de la Base de donnée
@@ -15,15 +15,24 @@
 |  1  | Halidi      | Halidi@mail.com  | 20  | Qwerty123 |
 |  2  | Luc         | Luc@mail.com     | 20  | Soleil123 |
 
-### 2. [Type de données](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913893-mettez-en-place-une-base-de-donnees-avec-phpmyadmin)
+## C. [Type de données](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/913893-mettez-en-place-une-base-de-donnees-avec-phpmyadmin)
 
 | Type    | Description            | Exemple    |
 | ------- | ---------------------- | ---------- |
 | INT     | Nombre entier          | 33         |
-| VARCHAR : Texte court (Max: 255) | Marc       |
+| VARCHAR | Texte court (Max: 255) | Marc       |
 | TEXT    | Texte (Sans Limite)    | Articles   |
 | DATE    | Jour, Mois, Année      | 22-10-2022 |
 
+## D. Les clés primaires
+```
+Toute table doit posséder un champ qui joue le rôle de clé primaire. 
+La clé primaire permet d'identifier de manière unique une entrée dans la table.
+En général, on utilise le champ id comme clé primaire, comme on vient de le faire.
+```
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'><a href=''></a></p>
