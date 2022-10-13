@@ -457,7 +457,7 @@ $user0 = ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.co
 $user1 = ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.com','Administrateur'];
 
 // Tableau regroupant les correspondances
-$users [$user0, $user1];
+$users = [$user0, $user1];
 
 // Interroge le tableau regroupant
 echo $users[1][0]; // 20
