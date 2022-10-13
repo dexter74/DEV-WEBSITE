@@ -314,10 +314,13 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 //Fin de la condition (Ne pas oublier le ;)
 <?php endif; ?>
 ```
+
 <br />
+
 ### B. Utilisez la condition switch 
 `/!\ Le switch ne peut tester que l'égalité`
-`L'instruction break  demande à PHP de sortir du  switch  .`
+`L'instruction break  demande à PHP de sortir du switch`
+
 ##### 1. Différentes écritures
 ##### Méthode if elseif else
 ```php
@@ -355,7 +358,6 @@ switch ($grade)
 ?>
 ```
 
-
 #### C. Découvrez les ternaires : des conditions condensées
 ###### 1. Présentation
 ```
@@ -382,7 +384,7 @@ if ($isAdult){echo "L'utilisateur est un adulte"}
 ?>
 ``` 
 
-##### méthode 2
+##### Méthode 2
 ```php
 <?php
 
