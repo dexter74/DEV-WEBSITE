@@ -18,11 +18,7 @@
 </html>
 ```
 
-
 ### A. Un tableau simple
-
-
-
 #### 1. Les balises de base
 ```php
 <table> </table>
@@ -30,8 +26,6 @@
 ```css
 table{border-collapse: collapse}
 ```
-
-<br />
 
 #### 2. Titre du tableau
 ```php
@@ -44,16 +38,10 @@ caption{
 	border: 1px black solid;	/* Bordure */
 	}
 ```
-
-<br />
-
 #### 3. La balise de Ligne
 ```php
 <tr> </tr>
 ```
-
-<br />
-
 #### 4. La balise En-tête
 ```php
 <th> </th>
@@ -61,9 +49,6 @@ caption{
 ```css
 th{border: 1px black solid}
 ```
-
-<br />
-
 #### 5.La balise de Cellule
 ```php
 <td> </td>
@@ -71,10 +56,6 @@ th{border: 1px black solid}
 ```css
 td{border: 1px black solid}
 ```
-
-<br />
-
-
 #### Exemple:
 ```php
 <!DOCTYPE html>
@@ -146,8 +127,29 @@ td{border: 1px black solid}
 
 
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### B. Un tableau structuré
+
+#### 1.
+#### 2.
+#### 3.
+#### 4.
+#### 5.
+
+```
+```
+
+
+
+
+
+
+
+
+
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> []()</p>
 
