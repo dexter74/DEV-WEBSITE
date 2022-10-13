@@ -28,6 +28,7 @@
 ```
 #### 2. Titre du tableau
 ```
+<caption></caption>
 ```
 #### 3. La balise En-tête
 ```php
