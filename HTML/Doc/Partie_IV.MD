@@ -46,7 +46,14 @@ caption{
 
 <br />
 
-#### 3. La balise En-tête
+#### 3. La balise de Ligne
+```php
+<tr> </tr>
+```
+
+<br />
+
+#### 4. La balise En-tête
 ```php
 <th> </th>
 ```
@@ -55,11 +62,6 @@ th{border: 1px black solid}
 ```
 
 <br />
-
-#### 4. La balise de Ligne
-```php
-<tr> </tr>
-```
 
 #### 5.La balise de Cellule
 ```php
