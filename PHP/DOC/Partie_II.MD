@@ -534,18 +534,17 @@ Si Non: while
 ```php
 <?php
 
+// // Déclaration du tableau (Non numérotés)
 $BDD = [
-  ['20','Dexter74','Passw0rd2022','Jaques','Levin','31','dexter74@mail.com','users'],
-  ['21','Drthrax74','Passw0rd2022','Paul','Courrier','31','drthrax74@mail.com','Administrateur'],
-  ['22','Snake','Passw0rd2022','Alain','Charles','31','drthrax74@mail.com','Administrateur'],
+  ['20','Dexter74','Passw0rd2022','Jaques','Levin','31','dexter74@mail.com','users',],
+  ['21','Drthrax74','Passw0rd2022','Paul','Courrier','31','drthrax74@mail.com','Administrateur',],
+  ['22','Snake','Passw0rd2022','Alain','Charles','31','drthrax74@mail.com','Administrateur',],
   ];
 
 // Lecture de la ligne 0 à 1 du tableau
 for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('. $BDD[$LIGNE][7] .')"}
 ?>
 ```
-
-
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -569,8 +568,12 @@ Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 ###### Construire un Tableau Numéroté
 ```php
 <?php
+
+// Déclaration d'un Tableau (Non numérotés)
+$VALEUR0 = ['Jean-Claude', 'Halidi', 'Luc', 'Marc',];
+
 // Déclaration d'un tableau indexé numériquement
-$VALEUR = array('Jean-Claude','Halidi','Luc', 'Marc');
+$VALEUR1 = array('Jean-Claude', 'Halidi', 'Luc', 'Marc');
 ?>
 ```
 
