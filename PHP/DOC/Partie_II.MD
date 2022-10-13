@@ -265,7 +265,6 @@ if (! $ACCESS){echo "Accès refusé";}
 | ------- | ------------- | ------------------ | 
 | AND     | Et            | &&                 |
 | OR      | Ou            |  \|\|              | 
-
 ##### AND
 ```php
 <?php
@@ -301,8 +300,7 @@ else {echo"Accès interdit ! ❌";}
 
 <br />
 
-#### 4. Utilisez cette astuce bonus (2 manières d'écritures)
-
+#### 4. Utilisez cette astuce bonus
 ##### Méthode 1
 ```php
 <?php
@@ -333,7 +331,6 @@ if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>
 ### B. Utilisez la condition switch 
 `/!\ Le switch ne peut tester que l'égalité`
 `L'instruction break  demande à PHP de sortir du switch`
-
 ##### 1. Différentes écritures
 ##### Méthode if elseif else
 ```php
