@@ -555,6 +555,7 @@ for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('.
 ### A. Familiarisez-vous avec les tableaux numérotés
 #### 1. Tableau (Array)
 La variable Array prend la valeur de la case du tableau sur laquel elle traite.
+
 Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 
 #### 2. Construisez un tableau numéroté
