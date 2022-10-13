@@ -27,9 +27,17 @@
 <table> </table>
 ```
 #### 2. Titre du tableau
-```
+```php
 <caption></caption>
 ```
+```css
+caption{
+	caption-side: top;	/* Titre au-dessus  du Tableau */
+	caption-side: bottom;	/* Titre en-dessous du Tableau */
+	}
+```
+
+
 #### 3. La balise En-tête
 ```php
 <th> </th>
