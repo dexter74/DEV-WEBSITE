@@ -461,11 +461,12 @@ $user1 ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.c
 $users [$user0, $user1];
 
 // Interroge le tableau regroupant
-echo $users[1][1]; // 20
-echo $users[1][2]; // Dexter74
-echo $users[2][1]; // 21
-echo $users[2][2]; // Drthrax74
-
+echo $users[1][0]; // 20
+echo $users[1][1]; // Dexter74
+echo $users[1][6]; // dexter74@mail.com
+echo $users[2][0]; // 21
+echo $users[2][1]; // Drthrax74
+echo $users[2][6]; // drthrax74@mail.com
 ?>
 ```
 
