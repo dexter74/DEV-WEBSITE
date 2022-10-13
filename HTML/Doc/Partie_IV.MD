@@ -23,29 +23,28 @@
 
 
 #### 1. Les balises de base
-```
+```php
 <table> </table>
 ```
-
-
-#### 2. La balise En-tête
+#### 2. Titre du tableau
 ```
+```
+#### 3. La balise En-tête
+```php
 <th> </th>
 ```
 
-#### 3. La balise de Ligne
-```
+#### 4. La balise de Ligne
+```php
 <tr> </tr>
 ```
 
-#### 4.La balise de Cellule
-```
+#### 5.La balise de Cellule
+```php
 <td> </td>
 ```
 
-
-
-#### 5. Mise en forme du tableau
+#### 6. Mise en forme du tableau
 ```css
 
 /* Bordures */
@@ -56,12 +55,8 @@ td{border: 1px solid black}
 table{border-collapse: collapse}
 ```
 
-
-
-
-
 #### Exemple:
-```html
+```php
 		<table>
 			<!-- ########################### -->
 			<tr>
