@@ -568,11 +568,8 @@ Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 ###### Construire un Tableau Numéroté
 ```php
 <?php
-$VALEUR = ['Jean-Claude','Halidi','Luc', 'Marc'];
-
 // Déclaration d'un tableau indexé numériquement
 $VALEUR = array('Jean-Claude','Halidi','Luc', 'Marc');
-
 ?>
 ```
 
