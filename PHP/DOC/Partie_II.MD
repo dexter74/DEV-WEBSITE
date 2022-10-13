@@ -107,20 +107,25 @@ $fullname = "Mathieu Nebra";
 echo "Bonjour $fullname et bienvenue sur le site !";
 ?>
 ```
-#### 3. Concaténez avec des guillemets simples (Abend !!!)
-```php
-<?php
-$fullname = 'Mathieu Nebra';
-echo 'Bonjour $fullname et bienvenue sur le site !'; // ERREUR !
-?>
-```
-Correctif:
+#### 3. Concaténez avec des guillemets simples 
+
+##### Ecriture sans erreur 
+Il faut des Points .
 ```php
 <?php
 $fullname = 'Mathieu Nebra';
 echo 'Bonjour ' . $fullname . ' et bienvenue sur le site !'; // OK
 ?>
 ```
+
+##### Ecriture avec une erreur
+```php
+<?php
+$fullname = 'Mathieu Nebra';
+echo 'Bonjour $fullname et bienvenue sur le site !'; // ERREUR !
+?>
+```
+
 
 <br />
 
