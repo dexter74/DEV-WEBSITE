@@ -419,7 +419,6 @@ if ($isAdult){echo "L'utilisateur est un adulte"}
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Affichez une liste de recettes à l'aide des boucles](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912133-affichez-une-liste-de-recettes-a-laide-des-boucles)</p>
 
-
 ### A. Utilisez un tableau pour lister des éléments
 ```
 Pour crée un tableau, il faut déclarer les données du tableau $TEST = ['<Contenu de l'indice 0>','<Contenu de l'indice 1>'];
@@ -441,7 +440,6 @@ echo $user1[3];
 
 ?>
 ```
-
 
 #### 2. 
 ```php
