@@ -34,14 +34,24 @@ action
 ```
 <input />
 ```
-#### Attribut
+#### 2.Attribut
 ```
 <input type='XXXX' />
 ```
 
+#### 3.Définir un nom à un élément
+```
+<input type='XXXX' name='YYYY' />
+```
 
-#### 2.
-#### 3.
+#### 4. Zone de Texte
+```
+<input type="text" name="pseudo" />
+```
+
+
+
+
 #### 4.
 #### 5.
 
