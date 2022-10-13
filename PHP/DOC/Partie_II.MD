@@ -421,9 +421,23 @@ if ($isAdult){echo "L'utilisateur est un adulte"}
 
 
 ### A. Utilisez un tableau pour lister des éléments
-#### 1. 
+#### 1. Utilisateurs
 ```php
+<?php
+
+//Variable
+$user1 = ['Mickaël Andrieu', 'email', 'S3cr3t', 34];
+
+//Tableau
+echo $user1[0]; // "Mickaël Andrieu"
+echo $user1[1]; // "email"
+echo $user1[2]; // "S3cr3t"
+echo $user1[3]; // 34
+
+?>
 ```
+
+
 #### 2. 
 ```php
 ```
