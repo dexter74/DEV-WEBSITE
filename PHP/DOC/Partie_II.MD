@@ -229,19 +229,9 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 <?php
 	$ACCESS = false;
 	if (! $ACCESS){echo "Accès refusé";}
-	else{echo "???";}
+	else{echo "Accès autorisé";}
 ?>
 ```
-
-
-
-
-
-
-
-
-
-
 
 <br />
 
@@ -277,29 +267,12 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 <br />
 
 #### 4. Utilisez cette astuce bonus
-##### Méthode 1
+##### Méthode 
 ```php
 <?php
-// Variable
-$chickenRecipesEnabled = true;
-
-//SI
-if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>';}
+	$chickenRecipesEnabled = true;
+	if ($chickenRecipesEnabled) {echo '<h1>Liste des recettes à base de poulet</h1>';}
 ?>
-```
-##### Méthode 2
-```php
-// Variable
-<?php $chickenRecipesEnabled = true; ?>
-
-//SI (Ne pas oublier le :)
-<?php if ($chickenRecipesEnabled): ?>
-
-//Phrase à afficher
-<h1>Liste des recettes à base de poulet</h1>
-
-//Fin de la condition (Ne pas oublier le ;)
-<?php endif; ?>
 ```
 
 <br />
