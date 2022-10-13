@@ -1,7 +1,6 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> [Ajoutez des tableaux](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1606851-ajoutez-des-tableaux)</p>
 
-
 ### Structure de base d'une page HTML
 ```
 <!DOCTYPE html>
@@ -17,7 +16,6 @@
 	</body>
 </html>
 ```
-
 ### A. Un tableau simple
 #### 1. Les balises de base
 ```php
@@ -26,7 +24,6 @@
 ```css
 table{border-collapse: collapse}
 ```
-
 #### 2. Titre du tableau
 ```php
 <caption></caption>
@@ -123,9 +120,7 @@ th{border: 1px black solid}
 /* Bordure sur la balise de Cellule */
 td{border: 1px black solid}
 ```
-
-
-
+<br />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
