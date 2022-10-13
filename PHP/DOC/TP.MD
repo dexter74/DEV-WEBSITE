@@ -81,10 +81,14 @@ echo '<b> Calcul ton age: </b>' . $ANNEE . ' - ' . $NAISSANCE . ' = ' . $AGE . '
 #### B. Appropriez-vous la structure de base : if… else
 
 ```php
+<?php
+$ADMIN = 'true';
 $ETAT  = '1';
 $OK    = '✅';
 $KO    = '❌';
 $ABEND = 'Abend';
+
+?>
 ```
 
 
