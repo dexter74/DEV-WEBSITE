@@ -1,7 +1,6 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Décrivez les éléments de votre projet à l'aide de variables](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/911847-decrivez-les-elements-de-votre-projet-a-laide-de-variables)</p>
 
-
 ### A. Comprenez ce qu'est une variable
 #### 1. Donnez toujours un nom et une valeur aux variables
 ```php
@@ -17,6 +16,7 @@ HEURE = 1951
 | bool   | Vrai ou Faux          | true, false (Pas de Parenthèse) |
 | NULL   | Valeur NULL           |                                 |
 
+<br />
 
 ### B. Affectez une valeur à une variable
 #### 1. Définir une Variable à une valeur
@@ -35,6 +35,7 @@ userAge : Nom de la Variable
 ;       : Permet de conclure la valeur
 ```
 
+<br />
 
 ### C. Utilisez les types de données
 #### 1. Le type string  (chaîne de caractères)
@@ -72,6 +73,8 @@ $noValue = NULL;
 ?>
 ```
 
+<br />
+
 ### D. Affichez le contenu d'une variable
 #### 1. 
 ```php
@@ -84,6 +87,8 @@ $noValue = NULL;
   echo $price;
   echo $noValue;
 ```
+
+<br />
 
 ### E. Concaténez une variable
 #### 1. Exemple
@@ -116,6 +121,8 @@ $fullname = 'Mathieu Nebra';
 echo 'Bonjour ' . $fullname . ' et bienvenue sur le site !'; // OK
 ?>
 ```
+
+<br />
 
 ### F. Faites des calculs simples
 #### 1. Les opérations de base : addition, soustraction…
@@ -160,11 +167,9 @@ echo $number
 
 <br />
 
-
-
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Adaptez le comportement de votre application à l'aide des conditions](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912046-adaptez-le-comportement-de-votre-application-a-laide-des-conditions)</p>
+
 ### A. Appropriez-vous la structure de base :  if… else
 #### 1. Les symboles 
 | Symbole | Signification           |
@@ -175,6 +180,9 @@ echo $number
 |   >=    | Est supérieur ou égal à |
 |   <=    | Est inférieur ou égal à |
 |   !)    | Est différent de        |
+
+<br />
+
 #### 2. Utilisez la structure  if… else
 ##### Si
 ```php
@@ -250,6 +258,8 @@ if (! $ACCESS){echo "Accès refusé";}
 ?>
 ```
 
+<br />
+
 #### 3. Posez des conditions multiples
 | Mot-clé | Signification | Symbole équivalent |
 | ------- | ------------- | ------------------ | 
@@ -288,6 +298,9 @@ else {echo"Accès interdit ! ❌";}
 
 ?>
 ```
+
+<br />
+
 #### 4. Utilisez cette astuce bonus (2 manières d'écritures)
 
 ##### Méthode 1
@@ -358,6 +371,8 @@ switch ($grade)
 ?>
 ```
 
+<br />
+
 #### C. Découvrez les ternaires : des conditions condensées
 ###### 1. Présentation
 ```
@@ -383,7 +398,6 @@ else {$isAdult = false;}
 if ($isAdult){echo "L'utilisateur est un adulte"}
 ?>
 ``` 
-
 ##### Méthode 2
 ```php
 <?php
@@ -403,16 +417,19 @@ if ($isAdult){echo "L'utilisateur est un adulte"}
 ?>
 ```
 
-
+<br />
 
 #### 3. 
 ```php
 ```
 
+<br />
+
 #### 4. 
 ```php
 ```
 
+<br />
 
 #### 5. 
 ```php
