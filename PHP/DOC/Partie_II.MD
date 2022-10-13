@@ -4,8 +4,8 @@
 ### A. Comprenez ce qu'est une variable
 #### 1. Donnez toujours un nom et une valeur aux variables
 ```php
-DATE = 221012
-HEURE = 1951
+$DATE = 221012
+$HEURE = 1951
 ```
 #### 2. Découvrez les différents types de variables
 | Type   | Description           | Donnée                          | 
@@ -50,26 +50,26 @@ userAge : Nom de la Variable
 #### 2. Le type int  (nombre entier)
 ```php
 <?php
-$userAge = 17;
+	$userAge = 17;
 ?>
 ```
 #### 3. Le type float  (nombre décimal)
 ```php
 <?php
-$price = 57.3;
+	$price = 57.3;
 ?>
 ```
 #### 4. Le type bool  (booléen)
 ```php
 <?php
-$isAuthor = true;
-$isAdministrator = false;
 ?>
 ```
 #### 5. Une variable vide avec NULL
 ```php
 <?php
-$noValue = NULL;
+	$isAuthor = true;
+	$isAdministrator = false;
+	$noValue = NULL;
 ?>
 ```
 
@@ -77,14 +77,16 @@ $noValue = NULL;
 
 ### D. Affichez le contenu d'une variable
 ```php
-  echo $email;
-  echo $fullname;
-  echo $prenom1;
-  echo $prenom2;
-  echo $isAuthor;
-  echo $userAge;
-  echo $price;
-  echo $noValue;
+<?php
+	echo $email;
+	echo $fullname;
+	echo $prenom1;
+	echo $prenom2;
+	echo $isAuthor;
+	echo $userAge;
+	echo $price;
+	echo $noValue;
+?>
 ```
 
 <br />
@@ -93,17 +95,17 @@ $noValue = NULL;
 #### 1. Exemple
 ```php
 <?php
-$fullname = "Mathieu Nebra";
-echo "Bonjour ";
-echo $fullname;
-echo " et bienvenue sur le site !";
+	$fullname = "Mathieu Nebra";
+	echo "Bonjour ";
+	echo $fullname;
+	echo " et bienvenue sur le site !";
 ?>
 ```
 #### 2. Concaténez avec des guillemets doubles
 ```php
 <?php
-$fullname = "Mathieu Nebra";
-echo "Bonjour $fullname et bienvenue sur le site !";
+	$fullname = "Mathieu Nebra";
+	echo "Bonjour $fullname et bienvenue sur le site !";
 ?>
 ```
 #### 3. Concaténez avec des guillemets simples 
@@ -112,16 +114,16 @@ echo "Bonjour $fullname et bienvenue sur le site !";
 Il faut des Points .
 ```php
 <?php
-$fullname = 'Mathieu Nebra';
-echo 'Bonjour ' . $fullname . ' et bienvenue sur le site !'; // OK
+	$fullname = 'Mathieu Nebra';
+	echo 'Bonjour ' . $fullname . ' et bienvenue sur le site !'; // OK
 ?>
 ```
 
 ##### Ecriture avec une erreur
 ```php
 <?php
-$fullname = 'Mathieu Nebra';
-echo 'Bonjour $fullname et bienvenue sur le site !'; // ERREUR !
+	$fullname = 'Mathieu Nebra';
+	echo 'Bonjour $fullname et bienvenue sur le site !'; // ERREUR !
 ?>
 ```
 
@@ -141,21 +143,21 @@ echo 'Bonjour $fullname et bienvenue sur le site !'; // ERREUR !
 **Exemple 1**
 ```php
 <?php
-$number = 2 + 4; // $number prend la valeur 6
-$number = 5 - 1; // $number prend la valeur 4
-$number = 3 * 5; // $number prend la valeur 15
-$number = 10 / 2; // $number prend la valeur 5
+	$number = 2 + 4; // $number prend la valeur 6
+	$number = 5 - 1; // $number prend la valeur 4
+	$number = 3 * 5; // $number prend la valeur 15
+	$number = 10 / 2; // $number prend la valeur 5
 
-// Allez on rajoute un peu de difficulté
-$number = 3 * 5 + 1; // $number prend la valeur 16
-$number = (1 + 2) * 2; // $number prend la valeur 6
+	// Allez on rajoute un peu de difficulté
+	$number = 3 * 5 + 1; // $number prend la valeur 16
+	$number = (1 + 2) * 2; // $number prend la valeur 6
 ?>
 ```
 **Exemple 2**
 ```php
 <?php
-$number = 10;
-$result = ($number + 5) * $number; // $result prend la valeur 150
+	$number = 10;
+	$result = ($number + 5) * $number; // $result prend la valeur 150
 ?>
 ```
 #### 2. Le modulo
@@ -163,9 +165,9 @@ Modulo représente le reste de la division entière.
 Si la valeur est entier, elle retourne 0 sinon 1.
 ```php
 <?php
-$number = 10 % 5; // $number prend la valeur 0 car la division tombe juste
-$number = 10 % 3; // $number prend la valeur 1 car il reste 1
-echo $number 
+	$number = 10 % 5; // $number prend la valeur 0 car la division tombe juste
+	$number = 10 % 3; // $number prend la valeur 1 car il reste 1
+	echo $number 
 ?>
 ```
 
@@ -191,76 +193,55 @@ echo $number
 ##### Si
 ```php
 <?php
-
-// Variable
-$isEnabled = true;
-
-// Vérifier Condition
-if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
-
+	$isEnabled = true;
+	if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
 ?>
 ```
 ##### SI + SINON
 ```php
 <?php
-
-// Variable
-$isEnabled = true;
-
-// Si
-if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
-
-// Sinon
-else {echo "Accès refusé ❌ ";}
+	$isEnabled = true;
+	if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
+	else {echo "Accès refusé ❌ ";}
 ?>
 ```
 ##### SI + SINON + SINON SI
 ```php
 <?php
-
-// Variable
-$ACCES = "AUTORISER";
-
-// Si NULL
-if ($ACCES == NULL) {echo "La valeur est Video";}
-
-// Sinon si
-elseif ($ACCES == "AUTORISER") {echo "Accès Autorisé";}
-
-// Sinon si
-elseif ($ACCES == "REFUSER") {echo "Accès refusé";}
-
-// Autre
-else {echo "Code retour en abend";}
-
+	$ACCES = "AUTORISER";
+	if ($ACCES == NULL) {echo "La valeur est Video";}
+	elseif ($ACCES == "AUTORISER") {echo "Accès Autorisé";}
+	elseif ($ACCES == "REFUSER") {echo "Accès refusé";}
+	else {echo "Code retour en abend";}
 ?>
 ```
 ##### SI c'est vrai
 ```php
 <?php
-
-// Variable
-$ACCESS = true;
-
-//SI
-if ($ACCESS){echo "Accès autorisé";}
-
-//Sinon
-else {echo "Accès refusé";}
-
+	$ACCESS = true;
+	if ($ACCESS){echo "Accès autorisé";}
+	else {echo "Accès refusé";}
 ?>
 ```
+
 ##### SI c'est faux
 ```php
 <?php
-
-// Variable
-$ACCESS = true;
-
-//SI
-if (! $ACCESS){echo "Accès refusé";}
+	$ACCESS = false;
+	if (! $ACCESS){echo "Accès refusé";}
+	else{echo "???";}
 ?>
 ```
+
+
+
+
+
+
+
+
+
+
 
 <br />
 
