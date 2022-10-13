@@ -3,6 +3,7 @@
 #### A. Affectez une valeur à une variable
 ```php
 <?php
+  // ---------------------------------------------------
   $fullname = "Mathieu Nebra";
   $email = 'mathieu.nebra@exemple.com';
   $prenom1 = "Mon \"nom\" est Mathieu";
@@ -12,8 +13,24 @@
   $isAuthor = true;
   $isAdministrator = false;
   $noValue = NULL;
-  
-  // Afficher le résultat sur plusieurs ligne:
+  // ---------------------------------------------------
+  echo "<b> Afficher le résultat en mode collé: </b>";
+  echo $email;
+  echo $fullname;
+  echo $prenom1;
+  echo $prenom2;
+  echo $isAuthor;
+  echo $userAge;
+  echo $price;
+  echo $noValue;
+  echo "<br />";
+  echo "<br />";
+  echo "<b> Afficher résultat sur une ligne en mode Propre: </b>";
+  echo $email . ' | ' . $fullname . ' | ' . $prenom1 . ' | ' . $prenom2  . ' | ' .  $isAuthor . ' | ' .  $userAge . ' | ' . $price . ' | ' . $noValue;
+  echo "<br />";
+  echo "<br />";
+  echo "<b> Afficher le résultat sur plusieurs ligne: </b>";
+  echo "<br />";
   echo $email    . '<br />';
   echo $fullname . '<br />';
   echo $prenom1  . '<br />';
@@ -22,10 +39,6 @@
   echo $userAge  . '<br />';
   echo $price    . '<br />';
   echo $noValue  . '<br />';
-  
-  // Afficher résultat sur une ligne:
-  echo $email . ' | ' . $fullname . ' | ' . $prenom1 . ' | ' . $prenom2  . ' | ' .  $isAuthor . ' | ' .  $userAge . ' | ' . $price . ' | ' . $noValue;
-  
 ?>
 ```
 
