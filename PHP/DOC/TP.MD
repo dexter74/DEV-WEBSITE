@@ -74,7 +74,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## B. Appropriez-vous la structure de base : if… else
 
-### SI, SINON, SINON SI, AND, OR
+### 1. SI, SINON, SINON SI, AND, OR
 ```php
 <?php
 	$TEST1 = '0';
@@ -112,9 +112,23 @@
 ?>
 ```
 
+### 2. Utilisez la condition switch
+```php
+<?php
+$ETAT   = '0';
+$OK     = '✅';
+$KO     = '❌';
+$ERREUR = 'Code retour ???';
 
-
-
+echo "<b> État du test: </b>";
+switch($ETAT){
+	case 0:	 echo $OK; break;
+	case 1:	 echo $KO; break;
+	case 2:	 echo $ERREUR; break;
+	default: echo "Phrase par défaut";
+}
+?>
+```
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## C.
