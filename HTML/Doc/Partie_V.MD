@@ -22,17 +22,48 @@ action='connect.php' # Envoie la requête vers la page suivante
    <!-- Contenu de mon formulaire -->
 </form>
 ```
-### B. Le contenu du formulaire
-#### 1. 
 
-#### 2. 
-#### 3. 
+### B. Le contenu du formulaire
+#### 1. La balise
+```html
+<input />
+```
+#### 2. Les attributs
+```html
+type=''
+name=''
+id=''
+```
+
+#### 3. Type de formulaire
+```html
+type='text'
+type=''
+type=''
+type=''
+type=''
+type=''
+```
+
+#### X. Libellés du contenu du formulaire
+```
+
+```
+
+
 #### 4. 
 
-### C. 
-### D. 
-### E. 
 
+
+### B. 
+```
+```
+### C. 
+```
+```
+### D. 
+```
+```
 
 
 
