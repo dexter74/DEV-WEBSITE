@@ -10,9 +10,9 @@
 ```
 #### 2. Attributs
 ```
-method="get"
-method="post"
-action
+method='get'
+method='post'
+action=''
 ```
 ###### Exemple
 ```php
