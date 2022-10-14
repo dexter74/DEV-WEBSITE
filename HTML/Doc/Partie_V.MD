@@ -32,18 +32,27 @@ action='connect.php' # Envoie la requête vers la page suivante
 </form>
 ```
 
-
-
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### B. Le contenu du formulaire
 #### 1. La balise Mono-Ligne
 ```html
 <input />
 ```
+
+
 #### 2. La balise Multi-Ligne
 ```html
 <textarea> </textarea>
 ```
+```css
+textarea{
+   height: 100px;
+   width: 100px
+   }
+```
+
+
+
 
 
 #### 3. Les attributs
