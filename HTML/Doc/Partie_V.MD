@@ -2,123 +2,38 @@
 ## <p align='center'> [Créez des formulaires](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607171-creez-des-formulaires)</p>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-### A. Créer un formulaire
+### A. Création d'un formulaire 
 
-#### 1. Balise de base (Requête)
+#### 1. La Balise formulaire
 ```html
-<!-- Contenu avant le formulare -->
-   <form>
-      <!-- Contenu de mon formulaire -->
-   </form>
-```
-#### 2. Attributs
-```
-method='get'
-method='post'   : Envoie la requête
-action=''       : Page qui réceptionnera la requête 
-```
-###### Exemple
-```html
-<p>Texte avant le formulaire</p>
-
-<form method="post" action="traitement.php">
-   <p>Texte à l'intérieur du formulaire</p>
+<form> 
+   <!-- Contenu de mon formulaire -->
 </form>
-
-<p>Texte après le formulaire</p>
 ```
-<br />
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### B. Les zones de saisie basiques
-### 1. Zone de Texte (Monol ou Multi lignes)
-#### Balise 
+#### 2. Attributs method
 ```
-<input />
-```
-#### 2.Attribut
-```
-<input type='XXXX' />
+method="post"        # Type de requête: Envoie
+method="get"         # Type de requête: Réception 
+action='mapage.php'  # Envoie la requête vers la page suivante
 ```
 
-#### 3.Définir un nom à un élément
-```
-<input type='XXXX' name='YYYY' />
-```
-#### 4. Les libellés
-Permet d'afficher une information pour l'utilisateur (Pseudo: <case à remplir>)
-```
-<label>Information</label> : <input type='XXXX' name='YYYY' />
-```
-
-#### 5. Zone de Texte
-```
-<input type="text" name="pseudo" />
-```
-
-#### 4.
-```
-```
-
-#### 5.
-
-```
-```
-
-#### 6.
-
-```
+##### Exemple
+```html
+<form method="post" action='mapage.php'> 
+   <!-- Contenu de mon formulaire -->
+</form>
 ```
 
 
+### B. Le contenu du formulaire
+#### 1. 
 
-<br />
+### C. 
+### D. 
+### E. 
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### C. Les zones de saisie enrichies
-### 1. Balise
-```
-<input />
-```
-### 2. Attribut
-```
-<input type='XXXX' />
-```
-### 3. Type
-```
-date
-time
-week
-month
-datetime
-datetime-local
-email
-search
-url
-tel
-number
-range   (Curseur)
-color (Choisir couleur)
 
-```
-##### Exemples
-```
-<input type='date' />
-<input type='time' />
-<input type='week' />
-<input type='month' />
-<input type='datetime' />
-<input type='datetime-local' />
-<input type='email' />
-<input type='search' />
-<input type='url' />
-<input type='tel' />
-<input type='number' />
-<input type='range' />
-<input type='color' />
-```
 
-<br />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### D. Les éléments d'options
