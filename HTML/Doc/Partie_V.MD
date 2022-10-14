@@ -58,41 +58,79 @@ name=''        # Name sert à la variable du formulaire. (Unique)
 placeholder='' # Indication dans le formulaie directement
 size=''        # Taille du formulaire
 maxlength=''   # Nombre de caractère
-
 value=''       # Prédéfinir une valeur
+
+
+#Number:
+min=''
+max=''  
+step='' 
 ```
 
 #### 4. Type de formulaire
 ```html
-type='text'
+type='color'
+type='email'
+type='number'
 type='password'
-type=''
-type=''
-type=''
-type=''
+type='range'
+type='text'
+type='search'
+type='tel'
+type='url'
+
+type='date'		# JJ/MM/AAAA
+type='time'		# HH:MM
+type='week'		# Semaine
+type='month'		# Mois
+type='datetime'		# Gestion du décalage
+type='datetime-local'	# Heure locale
+type="checkbox"		# Case à cocher (Il faut définir un nom)
+
 ```
 
 
-##### Exemplme
+##### Exemple
 ```
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Titre</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
 	<!-- --------------------------------------------------------------------------- -->
 		<!-- ####################################################################### -->
-		<!-- <form method='post' action='connect.php'> -->
-			<!-- <h2>Inscription:</h2> -->
-			<!-- <label>Identifiant: </label> -->
-			<!-- <input type='text' id='pseudo' name='username' size='8' maxlength='12' /> -->
-			<!-- <br /> -->
-			<!-- <label>Mot de passe: </label> -->
-			<!-- <input type='password' id='mdp' name='password' size='8' maxlength='12' /> -->
-			<!-- <br /> -->
-			<!-- <br /> -->
-			<!-- <label>Votre signature:</label> -->
-			<!-- <br /> -->
-			<!-- <textarea type='text' height='100' ></textarea> -->
-		<!-- </form> -->
+		<form method='post' action='connect.php'>
+			<h2>Inscription:</h2>
+			<label>Identifiant: </label>
+			<input type='text' id='pseudo' name='username' size='8' maxlength='12' />
+			<br />
+			<label>Mot de passe: </label>
+			<input type='password' id='mdp' name='password' size='8' maxlength='12' />
+			<br />
+			<br />
+			<label>Votre signature:</label>
+			<br />
+			<textarea type='text' height='100' ></textarea>
+			<br />
+			<label>Accepter le CLUF: </label>
+			<br />
+			<input id='CLUF' type="checkbox" name="choix" ><label> Test </label>
+		</form>
 		<!-- ####################################################################### -->
 	<!-- --------------------------------------------------------------------------- -->
+	</body>
+</html>
  ```
+ ```css
+*{margin: 0}
+label{font-weight: bold;}
+textarea{margin-left: 10px;height: 100px;width: 500px;}	
+#CLUF{margin-top: 5px;margin-left: 20px}
+ ```
+
 
 ### B. 
 ```
