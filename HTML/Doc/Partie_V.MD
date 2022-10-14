@@ -6,13 +6,17 @@
 
 #### 1. Balise de base (Requête)
 ```
-<form> </form>
+
+<!-- Contenu avant le formulare -->
+   <form>
+      <!-- Contenu de mon formulaire -->
+   </form>
 ```
 #### 2. Attributs
 ```
 method='get'
-method='post'
-action=''
+method='post'   : Envoie la requête
+action=''       : Page qui réceptionnera la requête 
 ```
 ###### Exemple
 ```php
@@ -24,7 +28,6 @@ action=''
 
 <p>Texte après le formulaire</p>
 ```
-
 <br />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -49,8 +52,6 @@ Permet d'afficher une information pour l'utilisateur (Pseudo: <case à remplir>)
 <label>Information</label> : <input type='XXXX' name='YYYY' />
 ```
 
-
-
 #### 5. Zone de Texte
 ```
 <input type="text" name="pseudo" />
@@ -69,10 +70,6 @@ Permet d'afficher une information pour l'utilisateur (Pseudo: <case à remplir>)
 
 ```
 ```
-
-
-
-
 
 
 
