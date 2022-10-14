@@ -11,13 +11,13 @@
 
 #### 2. Les attributs
 ```html
-method="post"        # Type de requête: Envoie
-method="get"         # Type de requête: Réception 
+method='post'        # Type de requête: Envoie
+method='get'         # Type de requête: Réception 
 action='connect.php' # Envoie la requête vers la page suivante
 ```
 ##### Exemple
 ```html
-<form method="post" action='connect.php'></form>
+<form method='post' action='connect.php'></form>
 ```
 
 #### 3. Libellés du contenu du formulaire
@@ -27,7 +27,7 @@ action='connect.php' # Envoie la requête vers la page suivante
 
 ##### Exemple:
 ```html
-<form method="post" action='connect.php'>
+<form method='post' action='connect.php'>
    <label>Description du formulaire</label>
 </form>
 ```
