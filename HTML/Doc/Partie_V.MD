@@ -2,7 +2,7 @@
 ## <p align='center'> [Créez des formulaires](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607171-creez-des-formulaires)</p>
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-### A. Création d'un formulaire 
+### A. Création d'un formulaire
 
 #### 1. La Balise formulaire
 ```html
@@ -32,12 +32,21 @@ action='connect.php' # Envoie la requête vers la page suivante
 </form>
 ```
 
+
+
+
 ### B. Le contenu du formulaire
-#### 1. La balise
+#### 1. La balise Mono-Ligne
 ```html
 <input />
 ```
-#### 2. Les attributs
+#### 2. La balise Multi-Ligne
+```html
+<textarea> </textarea>
+```
+
+
+#### 3. Les attributs
 ```html
 type=''
 name=''
@@ -49,7 +58,7 @@ maxlength=''   # Nombre de caractère
 value=''       # Prédéfinir une valeur
 ```
 
-#### 3. Type de formulaire
+#### 4. Type de formulaire
 ```html
 type='text'
 type='password'
@@ -60,9 +69,9 @@ type=''
 ```
 
 
-#### 4. 
 
 
+#### 5. 
 
 ### B. 
 ```
