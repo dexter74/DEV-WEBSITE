@@ -49,8 +49,8 @@ action='connect.php' # Envoie la requête vers la page suivante
 #### 3. Les attributs
 ```html
 type=''
-name=''
-id=''
+id=''          # Sert à identifier l'élément dans le HTML pour permettre sa manipulation
+name=''        # Name sert à la variable du formulaire. (Unique)
 placeholder='' # Indication dans le formulaie directement
 size=''        # Taille du formulaire
 maxlength=''   # Nombre de caractère
