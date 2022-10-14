@@ -5,8 +5,7 @@
 ### A. Créer un formulaire
 
 #### 1. Balise de base (Requête)
-```
-
+```html
 <!-- Contenu avant le formulare -->
    <form>
       <!-- Contenu de mon formulaire -->
@@ -19,7 +18,7 @@ method='post'   : Envoie la requête
 action=''       : Page qui réceptionnera la requête 
 ```
 ###### Exemple
-```php
+```html
 <p>Texte avant le formulaire</p>
 
 <form method="post" action="traitement.php">
