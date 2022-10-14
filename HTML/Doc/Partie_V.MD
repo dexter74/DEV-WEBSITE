@@ -8,7 +8,6 @@
 ```html
 <form></form>
 ```
-
 #### 2. Les attributs
 ```html
 method='post'        # Type de requête: Envoie
@@ -39,16 +38,12 @@ action='connect.php' # Envoie la requête vers la page suivante
 <input />
 ```
 
-
 #### 2. La balise Multi-Ligne
 ```html
 <textarea> </textarea>
 ```
 ```css
-textarea{
-   height: 100px;
-   width: 100px
-   }
+textarea{margin-left:10px; height:100px; width:500px;}
 ```
 
 
