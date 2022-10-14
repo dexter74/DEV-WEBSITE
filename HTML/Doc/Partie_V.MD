@@ -83,10 +83,25 @@ type='datetime'		# Gestion du décalage
 type='datetime-local'	# Heure locale
 ```
 
-##### 5. Case à cocher
+##### 5. Case à cocher (Multi-choix)
 ```html
 type="checkbox"
 ```
+
+##### 5. Case à cocher (Mono-choix)
+```html
+```
+
+
+
+
+
+
+
+
+
+
+
 
 ##### Exemple
 ```
