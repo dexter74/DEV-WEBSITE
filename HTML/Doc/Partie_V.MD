@@ -33,12 +33,16 @@ action='connect.php' # Envoie la requête vers la page suivante
 type=''
 name=''
 id=''
+value=''       # Prédéfinir une valeur
+placeholder='' # Indication dans le formulaie directement
+size=''        # Taille du formulaire
+maxlength=''   # Nombre de caractère
 ```
 
 #### 3. Type de formulaire
 ```html
 type='text'
-type=''
+type='password'
 type=''
 type=''
 type=''
@@ -47,7 +51,8 @@ type=''
 
 #### X. Libellés du contenu du formulaire
 ```
-
+<label>Description du formulaire</label>
+<!-- Code du formulaire -->
 ```
 
 
