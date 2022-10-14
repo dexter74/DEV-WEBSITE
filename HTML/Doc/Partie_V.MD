@@ -23,6 +23,19 @@ action='connect.php' # Envoie la requête vers la page suivante
 </form>
 ```
 
+#### 3. Libellés du contenu du formulaire
+```html
+<label>Description du formulaire</label>
+<!-- Code du formulaire -->
+```
+##### Exemple:
+```html
+<form method="post" action='connect.php'> 
+   <label>Description du formulaire</label>
+      <!-- Code du formulaire -->
+</form>
+```
+
 ### B. Le contenu du formulaire
 #### 1. La balise
 ```html
@@ -50,11 +63,8 @@ type=''
 type=''
 ```
 
-#### X. Libellés du contenu du formulaire
-```
-<label>Description du formulaire</label>
-<!-- Code du formulaire -->
-```
+
+
 
 
 #### 4. 
