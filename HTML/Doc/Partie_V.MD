@@ -10,23 +10,24 @@
    <!-- Contenu de mon formulaire -->
 </form>
 ```
-#### 2. Attributs method
+#### 2. Les attributs
 ```
 method="post"        # Type de requête: Envoie
 method="get"         # Type de requête: Réception 
-action='mapage.php'  # Envoie la requête vers la page suivante
+action='connect.php' # Envoie la requête vers la page suivante
 ```
-
 ##### Exemple
 ```html
-<form method="post" action='mapage.php'> 
+<form method="post" action='connect.php'> 
    <!-- Contenu de mon formulaire -->
 </form>
 ```
-
-
 ### B. Le contenu du formulaire
 #### 1. 
+
+#### 2. 
+#### 3. 
+#### 4. 
 
 ### C. 
 ### D. 
