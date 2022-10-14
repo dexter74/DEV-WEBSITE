@@ -46,10 +46,6 @@ action='connect.php' # Envoie la requête vers la page suivante
 textarea{margin-left:10px; height:100px; width:500px;}
 ```
 
-
-
-
-
 #### 3. Les attributs
 ```html
 type=''
@@ -85,10 +81,12 @@ type='week'		# Semaine
 type='month'		# Mois
 type='datetime'		# Gestion du décalage
 type='datetime-local'	# Heure locale
-type="checkbox"		# Case à cocher (Il faut définir un nom)
-
 ```
 
+##### 5. Case à cocher
+```html
+type="checkbox"
+```
 
 ##### Exemple
 ```
