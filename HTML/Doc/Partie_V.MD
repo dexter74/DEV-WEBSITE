@@ -90,6 +90,7 @@ type="checkbox"
 
 ##### 5. Case à cocher (Mono-choix)
 ```html
+type='radio' name='commun' value='unique'
 ```
 
 
