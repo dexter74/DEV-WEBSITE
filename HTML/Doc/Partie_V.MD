@@ -6,7 +6,7 @@
 
 #### 1. La Balise formulaire
 ```html
-<form> </form>
+<form></form>
 ```
 
 #### 2. Les attributs
