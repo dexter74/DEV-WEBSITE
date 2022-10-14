@@ -78,9 +78,26 @@ type=''
 ```
 
 
-
-
-#### 5. 
+##### Exemplme
+```
+	<!-- --------------------------------------------------------------------------- -->
+		<!-- ####################################################################### -->
+		<!-- <form method='post' action='connect.php'> -->
+			<!-- <h2>Inscription:</h2> -->
+			<!-- <label>Identifiant: </label> -->
+			<!-- <input type='text' id='pseudo' name='username' size='8' maxlength='12' /> -->
+			<!-- <br /> -->
+			<!-- <label>Mot de passe: </label> -->
+			<!-- <input type='password' id='mdp' name='password' size='8' maxlength='12' /> -->
+			<!-- <br /> -->
+			<!-- <br /> -->
+			<!-- <label>Votre signature:</label> -->
+			<!-- <br /> -->
+			<!-- <textarea type='text' height='100' ></textarea> -->
+		<!-- </form> -->
+		<!-- ####################################################################### -->
+	<!-- --------------------------------------------------------------------------- -->
+ ```
 
 ### B. 
 ```
