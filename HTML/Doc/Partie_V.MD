@@ -6,12 +6,11 @@
 
 #### 1. La Balise formulaire
 ```html
-<form> 
-   <!-- Contenu de mon formulaire -->
-</form>
+<form> </form>
 ```
+
 #### 2. Les attributs
-```
+```html
 method="post"        # Type de requête: Envoie
 method="get"         # Type de requête: Réception 
 action='connect.php' # Envoie la requête vers la page suivante
@@ -19,20 +18,18 @@ action='connect.php' # Envoie la requête vers la page suivante
 ##### Exemple
 ```html
 <form method="post" action='connect.php'> 
-   <!-- Contenu de mon formulaire -->
 </form>
 ```
 
 #### 3. Libellés du contenu du formulaire
 ```html
 <label>Description du formulaire</label>
-<!-- Code du formulaire -->
 ```
+
 ##### Exemple:
 ```html
 <form method="post" action='connect.php'> 
    <label>Description du formulaire</label>
-      <!-- Code du formulaire -->
 </form>
 ```
 
@@ -62,9 +59,6 @@ type=''
 type=''
 type=''
 ```
-
-
-
 
 
 #### 4. 
