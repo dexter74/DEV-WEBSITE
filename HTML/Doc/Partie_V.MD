@@ -110,21 +110,21 @@ type='radio' name='commun' value='unique'
 			------------------------------------------------------------------------------------------------------
 			<br />
 			<label>Identifiant:</label>
-				<input type='text' name='pseudo' maxlength='12' size='8' placeholder='Drthrax74240'/>
+				<input type='text' name='pseudo' maxlength='12' size='8' placeholder='MonPseudo'/>
 			<br />
 			------------------------------------------------------------------------------------------------------
 			<br />
 			
 			<!-- -------------------------------------------------------------------------------------------- --->
 			<label>Mot de passe:</label>
-				<input type='password' name='password' maxlength='16' size='17' placeholder='Azerty74@1234567'/>
+				<input type='password' name='password' maxlength='16' size='17' placeholder='16 Caractères'/>
 			<br />
 			------------------------------------------------------------------------------------------------------
 			<br />
 			
 			<!-- -------------------------------------------------------------------------------------------- --->
 			<label>Adresse Email:</label>
-				<input type='email' name='password' maxlength='18' size='13' placeholder='teste74@hotmail.fr'/>
+				<input type='email' name='password' maxlength='18' size='13' placeholder='support@email.com'/>
 			<br />
 			------------------------------------------------------------------------------------------------------
 			<br />
