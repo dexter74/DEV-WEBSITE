@@ -102,7 +102,9 @@ type='radio' name='commun' value='unique'
 
 ###### Balise de choix
 ```html
-<option value=''> </option>
+# selected défini le choix par défaut
+<option value='France' selected>France</option>
+<option value='Anglais'>Anglais </option>
 ```
 
 
