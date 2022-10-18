@@ -51,7 +51,7 @@ textarea{margin-left:10px; height:100px; width:500px;}
 type=''
 id=''          # Sert à identifier l'élément dans le HTML pour permettre sa manipulation
 name=''        # Name sert à la variable du formulaire. (Unique)
-placeholder='' # Indication dans le formulaie directement
+placeholder='' # Indication dans le formulaire directement
 size=''        # Taille du formulaire
 maxlength=''   # Nombre de caractère
 value=''       # Prédéfinir une valeur
