@@ -1,21 +1,20 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> [Créez des formulaires](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607171-creez-des-formulaires)</p>
 
-
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-### A. Regrouper les champs
-```html
-<fieldset> <fieldset>
-```
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### B. Création d'un formulaire
+### A. Création d'un formulaire
 #### 1. La Balise formulaire (HTML)
 ```html
 <form></form>
 ```
-#### 2. Les attributs
+
+
+#### 2. Regrouper les champs
+```html
+<fieldset> <fieldset>
+```
+
+#### 3. Les attributs
 ```html
 method='post'        # Type de requête: Envoie
 method='get'         # Type de requête: Réception 
@@ -26,7 +25,7 @@ action='connect.php' # Envoie la requête vers la page suivante
 <form method='post' action='connect.php'></form>
 ```
 
-#### 3. Libellés du contenu du formulaire (HTML)
+#### 4. Libellés du contenu du formulaire (HTML)
 ```html
 <label>Description du formulaire</label>
 ```
