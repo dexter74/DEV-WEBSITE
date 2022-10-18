@@ -72,9 +72,11 @@ font-family: Verdana,arial;
 ###### 2.b Police Google
 ```
 Aller sur https://fonts.google.com/
-Choisir la police (Exemple: Roboto)
-Puis dans la section Style, cliquer sur le Plus "Thin XXX" pour récuper le CSS dans la zone à droite. (Si sa appararaît pas, F5)
-Coller le texte.
+Choisir la police, aller dans la section Style.
+Cliquer sur le bouton "Thin XXX"
+Copier le code "<link> ou @import" dans la balise header.
+Mettre mon style.css en dessous.
+Dans le style.css coller le code "CSS rules to specify families" dans la balise souhaitée.
 ```
 
 
