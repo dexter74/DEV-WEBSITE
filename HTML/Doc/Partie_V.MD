@@ -100,7 +100,7 @@ type='radio' name='commun' value='unique'
 ```
 ###### Balise de Groupe
 ```
-<optgroup value=''> </optgroup>
+<optgroup label=''> </optgroup>
 ```
 
 ###### Balise de choix
@@ -129,32 +129,48 @@ type='radio' name='commun' value='unique'
 			------------------------------------------------------------------------------------------------------
 			<br />
 			<label>Identifiant:</label>
-				<input type='text' name='pseudo' maxlength='12' size='8' placeholder='MonPseudo'/>
+				<input type='text' name='pseudo' maxlength='12' size='8' placeholder='Drthrax74240'/>
 			<br />
 			------------------------------------------------------------------------------------------------------
-			<br />
-			
+			<br />		
 			<!-- -------------------------------------------------------------------------------------------- --->
 			<label>Mot de passe:</label>
-				<input type='password' name='password' maxlength='16' size='17' placeholder='16 Caractères'/>
+				<input type='password' name='password' maxlength='16' size='17' placeholder='Azerty74@1234567'/>
 			<br />
 			------------------------------------------------------------------------------------------------------
 			<br />
-			
 			<!-- -------------------------------------------------------------------------------------------- --->
 			<label>Adresse Email:</label>
-				<input type='email' name='password' maxlength='18' size='13' placeholder='support@email.com'/>
+				<input type='email' name='password' maxlength='18' size='13' placeholder='teste74@hotmail.fr'/>
 			<br />
 			------------------------------------------------------------------------------------------------------
 			<br />
-
 			<!-- -------------------------------------------------------------------------------------------- --->
 			<label>Numéro de Téléphone:</label>
-				<input type='tel' name='password' maxlength='10' size='7' placeholder='0612345678'/>
+				<input type='tel' name='password' maxlength='10' size='7' placeholder='0765834177'/>
 			<br />
 			------------------------------------------------------------------------------------------------------
 			<br />
-			
+			<!-- -------------------------------------------------------------------------------------------- --->
+			<label>Nationalité</label>
+				<select>
+						<option value='' selected></option>
+					<optgroup label='Europe'>
+						<option value='France' >France</option>
+						<option value='Anglais'>Anglais</option>
+						<option value='Espagne'>Espagne</option>
+					</optgroup>
+					
+					<optgroup label='Amérique'>
+						<option value='USA'>Etats-unis</option>
+						<option value='Canada'>Canada</option>
+						<option value='Texas'>Texas</option>
+					</optgroup>
+					
+				</select>
+			<br />
+			------------------------------------------------------------------------------------------------------
+			<br />
 			<!-- -------------------------------------------------------------------------------------------- --->
 			<label>Date de Naissance:</label>
 				<input type='date' name='naissance' />
