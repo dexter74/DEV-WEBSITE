@@ -97,6 +97,7 @@ type='radio' name='commun' value='unique'
 ##### Exemple
 ```
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -104,35 +105,65 @@ type='radio' name='commun' value='unique'
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-	<!-- --------------------------------------------------------------------------- -->
-		<!-- ####################################################################### -->
+		<!-- ################################################################################################# -->
 		<form method='post' action='connect.php'>
-			<h2>Inscription:</h2>
-			<label>Identifiant: </label>
-			<input type='text' id='pseudo' name='username' size='8' maxlength='12' />
-			<br />
-			<label>Mot de passe: </label>
-			<input type='password' id='mdp' name='password' size='8' maxlength='12' />
+			<!-- ###########################################################################################  --->
+			<label>Identifiant:</label>
+				<input type='text' name='pseudo' maxlength='12' size='8' placeholder='Drthrax74240'/>
 			<br />
 			<br />
-			<label>Votre signature:</label>
+			<!-- -------------------------------------------------------------------------------------------- --->
+			<label>Mot de passe:</label>
+				<input type='password' name='password' maxlength='16' size='17' placeholder='Azerty74@1234567'/>
 			<br />
-			<textarea type='text' height='100' ></textarea>
 			<br />
-			<label>Accepter le CLUF: </label>
+			<!-- -------------------------------------------------------------------------------------------- --->
+			<label>Adresse Email:</label>
+				<input type='email' name='password' maxlength='18' size='13' placeholder='teste74@hotmail.fr'/>
 			<br />
-			<input id='CLUF' type="checkbox" name="choix" ><label> Test </label>
+			<br />
+			<!-- -------------------------------------------------------------------------------------------- --->
+			<label>Date de Naissance:</label>
+				<input type='date' name='naissance'/>
+			<br />
+			<br />
+			<!-- -------------------------------------------------------------------------------------------- --->
+			<label>Type de Jeux-Video:</label>
+				<br />
+				<input id='type' type="checkbox" name='mmorpg'/><label> MMORPG </label> 
+				<br />
+				<input id='type' type="checkbox" name='moba'/><label> MOBA </label> 
+				<br />
+				<input id='type' type="checkbox" name='fps'/><label> FPS </label> 
+				<br />
+				<input id='type' type="checkbox" name='str'/><label> STR </label> 
+			<br />
+			<br />
+			<!-- -------------------------------------------------------------------------------------------- --->
+			<label>Accepter la charte:</label>
+				<br />
+				<input id='type' type='radio' name='commun' value='NON'><label>NON</label>
+				<input id='type' type='radio' name='commun' value='OUI'><label>OUI</label>	
+				
+			<!-- -------------------------------------------------------------------------------------------- --->
+			<br />
+			<br />		
+			<label>Signature:</label>
+				<br />
+				<textarea maxlength='35'></textarea>
+			<br />
+			<br />
+			<!-- ############################################################################################ --->
 		</form>
-		<!-- ####################################################################### -->
-	<!-- --------------------------------------------------------------------------- -->
+		<!-- ################################################################################################# -->
 	</body>
 </html>
  ```
  ```css
 *{margin: 0}
 label{font-weight: bold;}
-textarea{margin-left: 10px;height: 100px;width: 500px;}	
-#CLUF{margin-top: 5px;margin-left: 20px}
+textarea, {margin-left:10px; height:20px; width:350px;}
+#type {margin-top: 5px;margin-left: 20px}
  ```
 
 
