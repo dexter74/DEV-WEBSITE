@@ -65,15 +65,15 @@ step=''
 
 #### 4. Type de formulaire
 ```html
-type='color'
-type='email'
-type='number'
-type='password'
-type='range'
 type='text'
-type='search'
-type='tel'
+type='email'
+type='password'
 type='url'
+type='tel'
+type='color'
+type='number'
+type='range'
+type='search'
 
 type='date'		# JJ/MM/AAAA
 type='time'		# HH:MM
