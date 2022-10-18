@@ -1,9 +1,16 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> [Créez des formulaires](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607171-creez-des-formulaires)</p>
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------
-### A. Création d'un formulaire
 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+### A. Regrouper les champs
+```html
+<fieldset> <fieldset>
+```
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+### B. Création d'un formulaire
 #### 1. La Balise formulaire (HTML)
 ```html
 <form></form>
@@ -34,18 +41,12 @@ action='connect.php' # Envoie la requête vers la page suivante
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### B. Le contenu du formulaire (HTML)
 
-##### 1. Regrouper les champs
-```html
-<fieldset> <fieldset>
-```
-
-
-#### 2. La balise Mono-Ligne
+#### 1. La balise Mono-Ligne
 ```html
 <input />
 ```
 
-#### 3. La balise Multi-Ligne (HTML, CSS)
+#### 2. La balise Multi-Ligne (HTML, CSS)
 ```html
 <textarea> </textarea>
 ```
@@ -53,7 +54,7 @@ action='connect.php' # Envoie la requête vers la page suivante
 textarea{margin-left:10px; height:100px; width:500px;}
 ```
 
-#### 4. Les attributs (HTML)
+#### 3. Les attributs (HTML)
 ```html
 type=''
 id=''          # Sert à identifier l'élément dans le HTML pour permettre sa manipulation
@@ -63,14 +64,13 @@ size=''        # Taille du formulaire
 maxlength=''   # Nombre de caractère
 value=''       # Prédéfinir une valeur
 
-
 #Number:
 min=''
 max=''  
 step='' 
 ```
 
-#### 5. Type de formulaire
+#### 4. Type de formulaire
 ```html
 type='text'
 type='email'
@@ -90,17 +90,17 @@ type='datetime'		# Gestion du décalage
 type='datetime-local'	# Heure locale
 ```
 
-##### 6. Case à cocher (Multi-choix)
+##### 5. Case à cocher (Multi-choix)
 ```html
 type="checkbox"
 ```
 
-##### 7. Case à cocher (Mono-choix)
+##### 6. Case à cocher (Mono-choix)
 ```html
 type='radio' name='commun' value='unique'
 ```
 
-##### 8. Les listes déroulantes
+##### 7. Les listes déroulantes
 ###### Balise de base
 ```html
 <select> </select>
