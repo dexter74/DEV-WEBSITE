@@ -100,7 +100,7 @@ type='radio' name='commun' value='unique'
 ```
 ###### Balise de Groupe
 ```
-<optgroup> </optgroup>
+<optgroup value=''> </optgroup>
 ```
 
 ###### Balise de choix
