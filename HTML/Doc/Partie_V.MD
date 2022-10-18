@@ -33,12 +33,19 @@ action='connect.php' # Envoie la requête vers la page suivante
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### B. Le contenu du formulaire (HTML)
-#### 1. La balise Mono-Ligne
+
+##### 1. Regrouper les champs
+```html
+<fieldset> <fieldset>
+```
+
+
+#### 2. La balise Mono-Ligne
 ```html
 <input />
 ```
 
-#### 2. La balise Multi-Ligne (HTML, CSS)
+#### 3. La balise Multi-Ligne (HTML, CSS)
 ```html
 <textarea> </textarea>
 ```
@@ -46,7 +53,7 @@ action='connect.php' # Envoie la requête vers la page suivante
 textarea{margin-left:10px; height:100px; width:500px;}
 ```
 
-#### 3. Les attributs (HTML)
+#### 4. Les attributs (HTML)
 ```html
 type=''
 id=''          # Sert à identifier l'élément dans le HTML pour permettre sa manipulation
@@ -63,7 +70,7 @@ max=''
 step='' 
 ```
 
-#### 4. Type de formulaire
+#### 5. Type de formulaire
 ```html
 type='text'
 type='email'
@@ -83,23 +90,23 @@ type='datetime'		# Gestion du décalage
 type='datetime-local'	# Heure locale
 ```
 
-##### 5. Case à cocher (Multi-choix)
+##### 6. Case à cocher (Multi-choix)
 ```html
 type="checkbox"
 ```
 
-##### 5. Case à cocher (Mono-choix)
+##### 7. Case à cocher (Mono-choix)
 ```html
 type='radio' name='commun' value='unique'
 ```
 
-##### 6. Les listes déroulantes
+##### 8. Les listes déroulantes
 ###### Balise de base
 ```html
 <select> </select>
 ```
 ###### Balise de Groupe
-```
+```html
 <optgroup label=''> </optgroup>
 ```
 
@@ -109,7 +116,6 @@ type='radio' name='commun' value='unique'
 <option value='France' selected>France</option>
 <option value='Anglais'>Anglais </option>
 ```
-
 
 
 
