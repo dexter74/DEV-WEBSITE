@@ -58,7 +58,7 @@ font-size: xx-large; /* Gigantesque */
 ```css
 font-family: Verdana,arial;
 ```
-###### 2. Police Personnalisée [Convertir TTF](https://www.fontsquirrel.com/tools/webfont-generator)
+###### 2.a Police Personnalisée [Convertir TTF](https://www.fontsquirrel.com/tools/webfont-generator)
 ```css
 @font-face {
   font-family: 'MaSuperPolice';
@@ -68,6 +68,16 @@ font-family: Verdana,arial;
        url('MaSuperPolice.svg')  format('svg');
 }
 ```
+
+###### 2.b Police Google
+```
+Aller sur https://fonts.google.com/
+Choisir la police (Exemple: Roboto)
+Puis dans la section Style, cliquer sur le Plus "Thin XXX" pour récuper le CSS dans la zone à droite. (Si sa appararaît pas, F5)
+Coller le texte.
+```
+
+
 ###### 3. Italique
 ```css
 font-style: normal;
