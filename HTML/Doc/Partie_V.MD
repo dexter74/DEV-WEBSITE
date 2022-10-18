@@ -113,7 +113,7 @@ type='radio' name='commun' value='unique'
 ```html
 # selected défini le choix par défaut
 <option value='France' selected>France</option>
-<option value='Anglais'>Anglais </option>
+<option value='Anglais'>Anglais</option>
 ```
 
 
