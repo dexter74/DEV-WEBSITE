@@ -11,7 +11,7 @@
 
 #### 2. Regrouper les champs
 ```html
-<fieldset> <fieldset>
+<fieldset> </fieldset>
 ```
 
 #### 3. Les attributs
