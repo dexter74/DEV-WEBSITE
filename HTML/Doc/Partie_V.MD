@@ -98,7 +98,10 @@ type='radio' name='commun' value='unique'
 ```html
 <select> </select>
 ```
-
+###### Balise de Groupe
+```
+<optgroup> </optgroup>
+```
 
 ###### Balise de choix
 ```html
@@ -106,6 +109,8 @@ type='radio' name='commun' value='unique'
 <option value='France' selected>France</option>
 <option value='Anglais'>Anglais </option>
 ```
+
+
 
 
 ##### Exemple
