@@ -93,6 +93,18 @@ type="checkbox"
 type='radio' name='commun' value='unique'
 ```
 
+##### 6. Les listes déroulantes
+###### Balise de base
+```html
+<select> </select>
+```
+
+
+###### Balise de choix
+```html
+<option value=''> </option>
+```
+
 
 ##### Exemple
 ```html
