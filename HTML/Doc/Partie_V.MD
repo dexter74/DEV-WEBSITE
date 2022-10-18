@@ -4,7 +4,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### A. Création d'un formulaire
 
-#### 1. La Balise formulaire
+#### 1. La Balise formulaire (HTML)
 ```html
 <form></form>
 ```
@@ -19,7 +19,7 @@ action='connect.php' # Envoie la requête vers la page suivante
 <form method='post' action='connect.php'></form>
 ```
 
-#### 3. Libellés du contenu du formulaire
+#### 3. Libellés du contenu du formulaire (HTML)
 ```html
 <label>Description du formulaire</label>
 ```
@@ -32,13 +32,13 @@ action='connect.php' # Envoie la requête vers la page suivante
 ```
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
-### B. Le contenu du formulaire
+### B. Le contenu du formulaire (HTML)
 #### 1. La balise Mono-Ligne
 ```html
 <input />
 ```
 
-#### 2. La balise Multi-Ligne
+#### 2. La balise Multi-Ligne (HTML, CSS)
 ```html
 <textarea> </textarea>
 ```
@@ -46,7 +46,7 @@ action='connect.php' # Envoie la requête vers la page suivante
 textarea{margin-left:10px; height:100px; width:500px;}
 ```
 
-#### 3. Les attributs
+#### 3. Les attributs (HTML)
 ```html
 type=''
 id=''          # Sert à identifier l'élément dans le HTML pour permettre sa manipulation
@@ -92,16 +92,6 @@ type="checkbox"
 ```html
 type='radio' name='commun' value='unique'
 ```
-
-
-
-
-
-
-
-
-
-
 
 
 ##### Exemple
