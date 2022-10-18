@@ -131,7 +131,7 @@ type='radio' name='commun' value='unique'
 
 			<!-- -------------------------------------------------------------------------------------------- --->
 			<label>Numéro de Téléphone:</label>
-				<input type='phone' name='password' maxlength='10' size='7' placeholder='0765834177'/>
+				<input type='tel' name='password' maxlength='10' size='7' placeholder='0612345678'/>
 			<br />
 			------------------------------------------------------------------------------------------------------
 			<br />
