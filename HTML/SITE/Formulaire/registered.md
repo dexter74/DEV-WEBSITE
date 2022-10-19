@@ -3,7 +3,17 @@
 </p>
 
 
-#### Problème:
+#### A faire
+```
+Passage en champs obligatoire
+Les boutons de validation
+Version Responsive
+```
+
+
+
+
+#### Problème
 ```
 La version Mobile déforme le formulaire
 ```
