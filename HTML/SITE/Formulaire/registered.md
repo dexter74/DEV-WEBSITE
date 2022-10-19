@@ -3,7 +3,10 @@
 </p>
 
 
-
+#### Problème:
+```
+La version Mobile déforme le formulaire
+```
 
 
 ```html
