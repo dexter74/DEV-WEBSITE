@@ -78,22 +78,22 @@ step=''
 
 #### 4. Type de formulaire
 ```html
-type='text'
-type='email'
-type='password'
-type='url'
-type='tel'
-type='color'
-type='number'
-type='range'
-type='search'
-
+type='text'		# Texte
+type='email'		# Email
+type='password'		# Mot de passe
+type='url'		# URL
+type='tel'		# Téléphone
+type='number'		# Nombre (min='1' max='10' step='5')
+type='color'		# Choix de couleur
+type='range'		# Curseur
+type='search'		# Rechercher
 type='date'		# JJ/MM/AAAA
 type='time'		# HH:MM
 type='week'		# Semaine
 type='month'		# Mois
 type='datetime'		# Gestion du décalage
 type='datetime-local'	# Heure locale
+
 ```
 
 ##### 5. Case à cocher (Multi-choix)
