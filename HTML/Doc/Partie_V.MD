@@ -240,26 +240,18 @@ value=''       		# Prédéfinir une valeur
 *{margin: 0}
 
 /* Mise en forme du formulaire en général */
-/* body{border: 5px black solid} */
+body{border: 5px black solid}
 h2, form, #requis{border: 2px green solid}
-/* label{} */
+label{}
 
 /* Positionnement Texte */
 h2{text-align:center}
 
 /* Marge du titre du formulaire */
-h2{
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 2px;
-	margin-bottom: 10px;
-	}
+h2{margin-left: 50px;margin-right: 50px;margin-top: 2px;margin-bottom: 10px;}
 
 /* Couleur de texte */
-#requis{
-	color: red;
-	margin-bottom: 10px
-	}
+#requis{color: red;margin-bottom: 10px}
 
 /* Marge entre élements */
 #identifiant ,#motdepasse ,#email ,#pays ,#charte ,#newsletter ,#telephone ,#pageperso, #steam{margin-bottom: 10px}
@@ -276,22 +268,13 @@ h2{
 #pageperso{margin-left: 28px}
 #steam{margin-left: 11px}
 
-
 /* Hauteur et Largeur*/
 #pays{width: 135px}
 
-
-:required
-{
-    background-color: #34495E;
-}
-
-/* :invalid */
-/* { */
-    /* background-color: #34495E; */
-/* } */
+:required{background-color: #34495E}
+:focus{background-color: #34495E}
+:invalid{background-color: #34495E}
 ```
-
 <br />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
