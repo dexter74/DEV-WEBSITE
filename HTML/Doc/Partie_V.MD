@@ -290,16 +290,27 @@ h2{
 /* { */
     /* background-color: #34495E; */
 /* } */
-
 ```
 
-
+<br />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> [Enrichissez votre site avec de la vidéo et de l'audio](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607438-enrichissez-votre-site-avec-de-la-video-et-de-laudio)</p>
 
 
+#### 1.
+```
+```
 
+#### 2.
+```
+```
+
+#### 3.
+```
+```
+
+<br />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> [Utilisez le responsive design avec les Media Queries](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607616-utilisez-le-responsive-design-avec-les-media-queries)</p>
@@ -365,7 +376,7 @@ Préfix possible:
 ```
 ```
 
-
+<br />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> []()</p>
