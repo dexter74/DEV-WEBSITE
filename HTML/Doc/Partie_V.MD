@@ -261,12 +261,20 @@ textarea{
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### C. Le bouton d'envoi
-#### 1.
+#### 1. La balise de base
 ```
+<input />
 ```
 
-#### 2.
+#### 2. Les attributs
 ```
+type='submit'		# Bouton pour soumettre
+type='image' src=''	# Bouton avec une image à la place
+type='reset'		# Remise à zéro du formulaire
+
+type='button'		# Bouton sans effet (A approfondir)
+action=''		# Du formulaire (registered.php)
+value=''       		# Prédéfinir une valeur
 ```
 
 #### 3.
