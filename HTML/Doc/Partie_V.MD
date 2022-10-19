@@ -54,15 +54,15 @@ textarea{margin-left:10px; height:100px; width:500px;}
 
 #### 3. Les attributs (HTML)
 ```html
-type=''
-id=''          # Sert à identifier l'élément dans le HTML pour permettre sa manipulation
-name=''        # Name sert à la variable du formulaire. (Unique)
-placeholder='' # Indication dans le formulaire directement
-size=''        # Taille du formulaire
-maxlength=''   # Nombre de caractère
-value=''       # Prédéfinir une valeur
-autofocus      # Définis le champs qui sera en édite par défaut
-
+type=''		# Définir le type de formulaire
+id=''          	# Sert à identifier l'élément dans le HTML pour permettre sa manipulation
+name=''        	# Name sert à la variable du formulaire. (Unique)
+placeholder='' 	# Indication dans le formulaire directement
+size=''        	# Taille du formulaire
+maxlength=''   	# Nombre de caractère
+value=''       	# Prédéfinir une valeur
+autofocus	# Définis le champs qui sera en édite par défaut
+required	# Champs obligatoire
 
 #Number:
 min=''
