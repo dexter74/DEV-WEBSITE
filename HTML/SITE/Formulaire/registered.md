@@ -9,6 +9,7 @@ La version Mobile déforme le formulaire
 ```
 
 
+#### HTML
 ```html
 <!DOCTYPE html>
 <html>
@@ -82,6 +83,7 @@ La version Mobile déforme le formulaire
 </html>
 ```
 
+#### CSS
 
 ```css
 *{margin: 0}
