@@ -123,142 +123,6 @@ type='radio' name='commun' value='unique'
 <option value='Anglais'>Anglais</option>
 ```
 
-
-##### Exemple
-```html
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<title>Titre</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
-		<!-- ################################################################################################# -->
-		<form method='post' action='connect.php'>
-			<!-- ###########################################################################################  --->
-			------------------------------------------------------------------------------------------------------
-			<br />
-			<label>Identifiant:</label>
-				<input type='text' name='pseudo' maxlength='12' size='8' placeholder='Drthrax74240'/>
-			<br />
-			------------------------------------------------------------------------------------------------------
-			<br />		
-			<!-- -------------------------------------------------------------------------------------------- --->
-			<label>Mot de passe:</label>
-				<input type='password' name='password' maxlength='16' size='17' placeholder='Azerty74@1234567'/>
-			<br />
-			------------------------------------------------------------------------------------------------------
-			<br />
-			<!-- -------------------------------------------------------------------------------------------- --->
-			<label>Adresse Email:</label>
-				<input type='email' name='password' maxlength='18' size='13' placeholder='teste74@hotmail.fr'/>
-			<br />
-			------------------------------------------------------------------------------------------------------
-			<br />
-			<!-- -------------------------------------------------------------------------------------------- --->
-			<label>Numéro de Téléphone:</label>
-				<input type='tel' name='password' maxlength='10' size='7' placeholder='0765834177'/>
-			<br />
-			------------------------------------------------------------------------------------------------------
-			<br />
-			<!-- -------------------------------------------------------------------------------------------- --->
-			<label>Nationalité</label>
-				<select>
-						<option value='' selected></option>
-					<optgroup label='Europe'>
-						<option value='France' >France</option>
-						<option value='Anglais'>Anglais</option>
-						<option value='Espagne'>Espagne</option>
-					</optgroup>
-					
-					<optgroup label='Amérique'>
-						<option value='USA'>Etats-unis</option>
-						<option value='Canada'>Canada</option>
-						<option value='Texas'>Texas</option>
-					</optgroup>
-					
-				</select>
-			<br />
-			------------------------------------------------------------------------------------------------------
-			<br />
-			<!-- -------------------------------------------------------------------------------------------- --->
-			<label>Date de Naissance:</label>
-				<input type='date' name='naissance' />
-			<br />
-			------------------------------------------------------------------------------------------------------
-			<br />
-			<!-- -------------------------------------------------------------------------------------------- --->
-			<label>Votre page personnelle:</label>
-				<input type='url' name='url' placeholder='http://www.localhost' maxlength='20' size='14' />
-			<br />
-			------------------------------------------------------------------------------------------------------
-			<br />
-			<!-- -------------------------------------------------------------------------------------------- --->
-			<label>Type de Jeux-Video:</label>
-				<br />
-				<input id='type' type="checkbox" name='mmorpg'/><label> MMORPG </label> 
-				<br />
-				<input id='type' type="checkbox" name='moba'/><label> MOBA </label> 
-				<br />
-				<input id='type' type="checkbox" name='fps'/><label> FPS </label> 
-				<br />
-				<input id='type' type="checkbox" name='str'/><label> STR </label> 
-			<br />
-			------------------------------------------------------------------------------------------------------
-			<br />
-			<!-- -------------------------------------------------------------------------------------------- --->
-			<label>Accepter la charte:</label>
-				<br />
-				<input id='type' type='radio' name='commun' value='NON'><label>NON</label>
-				<input id='type' type='radio' name='commun' value='OUI'><label>OUI</label>	
-			<!-- -------------------------------------------------------------------------------------------- --->
-			<br />
-			------------------------------------------------------------------------------------------------------
-			<br />
-			<label>Signature:</label>
-				<br />
-				<textarea maxlength='35'></textarea>
-			<br />
-			<!-- -------------------------------------------------------------------------------------------- --->
-			------------------------------------------------------------------------------------------------------
-			<br />
-				<label>Moteur de recherche:</label>
-				<br />
-				<input id='search' type='search' />
-			<br />
-			------------------------------------------------------------------------------------------------------
-			<!-- ############################################################################################ --->
-		</form>
-		<!-- ################################################################################################# -->
-	</body>
-</html>
-```
-
-```css
-*   {
-	margin: 0
-	}
-label{
-	font-weight: bold;
-	}
-#type{
-	margin-top: 5px;
-	margin-left: 10px;
-	}
-textarea{
-	margin-left:10px; 
-	height:20px;
-	width:350px;
-	}
-#search {
-	margin-left:10px;
-	height:20px;
-	width:350px;
-	}
- ```
-
-
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### C. Le bouton d'envoi
 #### 1. La balise de base
@@ -288,6 +152,147 @@ value=''       		# Prédéfinir une valeur
 #### 5.
 ```
 ```
+
+
+
+##### Exemple
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Titre</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+	<!-- ################################################################################################################################ -->
+		<form method='post' action='inscription.php' >
+			<fieldset>
+				<h2>Formulaire d'inscription</h2>
+				<!-- -------------------------------------------------------------------------------------------------------------------- -->
+				<div id='requis'>
+					Champs obligatoire: *
+				</div>
+				<!-- <br /> -->
+				<!-- -------------------------------------------------------------------------------------------------------------------- -->
+				<label>Identifiant *</label>
+					<input id='identifiant' type='text' name='username' size='14' maxlength='12' value='Drthrax74240' required autofocus />
+					
+				<br />
+				<!-- -------------------------------------------------------------------------------------------------------------------- -->
+				<label>Mot de passe *</label>
+					<input id='motdepasse' type='password' name='password' size='14' maxlength='16' value='1234567890123456' required />
+				<br />
+				<!-- -------------------------------------------------------------------------------------------------------------------- -->
+				<label>Email *</label>
+					<input id='email' type='' name='mail' size='14' maxlength='18' value='teste74@hotmail.fr' required />
+				<br />
+				<!-- -------------------------------------------------------------------------------------------------------------------- -->
+				<label>Nationalité *</label>
+						<select id='pays' required>
+								<option value='country' ></option>
+							<optgroup label='Europe'>
+								<option value='France' selected>France</option>
+								<option value='Anglais'>Anglais</option>
+							</optgroup>
+							<optgroup label='Amérique'>
+								<option value='USA'>États-Unis</option>
+								<option value='Canada'>Canada</option>
+								<option value='Mexique'>Mexique</option>
+							</optgroup>
+						</select>
+				<br />
+				<!-- -------------------------------------------------------------------------------------------------------------------- -->
+				<label>Charte *</label>
+					<input id='charte' type='radio' name='charte' value='OUI' required /> OUI |
+					<input type='radio' name='charte' value='NON'/> NON
+				<br />
+				<!-- -------------------------------------------------------------------------------------------------------------------- -->
+				<label>Newsletter *</label>
+					<input id='newsletter' type='radio' name='newsletter' value='OUI' required /> OUI |
+					<input type='radio' name='newsletter' value='NON'/> NON
+				<br />
+				<!-- -------------------------------------------------------------------------------------------------------------------- -->
+				<label>Téléphone</label>
+					<input id='telephone' type='tel' name='phone' size='14' maxlength='10' value='1234567890' />
+				<br />
+				<!-- -------------------------------------------------------------------------------------------------------------------- -->
+				<label>Page Perso</label>			
+					<input id='pageperso' type='url' name='homepage' size='14' maxlength='21' value='http://192.168.1.2' />
+				<br />
+				<!-- -------------------------------------------------------------------------------------------------------------------- -->
+				<label>Profile Steam</label>			
+					<input id='steam' type='text' name='homepage' size='14' maxlength='21' value='http://192.168.1.2' />
+				<br />
+				<!-- -------------------------------------------------------------------------------------------------------------------- -->
+				<input type='submit' value='Valider' />
+				<input type='reset' value='Reset' />
+			</fieldset>
+			
+		</form>
+
+	<!-- ################################################################################################################################ -->
+	</body>
+</html>
+```
+
+```css
+*{margin: 0}
+
+/* Mise en forme du formulaire en général */
+/* body{border: 5px black solid} */
+h2, form, #requis{border: 2px green solid}
+/* label{} */
+
+/* Positionnement Texte */
+h2{text-align:center}
+
+/* Marge du titre du formulaire */
+h2{
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	}
+
+/* Couleur de texte */
+#requis{
+	color: red;
+	margin-bottom: 10px
+	}
+
+/* Marge entre élements */
+#identifiant ,#motdepasse ,#email ,#pays ,#charte ,#newsletter ,#telephone ,#pageperso, #steam{margin-bottom: 10px}
+
+
+/* Décalage des formulaires par rapport au label */
+#identifiant{margin-left: 19.9px}
+#motdepasse{margin-left: 2.2px}
+#email{margin-left: 48.6px}
+#pays{margin-left: 15.6px}
+#charte{margin-left: 43.6px}
+#newsletter{margin-left: 17px}
+#telephone{margin-left: 31px}
+#pageperso{margin-left: 28px}
+#steam{margin-left: 11px}
+
+
+/* Hauteur et Largeur*/
+#pays{width: 135px}
+
+
+:required
+{
+    background-color: #34495E;
+}
+
+/* :invalid */
+/* { */
+    /* background-color: #34495E; */
+/* } */
+
+```
+
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
