@@ -8,7 +8,6 @@
 <form></form>
 ```
 
-
 #### 2. Regrouper les champs
 ```html
 <fieldset> </fieldset>
@@ -62,11 +61,14 @@ placeholder='' # Indication dans le formulaire directement
 size=''        # Taille du formulaire
 maxlength=''   # Nombre de caractère
 value=''       # Prédéfinir une valeur
+autofocus      # Définis le champs qui sera en édite par défaut
+
 
 #Number:
 min=''
 max=''  
 step='' 
+
 ```
 
 #### 4. Type de formulaire
@@ -115,7 +117,6 @@ type='radio' name='commun' value='unique'
 <option value='France' selected>France</option>
 <option value='Anglais'>Anglais</option>
 ```
-
 
 
 ##### Exemple
