@@ -319,11 +319,21 @@ h2{
 only	: Uniquement
 and	: Et
 not	: N'est pas
-
 ```
+###### Exemple
+```css
+/* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1280px)
 
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
 
+/* Sur les téléviseurs */
+@media tv
 
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait)
+```
 
 
 #### 3. Règle disponible CSS
