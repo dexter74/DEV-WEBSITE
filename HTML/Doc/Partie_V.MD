@@ -298,15 +298,53 @@ h2{
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## <p align='center'> [Enrichissez votre site avec de la vidéo et de l'audio](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607438-enrichissez-votre-site-avec-de-la-video-et-de-laudio)</p>
 
-#### 1.
-```
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+## <p align='center'> [Utilisez le responsive design avec les Media Queries](https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3/1607616-utilisez-le-responsive-design-avec-les-media-queries)</p>
+
+#### 1. Méthode via le HTML
+```css
+<link rel="stylesheet" media="screen and (max-width: 1280px)" href="responsive.css" />
 ```
 
-#### 2.
+#### 2. Méthode via le CSS
+```css
+@media screen <règle> (max-width: 1280px){}
 ```
+
+##### Combinaison de Règle
+```css
+only	: Uniquement
+and	: Et
+not	: N'est pas
+
 ```
-#### 3.
+
+
+
+
+
+#### 3. Règle disponible CSS
 ```
+color: 			# Couleur
+height:			# Hauteur
+width:			# Largeur
+device-height:		# Hauteur du périphérique
+device-width:		# Largeur du périphérique
+orientation:		# portrait ou paysage
+
+media: screen;		# Ecran Classique (PC)
+media: handheld;	# Périphértique Mobile
+media: print;		# Impression
+media: tv;		# Télévision
+media: projection;	# Projecteur
+media: all;		# Tous les types d'écrans
+
+Préfix possible: 
+ min-XXXX		# Exemple: min-width
+ max-XXXX		# Exemple: max-width
 ```
 
 #### 4.
