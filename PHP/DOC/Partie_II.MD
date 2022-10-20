@@ -4,7 +4,7 @@
 ### A. Comprenez ce qu'est une variable
 #### 1. Donnez toujours un nom et une valeur aux variables
 ```php
-$DATE = 221012
+$DATE  = 221012
 $HEURE = 1951
 ```
 #### 2. Découvrez les différents types de variables
