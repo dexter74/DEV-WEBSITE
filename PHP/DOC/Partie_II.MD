@@ -577,9 +577,8 @@ Les tableaux associatifs:
 	    ['Couscous','[...]','mickael.andrieu@exemple.com',false,],
 	];
 
-	foreach ($recipes as $recipe) {
-	    echo $recipe[0]; // Affichera Cassoulet, puis Couscous
-	}
+	// Affichera Cassoulet, puis Couscous
+	foreach ($recipes as $recipe) {echo $recipe[0];}
 ?>
 ```
 #### 3. 
