@@ -22,8 +22,8 @@ $HEURE = 1951
 #### 1. Définir une Variable à une valeur
 ```php
 <?php
-  $userAge = 17;
-  echo $userAge
+	$userAge = 17;
+	echo $userAge
 ?>
 ```
 Explication:
@@ -294,6 +294,7 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 	else {echo 'Désolé, je n'ai pas de message à afficher pour cette note';}
 ?>
 ```
+
 ##### Méthode Swtich
 ```php
 <?php
@@ -375,10 +376,8 @@ Ensuite il faut déclarer les indices echo $TEST[<indice>]
 #### 1. Création d'un tableau
 ```php
 <?php
-
 //Variable
 	$user1 = ['Mickaël Andrieu', 'email', 'S3cr3t', '34'];
-
 //Tableau
 	echo $user1[0];
 	echo $user1[1];
@@ -393,10 +392,8 @@ Ensuite il faut déclarer les indices echo $TEST[<indice>]
 // Tableau des correspondances
 	$user0 = ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.com','users'];
 	$user1 = ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.com','Administrateur'];
-
 // Tableau regroupant les correspondances
 	$users = [$user0, $user1];
-
 // Interroge le tableau regroupant
 	echo $users[0][0] . ' | '; // 20
 	echo $users[0][1] . ' | '; // Dexter74
@@ -433,7 +430,6 @@ puis la boucle relance le processus à l'infini sauf si elle est conditionnée.
 <?php
 	// Variable
 	$LIGNE = 1;
-
 	// Message + Incrémentation
 	while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE++;}
 ?>
@@ -468,14 +464,12 @@ Si Non: while
 #### 1. Complex (Possiblement une erreur sur le résultat)
 ```php
 <?php
-
 	// Déclaration du tableau (Non numérotés)
 	$BDD = [
   	       ['20','Dexter74','Passw0rd2022','Jaques','Levin','31','dexter74@mail.com','users'],
   	       ['21','Drthrax74','Passw0rd2022','Paul','Courrier','31','drthrax74@mail.com','Administrateur'],
   	       ['22','Snake','Passw0rd2022','Alain','Charles','31','drthrax74@mail.com','Administrateur'],
   	       ];
-
 	// Lecture de la ligne 0 à 1 du tableau
 	for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('. $BDD[$LIGNE][7] .')"}
 ?>
@@ -506,7 +500,6 @@ Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 <?php
 	// Déclaration d'un Tableau (Non numérotés)
 	$VALEUR0 = ['Jean-Claude', 'Halidi', 'Franck', 'Marc'];
-
 	// Déclaration d'un tableau indexé numériquement
 	$VALEUR1 = array('Jean-Claude', 'Halidi', 'Franck', 'Marc');
 ?>
