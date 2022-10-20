@@ -209,8 +209,8 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 <?php
 	$ACCES = 'AUTORISER';
 	if ($ACCES == NULL) {echo 'La valeur est Video';}
-	elseif ($ACCES == 'AUTORISER') {echo 'Accès Autorisé';}
-	elseif ($ACCES == 'REFUSER')   {echo 'Accès refusé';}
+	elseif ($ACCES == 'AUTORISER') {echo 'Accès Autorisé!';}
+	elseif ($ACCES == 'REFUSER')   {echo 'Accès refusé!';}
 	else {echo 'Code retour en abend';}
 ?>
 ```
