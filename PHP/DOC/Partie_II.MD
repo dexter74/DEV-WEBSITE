@@ -507,7 +507,7 @@ Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 | -- | ----------- |
 | 0  | Jean-Claude |
 | 1  | Halidi      |
-| 2  | Luc         |
+| 2  | Franck      |
 | 3  | Marc        |
 
 ###### Construire un Tableau Numéroté
@@ -515,10 +515,10 @@ Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 <?php
 
 // Déclaration d'un Tableau (Non numérotés)
-$VALEUR0 = ['Jean-Claude', 'Halidi', 'Luc', 'Marc'];
+$VALEUR0 = ['Jean-Claude', 'Halidi', 'Franck', 'Marc'];
 
 // Déclaration d'un tableau indexé numériquement
-$VALEUR1 = array('Jean-Claude', 'Halidi', 'Luc', 'Marc');
+$VALEUR1 = array('Jean-Claude', 'Halidi', 'Franck', 'Marc');
 ?>
 ```
 
