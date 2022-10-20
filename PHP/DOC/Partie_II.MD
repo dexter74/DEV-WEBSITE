@@ -257,7 +257,7 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 	$ETAT   = '1';
 	$OK     = '✅';
 	$KO     = '❌';
-	echo '<b>Accès à l'administration: </b>';
+	echo "<b>Accès à l'administration: </b>";
 	if(($BYPASS == 'true') || ($USER == 'Marc' && $ADMIN == 'true' && $ETAT == '1'))  {echo $OK;} else{echo $KO;}
 ?>
 ```
