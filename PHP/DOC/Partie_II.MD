@@ -62,13 +62,13 @@ userAge : Nom de la Variable
 #### 4. Le type bool  (booléen)
 ```php
 <?php
+	$isAuthor = true;
+	$isAdministrator = false;
 ?>
 ```
 #### 5. Une variable vide avec NULL
 ```php
 <?php
-	$isAuthor = true;
-	$isAdministrator = false;
 	$noValue = NULL;
 ?>
 ```
