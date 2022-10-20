@@ -510,31 +510,31 @@ Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 
 --------------------------------------------------------
 ### B. Familiarisez-vous avec les tableaux associatifs
-#### 1. Construisez un tableau associatif
+#### 1. Construisez un tableau associatif (2 Manières d'écritures)
 ```php
 <?php
-	$recipe = [
-	    'title' => 'Cassoulet',
-	    'recipe' => 'Etape 1 : des flageolets, Etape 2 : ...',
-	    'author' => 'john.doe@exemple.com',
-	    'enabled' => true,
-	];
+	$TABLEAU = 	[
+		'TITRE' => 'Independance Day ',
+		'JOUR'	=> '2 ',
+		'MOIS'	=> 'Octobre ',
+		'ANNEE'	=> '1996 ',
+		];
 ?>
 ```
 
 ```php
 <?php
-	$recipe['title'] = 'Cassoulet';
-	$recipe['recipe'] = 'Etape 1 : des flageolets, Etape 2 : ...';
-	$recipe['author'] = 'john.doe@exemple.com';
-	$recipe['enable'] = true;
+	$TABLEAU['TITRE'] = 'Independance Day';
+	$TABLEAU['JOUR'] = '2';
+	$TABLEAU['MOIS'] = 'Octobre';
+	$TABLEAU['ANNEE'] = '1996';
 ?>
 ```
 
 #### 2. Affichez un tableau associatif
 ```php
 <?php
-echo $recipe['title'];
+	echo $TABLEAU['TITRE'];
 ?>
 ```
 
@@ -556,31 +556,45 @@ Les tableaux associatifs:
 #### 1. La boucle for
 ```php
 <?php
-	/**
-	 * Déclaration du tableau des recettes
-	 * Chaque élément du tableau est un tableau numéroté (une recette)
-	 */
-	$recipes = [
-	    ['Cassoulet','[...]','mickael.andrieu@exemple.com',true,],
-	    ['Couscous','[...]','mickael.andrieu@exemple.com',false,],
-	];
-	// De la ligne 0 à la ligne 1 rechercher le contenu de la colonne 0
-	for ($lines = 0; $lines <= 1; $lines++) {echo $recipes[$lines][0];}
-?>	
+	$TABLEAU = [
+		['Independance Day I', '2', 'Octobre', '1996',],
+		['Independance Day II', '20', 'Juillet', '2016',],
+		['Armageddon', '5', 'août ', '1998',],
+		];
+	
+	// Independance Day IIndependance Day II
+	for ($Ligne = 0; $Ligne <= 1; $Ligne++) {echo $TABLEAU[$Ligne][0];}
+?>
 ```
 #### 2. La boucle foreach 
 ```php
 <?php
-	// Déclaration du tableau des recettes
-	$recipes = [
-	    ['Cassoulet','[...]','mickael.andrieu@exemple.com',true,],
-	    ['Couscous','[...]','mickael.andrieu@exemple.com',false,],
-	];
-
-	// Affichera Cassoulet, puis Couscous
-	foreach ($recipes as $recipe) {echo $recipe[0];}
+	$TABLEAU = [
+		['Independance Day I ', '2', 'Octobre', '1996',],
+		['Independance Day II', '20', 'Juillet', '2016',],
+		['Armageddon', '5', 'août ', '1998',],
+		];
+	
+	// Independance Day I Independance Day IIArmageddon
+	foreach ($TABLEAU as $RESULTAT ) {echo $RESULTAT[0];}
 ?>
 ```
+
+```php
+<?php
+	$TABLEAU = [
+		'TITRE' => 'Independance Day -',
+		'JOUR'	=> '2 ',
+		'MOIS'	=> 'Octobre ',
+		'ANNEE'	=> '1996 ',
+		];
+	
+	// Independance Day -2 Octobre 1996
+	foreach ($TABLEAU as $RESULTAT) {echo $RESULTAT;}
+?>
+ ```
+
+
 #### 3. 
 ```php
 ```
