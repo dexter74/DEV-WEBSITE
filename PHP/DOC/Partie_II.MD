@@ -378,11 +378,12 @@ Ensuite il faut déclarer les indices echo $TEST[<indice>]
 <?php
 //Variable
 	$user1 = ['Mickaël Andrieu', 'email', 'S3cr3t', '34'];
+	
 //Tableau
-	echo $user1[0];
-	echo $user1[1];
-	echo $user1[2];
-	echo $user1[3];
+	echo $user1[0]; // Mickaël Andrieu
+	echo $user1[1]; // email
+	echo $user1[2]; // S3cr3t
+	echo $user1[3]; // 34
 ?>
 ```
 
@@ -392,8 +393,10 @@ Ensuite il faut déclarer les indices echo $TEST[<indice>]
 // Tableau des correspondances
 	$user0 = ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.com','users'];
 	$user1 = ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.com','Administrateur'];
+
 // Tableau regroupant les correspondances
 	$users = [$user0, $user1];
+
 // Interroge le tableau regroupant
 	echo $users[0][0] . ' | '; // 20
 	echo $users[0][1] . ' | '; // Dexter74
