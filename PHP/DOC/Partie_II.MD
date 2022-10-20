@@ -490,6 +490,7 @@ for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('.
 ?>
 ```
 
+<br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Organisez vos données à l'aide des tableaux](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4238931-organisez-vos-donnees-a-laide-des-tableaux)</p>
