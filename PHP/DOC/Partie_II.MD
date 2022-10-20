@@ -510,17 +510,43 @@ Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 
 --------------------------------------------------------
 ### B. Familiarisez-vous avec les tableaux associatifs
-#### 1. 
+#### 1. Construisez un tableau associatif
 ```php
+<?php
+	$recipe = [
+	    'title' => 'Cassoulet',
+	    'recipe' => 'Etape 1 : des flageolets, Etape 2 : ...',
+	    'author' => 'john.doe@exemple.com',
+	    'enabled' => true,
+	];
+?>
 ```
-#### 2. 
+
 ```php
+<?php
+	$recipe['title'] = 'Cassoulet';
+	$recipe['recipe'] = 'Etape 1 : des flageolets, Etape 2 : ...';
+	$recipe['author'] = 'john.doe@exemple.com';
+	$recipe['enable'] = true;
+?>
 ```
-#### 3. 
+
+#### 2. Affichez un tableau associatif
 ```php
+<?php
+echo $recipe['title'];
+?>
 ```
-#### 4. 
-```php
+
+#### 3. Quand utiliser un tableau numéroté et quand utiliser un tableau associatif ?
+```
+Les tableaux numérotés:
+	- Permettent de stocker une série d'éléments du même type, comme des prénoms.
+	- Chaque élément du tableau contiendra alors un prénom.
+	
+Les tableaux associatifs:
+	- Permettent de découper une donnée en plusieurs sous-éléments. 
+	- Par exemple, une adresse peut être découpée en nom, prénom, nom de rue, ville…
 ```
 
 <br />
