@@ -553,11 +553,34 @@ Les tableaux associatifs:
 
 --------------------------------------------------------
 ### C. Parcourez un tableau
-#### 1. 
+#### 1. La boucle for
 ```php
+<?php
+	/**
+	 * Déclaration du tableau des recettes
+	 * Chaque élément du tableau est un tableau numéroté (une recette)
+	 */
+	$recipes = [
+	    ['Cassoulet','[...]','mickael.andrieu@exemple.com',true,],
+	    ['Couscous','[...]','mickael.andrieu@exemple.com',false,],
+	];
+
+	for ($lines = 0; $lines <= 1; $lines++) {echo $recipes[$lines][0];}
+?>	
 ```
-#### 2. 
+#### 2. La boucle foreach 
 ```php
+<?php
+	// Déclaration du tableau des recettes
+	$recipes = [
+	    ['Cassoulet','[...]','mickael.andrieu@exemple.com',true,],
+	    ['Couscous','[...]','mickael.andrieu@exemple.com',false,],
+	];
+
+	foreach ($recipes as $recipe) {
+	    echo $recipe[0]; // Affichera Cassoulet, puis Couscous
+	}
+?>
 ```
 #### 3. 
 ```php
