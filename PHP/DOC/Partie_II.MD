@@ -519,6 +519,7 @@ $VALEUR0 = ['Jean-Claude', 'Halidi', 'Franck', 'Marc'];
 
 // Déclaration d'un tableau indexé numériquement
 $VALEUR1 = array('Jean-Claude', 'Halidi', 'Franck', 'Marc');
+
 ?>
 ```
 
