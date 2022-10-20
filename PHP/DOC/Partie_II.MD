@@ -423,18 +423,16 @@ puis la boucle relance le processus à l'infini sauf si elle est conditionnée.
 ##### Boucle Infini
 ```php
 <?php
-	//Tant que $TEST est vrai: 
-	while ($TEST) {echo 'Mon Message qui se répéte à l'infini <br />';}
+	$CHECK = true;
+	while ($CHECK) {echo 'Mon Message qui se répéte à l\'infini <br />';}
 ?>
 ```
 
 ##### La Boucle qui se répète X fois avec incrémentation
 ```php
 <?php
-	// Variable
-	$LIGNE = 1;
-	// Message + Incrémentation
-	while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE++;}
+	$LIGNE= 1;
+	while($LIGNE <= 5){echo '<b>Numéro de ligne:</b> ' . $LIGNE . '<br />' ;$LIGNE++;}
 ?>
 ```
 
@@ -447,10 +445,19 @@ puis la boucle relance le processus à l'infini sauf si elle est conditionnée.
 #### 1. Exemple 1
 ```php
 <?php
-	// Initiation + condition de bouclage et incrémentation à chaque boucle 
-	for ($lines = 0; $lines <= 2; $lines++) {echo $users[$lines][0] . ' ' . $users[$lines][1] . '<br />';}
+	// Tableau des correspondances
+	$user0 = ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.com','users'];
+	$user1 = ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.com','Administrateur'];
+	$users = [$user0, $user1];
+
+	// Afficher les lignes 0 et 1 sur la colonnes 0 et 1
+	for ($lines = 0; $lines <= 1; $lines++){echo $users[$lines][0] . ' ' . $users[$lines][1] . '<br />';}
+	// 20 Dexter74
+	// 21 Drthrax74
 ?>
 ```
+
+
 #### 2. Choisir For ou While
 ```
 while  est plus simple et plus flexible : on peut faire tous les types de boucles avec, mais on peut oublier de faire certaines étapes, comme l'incrémentation de la variable.
@@ -464,7 +471,24 @@ Si Non: while
 <br />
 
 ### D. Affichez des recettes
-#### 1. Complex (Possiblement une erreur sur le résultat)
+#### 1. Complex
+```php
+
+<?php
+	// Déclaration du tableau (Non numérotés)
+	$BDD = [
+  	       ['20','Dexter74','Passw0rd2022','Jaques','Levin','31','dexter74@mail.com','users'],
+  	       ['21','Drthrax74','Passw0rd2022','Paul','Courrier','31','drthrax74@mail.com','Administrateur'],
+  	       ['22','Snake','Passw0rd2022','Alain','Charles','31','drthrax74@mail.com','Administrateur'],
+  	       ];
+	// Lecture des lignes 0 et 1. Coloone 1 et 6.
+	for ($LIGNE = 0; $LIGNE <=1; $LIGNE++){echo $BDD[$LIGNE][1] .'('.	$BDD[$LIGNE][6] .')'. '<br />';}
+?>
+```
+
+
+
+ERREUR
 ```php
 <?php
 	// Déclaration du tableau (Non numérotés)
@@ -477,6 +501,14 @@ Si Non: while
 	for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('. $BDD[$LIGNE][7] .')"}
 ?>
 ```
+
+
+
+
+
+
+
+
 
 <br />
 
