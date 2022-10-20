@@ -41,10 +41,10 @@ userAge : Nom de la Variable
 #### 1. Le type string  (chaîne de caractères)
 ```php
 <?php
-  $fullname = 'Mathieu Nebra';
-  $email = 'mathieu.nebra@exemple.com';
-  $prenom1 = "Mon \"nom\" est Mathieu";
-  $prenom2 = 'Je m\'appelle Mathieu';
+	$fullname = 'Mathieu Nebra';
+	$email = 'mathieu.nebra@exemple.com';
+	$prenom1 = "Mon \"nom\" est Mathieu";
+	$prenom2 = 'Je m\'appelle Mathieu';
 ?>
 ```
 #### 2. Le type int  (nombre entier)
@@ -286,36 +286,36 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 ##### Méthode if elseif else
 ```php
 <?php
-$grade = 16;
-if ($grade == 0) {echo 'Tu es vraiment un gros nul !!!';}
-elseif ($grade == 5) {echo 'Tu es très mauvais';}
-elseif ($grade == 16) {echo 'Tu te débrouilles très bien !';}
-elseif ($grade == 20) {echo 'Excellent travail, c'est parfait !';}
-else {echo 'Désolé, je n'ai pas de message à afficher pour cette note';}
+	$grade = 16;
+	if ($grade == 0) {echo 'Tu es vraiment un gros nul !!!';}
+	elseif ($grade == 5) {echo 'Tu es très mauvais';}
+	elseif ($grade == 16) {echo 'Tu te débrouilles très bien !';}
+	elseif ($grade == 20) {echo 'Excellent travail, c'est parfait !';}
+	else {echo 'Désolé, je n'ai pas de message à afficher pour cette note';}
 ?>
 ```
 ##### Méthode Swtich
 ```php
 <?php
-$grade = 1;
+	$grade = 1;
+	
+	switch ($grade)
+	{ 
+	    case 0:
+		echo 'Tu es vraiment un gros nul !!!';
+	    break;
 
-switch ($grade)
-{ 
-    case 0:
-        echo 'Tu es vraiment un gros nul !!!';
-    break;
+	    case 1:
+		echo 'Tu as pile poil la moyenne, c'est un peu juste…';
+	    break;
 
-    case 1:
-        echo 'Tu as pile poil la moyenne, c'est un peu juste…';
-    break;
+	    case 3:
+		echo 'Excellent travail, c'est parfait !';
+	    break;
 
-    case 3:
-        echo 'Excellent travail, c'est parfait !';
-    break;
-
-    default:
-        echo 'Désolé, je n'ai pas de message à afficher pour cette note';
-}
+	    default:
+		echo 'Désolé, je n'ai pas de message à afficher pour cette note';
+	}
 ?>
 ```
 
@@ -332,36 +332,33 @@ Affecter une valeur à une variable selon que la condition est vraie ou non.
 ##### Méthode 1
 ```php
 <?php
+	// Variable
+	$userAge = 24;
 
-// Variable
-$userAge = 24;
+	// Si
+	if ($userAge >= 18) {$isAdult = true;}
 
-// Si
-if ($userAge >= 18) {$isAdult = true;}
+	// SINON
+	else {$isAdult = false;}
 
-// SINON
-else {$isAdult = false;}
-
-// Message de sorti
-if ($isAdult){echo "L'utilisateur est un adulte"}
+	// Message de sorti
+	if ($isAdult){echo "L'utilisateur est un adulte"}
 ?>
 ``` 
 ##### Méthode 2
 ```php
 <?php
+	// Variable
+	$userAge = 24;
 
-// Variable
-$userAge = 24;
+	// Vérification
+	$isAdult = ($userAge >= 18) ? true : false;
 
-// Vérification
-$isAdult = ($userAge >= 18) ? true : false;
+	// Ou mieux, dans ce cas précis
+	$isAdult = ($userAge >= 18);
 
-// Ou mieux, dans ce cas précis
-$isAdult = ($userAge >= 18);
-
-// Message de sorti
-if ($isAdult){echo "L'utilisateur est un adulte"}
-
+	// Message de sorti
+	if ($isAdult){echo "L'utilisateur est un adulte"}
 ?>
 ```
 
@@ -380,14 +377,13 @@ Ensuite il faut déclarer les indices echo $TEST[<indice>]
 <?php
 
 //Variable
-$user1 = ['Mickaël Andrieu', 'email', 'S3cr3t', '34'];
+	$user1 = ['Mickaël Andrieu', 'email', 'S3cr3t', '34'];
 
 //Tableau
-echo $user1[0];
-echo $user1[1];
-echo $user1[2];
-echo $user1[3];
-
+	echo $user1[0];
+	echo $user1[1];
+	echo $user1[2];
+	echo $user1[3];
 ?>
 ```
 
@@ -395,20 +391,20 @@ echo $user1[3];
 ```php
 <?php
 // Tableau des correspondances
-$user0 = ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.com','users'];
-$user1 = ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.com','Administrateur'];
+	$user0 = ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.com','users'];
+	$user1 = ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.com','Administrateur'];
 
 // Tableau regroupant les correspondances
-$users = [$user0, $user1];
+	$users = [$user0, $user1];
 
 // Interroge le tableau regroupant
-echo $users[0][0] . ' | '; // 20
-echo $users[0][1] . ' | '; // Dexter74
-echo $users[0][6] . ' | '; // dexter74@mail.com
-echo '<br />';
-echo $users[1][0] . ' | '; // 21
-echo $users[1][1] . ' | '; // Drthrax74
-echo $users[1][6] . ' | '; // drthrax74@mail.com
+	echo $users[0][0] . ' | '; // 20
+	echo $users[0][1] . ' | '; // Dexter74
+	echo $users[0][6] . ' | '; // dexter74@mail.com
+	echo '<br />';
+	echo $users[1][0] . ' | '; // 21
+	echo $users[1][1] . ' | '; // Drthrax74
+	echo $users[1][6] . ' | '; // drthrax74@mail.com
 ?>
 ```
 
@@ -427,23 +423,19 @@ puis la boucle relance le processus à l'infini sauf si elle est conditionnée.
 ##### Boucle Infini
 ```php
 <?php
-
-//Tant que $TEST est vrai: 
-while ($TEST) {echo 'Mon Message qui se répéte à l'infini <br />';}
-
+	//Tant que $TEST est vrai: 
+	while ($TEST) {echo 'Mon Message qui se répéte à l'infini <br />';}
 ?>
 ```
 
 ##### La Boucle qui se répète X fois avec incrémentation
 ```php
 <?php
+	// Variable
+	$LIGNE = 1;
 
-// Variable
-$LIGNE = 1;
-
-// Message + Incrémentation
-while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE++;}
-
+	// Message + Incrémentation
+	while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE++;}
 ?>
 ```
 
@@ -456,8 +448,8 @@ while ($LIGNE <= 10){echo 'Le numéro de la ligne est . $lines . <br />'; $LIGNE
 #### 1. Exemple 1
 ```php
 <?php
-// Initiation + condition de bouclage et incrémentation à chaque boucle 
-for ($lines = 0; $lines <= 2; $lines++) {echo $users[$lines][0] . ' ' . $users[$lines][1] . '<br />';}
+	// Initiation + condition de bouclage et incrémentation à chaque boucle 
+	for ($lines = 0; $lines <= 2; $lines++) {echo $users[$lines][0] . ' ' . $users[$lines][1] . '<br />';}
 ?>
 ```
 #### 2. Choisir For ou While
@@ -477,15 +469,15 @@ Si Non: while
 ```php
 <?php
 
-// // Déclaration du tableau (Non numérotés)
-$BDD = [
-  ['20','Dexter74','Passw0rd2022','Jaques','Levin','31','dexter74@mail.com','users'],
-  ['21','Drthrax74','Passw0rd2022','Paul','Courrier','31','drthrax74@mail.com','Administrateur'],
-  ['22','Snake','Passw0rd2022','Alain','Charles','31','drthrax74@mail.com','Administrateur'],
-  ];
+	// Déclaration du tableau (Non numérotés)
+	$BDD = [
+  	       ['20','Dexter74','Passw0rd2022','Jaques','Levin','31','dexter74@mail.com','users'],
+  	       ['21','Drthrax74','Passw0rd2022','Paul','Courrier','31','drthrax74@mail.com','Administrateur'],
+  	       ['22','Snake','Passw0rd2022','Alain','Charles','31','drthrax74@mail.com','Administrateur'],
+  	       ];
 
-// Lecture de la ligne 0 à 1 du tableau
-for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('. $BDD[$LIGNE][7] .')"}
+	// Lecture de la ligne 0 à 1 du tableau
+	for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('. $BDD[$LIGNE][7] .')"}
 ?>
 ```
 
@@ -512,13 +504,11 @@ Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 ###### Construire un Tableau Numéroté
 ```php
 <?php
+	// Déclaration d'un Tableau (Non numérotés)
+	$VALEUR0 = ['Jean-Claude', 'Halidi', 'Franck', 'Marc'];
 
-// Déclaration d'un Tableau (Non numérotés)
-$VALEUR0 = ['Jean-Claude', 'Halidi', 'Franck', 'Marc'];
-
-// Déclaration d'un tableau indexé numériquement
-$VALEUR1 = array('Jean-Claude', 'Halidi', 'Franck', 'Marc');
-
+	// Déclaration d'un tableau indexé numériquement
+	$VALEUR1 = array('Jean-Claude', 'Halidi', 'Franck', 'Marc');
 ?>
 ```
 
