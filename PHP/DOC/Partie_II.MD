@@ -564,7 +564,7 @@ Les tableaux associatifs:
 	    ['Cassoulet','[...]','mickael.andrieu@exemple.com',true,],
 	    ['Couscous','[...]','mickael.andrieu@exemple.com',false,],
 	];
-
+	// De la ligne 0 à la ligne 1 rechercher le contenu de la colonne 0
 	for ($lines = 0; $lines <= 1; $lines++) {echo $recipes[$lines][0];}
 ?>	
 ```
