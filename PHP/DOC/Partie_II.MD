@@ -41,7 +41,7 @@ userAge : Nom de la Variable
 #### 1. Le type string  (chaîne de caractères)
 ```php
 <?php
-  $fullname = "Mathieu Nebra";
+  $fullname = 'Mathieu Nebra';
   $email = 'mathieu.nebra@exemple.com';
   $prenom1 = "Mon \"nom\" est Mathieu";
   $prenom2 = 'Je m\'appelle Mathieu';
@@ -95,17 +95,17 @@ userAge : Nom de la Variable
 #### 1. Exemple
 ```php
 <?php
-	$fullname = "Mathieu Nebra";
-	echo "Bonjour ";
+	$fullname = 'Mathieu Nebra';
+	echo 'Bonjour ';
 	echo $fullname;
-	echo " et bienvenue sur le site !";
+	echo ' et bienvenue sur le site !';
 ?>
 ```
 #### 2. Concaténez avec des guillemets doubles
 ```php
 <?php
-	$fullname = "Mathieu Nebra";
-	echo "Bonjour $fullname et bienvenue sur le site !";
+	$fullname = 'Mathieu Nebra';
+	echo 'Bonjour $fullname et bienvenue sur le site !';
 ?>
 ```
 #### 3. Concaténez avec des guillemets simples 
@@ -126,7 +126,6 @@ Il faut des Points .
 	echo 'Bonjour $fullname et bienvenue sur le site !'; // ERREUR !
 ?>
 ```
-
 
 <br />
 
@@ -194,33 +193,33 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 ```php
 <?php
 	$isEnabled = true;
-	if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
+	if ($isEnabled == true) {echo 'Vous êtes autorisé(e) à accéder au site ✅';}
 ?>
 ```
 ##### SI + SINON
 ```php
 <?php
 	$isEnabled = true;
-	if ($isEnabled == true) {echo "Vous êtes autorisé(e) à accéder au site ✅";}
-	else {echo "Accès refusé ❌ ";}
+	if ($isEnabled == true) {echo 'Vous êtes autorisé(e) à accéder au site ✅';}
+	else {echo 'Accès refusé ❌ ';}
 ?>
 ```
 ##### SI + SINON + SINON SI
 ```php
 <?php
-	$ACCES = "AUTORISER";
-	if ($ACCES == NULL) {echo "La valeur est Video";}
-	elseif ($ACCES == "AUTORISER") {echo "Accès Autorisé";}
-	elseif ($ACCES == "REFUSER") {echo "Accès refusé";}
-	else {echo "Code retour en abend";}
+	$ACCES = 'AUTORISER';
+	if ($ACCES == NULL) {echo 'La valeur est Video';}
+	elseif ($ACCES == 'AUTORISER') {echo 'Accès Autorisé';}
+	elseif ($ACCES == 'REFUSER') {echo 'Accès refusé';}
+	else {echo 'Code retour en abend';}
 ?>
 ```
 ##### SI c'est vrai
 ```php
 <?php
 	$ACCESS = true;
-	if ($ACCESS){echo "Accès autorisé";}
-	else {echo "Accès refusé";}
+	if ($ACCESS){echo 'Accès autorisé';}
+	else {echo 'Accès refusé';}
 ?>
 ```
 
@@ -228,8 +227,8 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 ```php
 <?php
 	$ACCESS = false;
-	if (! $ACCESS){echo "Accès refusé";}
-	else{echo "Accès autorisé";}
+	if (! $ACCESS){echo 'Accès refusé';}
+	else{echo 'Accès autorisé';}
 ?>
 ```
 
@@ -245,8 +244,8 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 <?php
 	$ACTIF = true;
 	$AUTEUR = true;
-	if ($ACTIF && $AUTEUR) {echo "Accès Autorisé! ✅";}
-	else {echo"Accès refusé! ❌";}
+	if ($ACTIF && $AUTEUR) {echo 'Accès Autorisé! ✅';}
+	else {echo 'Accès refusé! ❌';}
 ?>
 ```
 ##### Multi-condition
@@ -258,7 +257,7 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 	$ETAT   = '1';
 	$OK     = '✅';
 	$KO     = '❌';
-	echo "<b>Accès à l'administration: </b>";
+	echo '<b>Accès à l'administration: </b>';
 	if(($BYPASS == 'true') || ($USER == 'Marc' && $ADMIN == 'true' && $ETAT == '1'))  {echo $OK;} else{echo $KO;}
 ?>
 ```
@@ -288,11 +287,11 @@ Si la valeur est entier, elle retourne 0 sinon 1.
 ```php
 <?php
 $grade = 16;
-if ($grade == 0) {echo "Tu es vraiment un gros nul !!!";}
-elseif ($grade == 5) {echo "Tu es très mauvais";}
-elseif ($grade == 16) {echo "Tu te débrouilles très bien !";}
-elseif ($grade == 20) {echo "Excellent travail, c'est parfait !";}
-else {echo "Désolé, je n'ai pas de message à afficher pour cette note";}
+if ($grade == 0) {echo 'Tu es vraiment un gros nul !!!';}
+elseif ($grade == 5) {echo 'Tu es très mauvais';}
+elseif ($grade == 16) {echo 'Tu te débrouilles très bien !';}
+elseif ($grade == 20) {echo 'Excellent travail, c'est parfait !';}
+else {echo 'Désolé, je n'ai pas de message à afficher pour cette note';}
 ?>
 ```
 ##### Méthode Swtich
@@ -307,15 +306,15 @@ switch ($grade)
     break;
 
     case 1:
-        echo "Tu as pile poil la moyenne, c'est un peu juste…";
+        echo 'Tu as pile poil la moyenne, c'est un peu juste…';
     break;
 
     case 3:
-        echo "Excellent travail, c'est parfait !";
+        echo 'Excellent travail, c'est parfait !';
     break;
 
     default:
-        echo "Désolé, je n'ai pas de message à afficher pour cette note";
+        echo 'Désolé, je n'ai pas de message à afficher pour cette note';
 }
 ?>
 ```
@@ -430,7 +429,7 @@ puis la boucle relance le processus à l'infini sauf si elle est conditionnée.
 <?php
 
 //Tant que $TEST est vrai: 
-while ($TEST) {echo "Mon Message qui se répéte à l'infini <br />";}
+while ($TEST) {echo 'Mon Message qui se répéte à l'infini <br />';}
 
 ?>
 ```
