@@ -302,7 +302,7 @@ $grade = 1;
 switch ($grade)
 { 
     case 0:
-        echo "Tu es vraiment un gros nul !!!";
+        echo 'Tu es vraiment un gros nul !!!';
     break;
 
     case 1:
