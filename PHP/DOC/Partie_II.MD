@@ -536,7 +536,6 @@ Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 
 <br />
 
---------------------------------------------------------
 ### B. Familiarisez-vous avec les tableaux associatifs
 #### 1. Construisez un tableau associatif (2 Manières d'écritures)
 ```php
@@ -579,7 +578,6 @@ Les tableaux associatifs:
 
 <br />
 
---------------------------------------------------------
 ### C. Parcourez un tableau
 #### 1. La boucle for
 ```php
@@ -622,17 +620,8 @@ Les tableaux associatifs:
 ?>
  ```
 
-
-#### 3. 
-```php
-```
-#### 4. 
-```php
-```
-
 <br />
 
---------------------------------------------------------
 ### D. Recherchez dans un tableau
 #### 1. Les types de recherches
 ```php
@@ -711,7 +700,6 @@ if (array_key_exists('user5', $TABLEAU))
 ?>
 ```
 
-
 #### 4. Récupérez la clé d'une valeur dans un tableau
 ```php
 <?php
@@ -736,8 +724,6 @@ echo '<b>ISABELLE est en position</b> ' . $ISABELLE;
 
 <br />
 
-
---------------------------------------------------------
 ### E. Affichez des recettes (version 2 !)
 #### 
 #### 2. 
@@ -788,12 +774,105 @@ $TABLEAU = 	[
 		<?php endforeach ?>
 	</body>
 </html>
+```
 
+<br />
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### <p align='center'> [Exploitez toute la puissance des fonctions PHP !](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912352-exploitez-toute-la-puissance-des-fonctions-php)</p>
+
+### A. Comprenez le principe d'une fonction
+#### 1. 
+```php
+```
+#### 2. 
+```php
 ```
 #### 3. 
 ```php
 ```
-#### 4.
+#### 4. 
+```php
+```
+
+
+
+
+<br />
+
+### B. Appelez une fonction
+#### 1. 
+```php
+```
+#### 2. 
+```php
+```
+#### 3. 
+```php
+```
+#### 4. 
+```php
+```
+
+<br />
+
+
+
+### C. Récupérez la valeur de retour de la fonction
+#### 1. 
+```php
+```
+#### 2. 
+```php
+```
+#### 3. 
+```php
+```
+#### 4. 
+```php
+```
+
+
+### D. Manipulez du texte avec les fonctions
+#### 1. 
+```php
+```
+#### 2. 
+```php
+```
+#### 3. 
+```php
+```
+#### 4. 
+```php
+```
+
+
+### E. Créez vos propres fonctions
+#### 1. 
+```php
+```
+#### 2. 
+```php
+```
+#### 3. 
+```php
+```
+#### 4. 
+```php
+```
+
+
+### F. Exploitez toute la puissance de la documentation PHP !
+#### 1. 
+```php
+```
+#### 2. 
+```php
+```
+#### 3. 
+```php
+```
+#### 4. 
 ```php
 ```
 
