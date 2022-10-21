@@ -1,36 +1,15 @@
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'> [Exploitez toute la puissance des fonctions PHP]()</p>
+### <p align='center'> [Ecrire ses propres fonctions](http://formation.upyupy.fr/php-mysql/ecrire-fonction-php/)</p>
 
 ### A. Les fonctions
-#### 1.Structure d'une fonction
+#### 1. Définir une fonction
 ```php
-<?php
-	// Création de la fonction (Argument incorrect = erreur)
-	function nomdemafonction(arg1, arg2 ..) {echo "Resultat de ma fonction";}
-?>
-```
-#### 2. Création d'une fonction (Sans argument)
-```php
-<?php
-	// Création de la fonction
-	function nomdemafonction() {echo "Resultat de ma fonction";}
-?>
+<!-- Fonction sans paramètre --> 
+<?php function maFonctionA() {echo "Fonction A";} ?>
+
+<!-- Fonction avec paramètre --> 
+<?php function maFonctionB($parametre) {echo "Fonction B";} ?>
+<?php function maFonctionC($a, $b, $c) {echo "Fonction C";} ?>
 ```
 
-#### 3. Afficher le contenu de ma fonction
-```php
-<?php
-	// Création de la fonction
-	function nomdemafonction() {echo "Resultat de ma fonction";}
-	
-	// Afficher le résultat de ma fonction
-	nomdemafonction()
-?>
-```
-
-
-
-
-
-<br />
+#### 2. Appeler une fonction
