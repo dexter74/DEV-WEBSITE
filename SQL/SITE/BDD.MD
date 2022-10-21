@@ -31,6 +31,7 @@ ALTER DATABASE website CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 | string   | Name_Website       | Drthrax74                 |    NON    |
 | bool     | Visible au public  | true                      |    NON    |
 
+
 ##### Supprimer la Table
 ```
 DROP TABLE IF EXISTS config;
@@ -43,8 +44,6 @@ CREATE TABLE config
   name VARCHAR(100)  
 );
 ```
-
-
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -59,8 +58,6 @@ CREATE TABLE config
 | int      | date_naissance     | 01-01-1998                |    NON    |
 | int      | pays               | France                    |    NON    |
 | int      | ville              | Lyon                      |    NON    |
-
-
 | int      | Date d'inscription | 13-10-2022                |    NON    |
 | int      | Dern. connexion    | 13-10-2022 04:00          |    NON    |
 | int      | Age                | 18                        |    NON    |
