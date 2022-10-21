@@ -742,6 +742,53 @@ echo '<b>ISABELLE est en position</b> ' . $ISABELLE;
 #### 
 #### 2. 
 ```php
+<?php
+// Déclaration du Tableau des News
+$TABLEAU = 	[
+		[
+			'Visible'	=> true,
+			'title' 	=> 'Titre 1',
+			'article'	=> 'Contenu de mon article 1',
+			'auteur'	=> 'Marc',
+			'date'		=> '21/10/22',
+			'heure'		=> '02:39',
+		],	
+
+		[
+			'Visible'	=> true,
+			'title' 	=> 'Titre 2',
+			'article'	=> 'Contenu de mon article 2',
+			'auteur'	=> 'Franck',
+			'date'		=> '21/10/22',
+			'heure'		=> '02:46',
+		],	
+							
+];
+?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Affichage des recettes</title>
+	</head>
+	<body>
+		<h1>Affichage des recettes</h1>
+			<!-- Boucle sur les recettes -->
+			<?php foreach($TABLEAU as $RESULT) : ?>
+				<!-- si la clé existe et a pour valeur "vrai", on affiche -->
+				<?php if (array_key_exists('Visible', $RESULT) && $RESULT['Visible'] == true ): ?>
+					<article>
+						<h3><?php echo $RESULT['title']; ?></h3>
+						<div><?php echo $RESULT['article']; ?> </div>
+						<div><?php echo 'Posté Par '.'<b>'.$RESULT['auteur'].'</b>'.' le '.'<b>'.$RESULT['date'].'</b>'.' à '.'<b>'.$RESULT['heure'].'</b>'; ?></div>
+						
+						<?php echo '<br />'; ?> 
+					</article>
+				<?php endif; ?>
+		<?php endforeach ?>
+	</body>
+</html>
+
 ```
 #### 3. 
 ```php
