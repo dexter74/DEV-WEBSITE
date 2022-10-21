@@ -504,12 +504,6 @@ ERREUR
 
 
 
-
-
-
-
-
-
 <br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -539,7 +533,6 @@ Dans le cas de la Colonne ID, elle aura comme valeur un numéro.
 	$VALEUR1 = array('Jean-Claude', 'Halidi', 'Franck', 'Marc');
 ?>
 ```
-
 
 <br />
 
@@ -659,17 +652,39 @@ Les tableaux associatifs:
 
 --------------------------------------------------------
 ### E. Affichez des recettes (version 2 !)
-#### 1. 
+#### 1. Les types de recherches
+```php
+array_key_exists : Pour vérifier si une clé existe dans le tableau.
+in_array	 : Pour vérifier si une valeur existe dans le tableau.
+
+array_search 	 : Pour récupérer la clé d'une valeur dans le tableau.
+```
+#### 2. Vérifiez si une clé existe dans un tableau
 ```php
 ```
-#### 2. 
+#### 3. Vérifiez si une valeur existe dans un tableau
 ```php
 ```
-#### 3. 
+#### 4. Récupérez la clé d'une valeur dans un tableau
 ```php
-```
-#### 4. 
-```php
+<?php
+	// Déclaration d'un Tableau (Non numérotés)
+	$USERS    = [ 'Marc', 'Franck' , 'Philippe', 'Isabelle' ];
+	
+	// Rechercher le numéro de l'utilisateur
+	$MARC = array_search('Marc',$USERS);
+	$FRANCK = array_search('Franck',$USERS);
+	$PHILIPPE = array_search('Philippe',$USERS);
+	$ISABELLE = array_search('Isabelle',$USERS);
+
+echo '<b>MARC est en position</b> ' . $MARC;
+echo '<br />';
+echo '<b>FRANCK est en position</b> ' . $FRANCK;
+echo '<br />';
+echo '<b>PHILIPPE est en position</b> ' . $PHILIPPE;
+echo '<br />';
+echo '<b>ISABELLE est en position</b> ' . $ISABELLE;
+
 ```
 
 <br />
