@@ -1,5 +1,9 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> Sommaire </p>
+ - Décrivez les éléments de votre projet à l'aide de variables
+ - Adaptez le comportement de votre application à l'aide des conditions
+ - Affichez une liste de recettes à l'aide des boucles
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Décrivez les éléments de votre projet à l'aide de variables](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/911847-decrivez-les-elements-de-votre-projet-a-laide-de-variables)</p>
