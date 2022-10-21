@@ -15,7 +15,7 @@ DROP DATABASE IF EXISTS website;
 ##### 2. Création de la Database
 
 ```sql
-CREATE DATABASE website  DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE website;
 ```
 
 ##### 3. Modification de la Database
