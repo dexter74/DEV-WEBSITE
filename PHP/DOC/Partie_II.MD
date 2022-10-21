@@ -1,14 +1,13 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> Sommaire </p>
  - [Décrivez les éléments de votre projet à l'aide de variables](https://github.com/dexter74/DEV-WEBSITE/blob/main/PHP/DOC/Partie_II.MD#-d%C3%A9crivez-les-%C3%A9l%C3%A9ments-de-votre-projet-%C3%A0-laide-de-variables)
- - 
- - [Adaptez le comportement de votre application à l'aide des conditions](https://github.com/dexter74/DEV-WEBSITE/blob/main/PHP/DOC/Partie_II.MD#-adaptez-le-comportement-de-votre-application-%C3%A0-laide-des-conditions)
- - 
+
+- [Adaptez le comportement de votre application à l'aide des conditions](https://github.com/dexter74/DEV-WEBSITE/blob/main/PHP/DOC/Partie_II.MD#-adaptez-le-comportement-de-votre-application-%C3%A0-laide-des-conditions)
  - [Affichez une liste de recettes à l'aide des boucles](https://github.com/dexter74/DEV-WEBSITE/blob/main/PHP/DOC/Partie_II.MD#-affichez-une-liste-de-recettes-%C3%A0-laide-des-boucles)
- - 
- - [Organisez vos données à l'aide des tableaux](https://github.com/dexter74/DEV-WEBSITE/blob/main/PHP/DOC/Partie_II.MD#-organisez-vos-donn%C3%A9es-%C3%A0-laide-des-tableaux)
- - 
- - [Exploitez toute la puissance des fonctions PHP !](https://github.com/dexter74/DEV-WEBSITE/blob/main/PHP/DOC/Partie_II.MD#-exploitez-toute-la-puissance-des-fonctions-php-)
+
+- [Organisez vos données à l'aide des tableaux](https://github.com/dexter74/DEV-WEBSITE/blob/main/PHP/DOC/Partie_II.MD#-organisez-vos-donn%C3%A9es-%C3%A0-laide-des-tableaux)
+
+- [Exploitez toute la puissance des fonctions PHP !](https://github.com/dexter74/DEV-WEBSITE/blob/main/PHP/DOC/Partie_II.MD#-exploitez-toute-la-puissance-des-fonctions-php-)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Décrivez les éléments de votre projet à l'aide de variables](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/911847-decrivez-les-elements-de-votre-projet-a-laide-de-variables)</p>
