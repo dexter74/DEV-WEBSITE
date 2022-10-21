@@ -714,22 +714,6 @@ if (array_key_exists('user5', $TABLEAU))
 
 #### 4. Récupérez la clé d'une valeur dans un tableau
 ```php
-```
-
-<br />
-
-
---------------------------------------------------------
-### E. Affichez des recettes (version 2 !)
-#### 
-#### 2. 
-```php
-```
-#### 3. 
-```php
-```
-#### 4.
-```php
 <?php
 	// Déclaration d'un Tableau (Non numérotés)
 	$USERS    = [ 'Marc', 'Franck' , 'Philippe', 'Isabelle' ];
@@ -748,6 +732,22 @@ echo '<b>PHILIPPE est en position</b> ' . $PHILIPPE;
 echo '<br />';
 echo '<b>ISABELLE est en position</b> ' . $ISABELLE;
 ?>
+```
+
+<br />
+
+
+--------------------------------------------------------
+### E. Affichez des recettes (version 2 !)
+#### 
+#### 2. 
+```php
+```
+#### 3. 
+```php
+```
+#### 4.
+```php
 ```
 
 <br />
