@@ -30,14 +30,36 @@
 
 #### 3. Réaliser un calcul
 ```php
-<!-- Déclaration de la fonction avec paramètres (x, y, z) -->
-<?php function calcul($x, $y, $z) {$result=($x-$y)/$z; echo $result. " %";} ?>
-
-<!-- Appeler la fonction avec 3 arguments (x, y, z) -->
-<?php calcul(100, 5, 5); ?>
+<?php 
+	// Déclaration de la fonction avec paramètres (x, y, z)
+	function calcul($x, $y, $z)
+	{
+	$result=($x-$y)/$z;
+	echo $result. " %";
+	}
+?>
+<?php 
+	// Appeler la fonction avec 3 arguments (x, y, z) -->
+	calcul(100, 5, 5);
+?>
 ```
 
 #### 4. Permettre à une fonction de retourner une valeur.
 ```php
+<?php
+	// Déclaration de la fonction avec paramètres (x, y, z)
+	function calcul($x, $y, $z)
+	{
+	$result=($x-$y)/$z;
+	return $result. " %";
+	}
+	
+	// Permettre à une fonction de retourner une valeur (x, y, z)
+	$VAR = calcul(100, 5, 5) 
+?>
 
+<?php
+	// Appeler la fonction avec 3 arguments (x, y, z)
+	echo $VAR 
+?>
 ```
