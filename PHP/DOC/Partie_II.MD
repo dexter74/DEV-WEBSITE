@@ -676,11 +676,42 @@ if (array_key_exists('user5', $TABLEAU))
 
 ?>
 ```
+
 #### 3. Vérifiez si une valeur existe dans un tableau
 ```php
+<?php
+
+$TABLEAU = [
+	'user1' => 'Marc',
+	'user2' => 'Franck',
+	'user3' => 'Philippe',
+	'user4' => 'Isabelle',
+	];
+
+if (in_array('Marc', $TABLEAU))
+	echo 'L\'utilisateur ' . $TABLEAU['user1'] . ' existe';
+	echo '<br />';
+
+if (in_array('Franck', $TABLEAU))
+	echo 'L\'utilisateur ' . $TABLEAU['user2'] . ' existe';
+	echo '<br />';
+
+if (in_array('Philippe', $TABLEAU))
+	echo 'L\'utilisateur ' . $TABLEAU['user3'] . ' existe';
+	echo '<br />';
+
+if (in_array('Isabelle', $TABLEAU))
+	echo 'L\'utilisateur ' . $TABLEAU['user4'] . ' existe';
+	echo '<br />';
 
 
+if (array_key_exists('user5', $TABLEAU))
+	echo 'L\'utilisateur ' . $TABLEAU['user5'] . ' existe';
+	echo '<br />';
+?>
 ```
+
+
 #### 4. Récupérez la clé d'une valeur dans un tableau
 ```php
 ```
