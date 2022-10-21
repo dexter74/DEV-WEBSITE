@@ -1,7 +1,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> Sommaire </p>
  - [Décrivez les éléments de votre projet à l'aide de variables]()
- - [Adaptez le comportement de votre application à l'aide des conditions]([Adaptez le comportement de votre application à l'aide des conditions)
+ - [Adaptez le comportement de votre application à l'aide des conditions](Adaptez le comportement de votre application à l'aide des conditions)
  - [Affichez une liste de recettes à l'aide des boucles]
  - [Organisez vos données à l'aide des tableaux]
  - [Exploitez toute la puissance des fonctions PHP !]
