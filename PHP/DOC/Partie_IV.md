@@ -30,7 +30,8 @@
 
 ### B. Réaliser un calcul
 ```php
-<!-- Declaration de la fonction avec paramètres (x, y, z) -->
+
+<!-- Déclaration de la fonction avec paramètres (x, y, z) -->
 <?php function calcul($x, $y, $z) {$result=($x-$y)/$z; echo $result;} ?>
 
 <!-- Appeler la fonction avec 3 arguments (x, y, z) -->
