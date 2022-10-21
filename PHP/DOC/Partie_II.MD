@@ -784,6 +784,7 @@ array_search 	 : Pour récupérer la clé d'une valeur dans le tableau.
 ```
 
 <br />
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Exploitez toute la puissance des fonctions PHP !](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912352-exploitez-toute-la-puissance-des-fonctions-php)</p>
 
