@@ -2,9 +2,6 @@
 
 <p align='center'> Structure des tables SQL </p>
 
-
-
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### A. Création de la Base de ddonnée du site
 
@@ -52,21 +49,21 @@ CREATE TABLE config
 | TYPE d'objet  | Nom de l'objet     | Exemple de contenu        | Confirmer |
 | ------------- | ------------------ | ------------------------- | --------- |
 | INT           | id                 | Primaire / AUTO_INCREMENT |    OUI    |
-| VARCHAR(100)  | nom                | MyName                    |    NON    |
-| XXXXXX        | prenom             | MySurname                 |    NON    |
-| XXXXXX        | email              | support@support.com       |    NON    |
-| XXXXXX        | date_naissance     | 01-01-1998                |    NON    |
-| XXXXXX        | pays               | France                    |    NON    |
-| XXXXXX        | ville              | Lyon                      |    NON    |
-| XXXXXX        | Date d'inscription | 13-10-2022                |    NON    |
-| XXXXXX        | Dern. connexion    | 13-10-2022 04:00          |    NON    |
-| XXXXXX        | Age                | 18                        |    NON    |
+| VARCHAR(30)   | nom                | MyName                    |    NON    |
+| VARCHAR(20)   | prenom             | MySurname                 |    NON    |
+| VARCHAR(255)  | email              | support@support.com       |    NON    |
+| DATE          | date_naissance     | 01-01-1998                |    NON    |
+| VARCHAR(20)   | pays               | France                    |    NON    |
+| VARCHAR(50)   | ville              | Lyon                      |    NON    |
+| DATE          | Date d'inscription | 13-10-2022                |    NON    |
+| DATE          | Dern. connexion    | 13-10-2022 04:00          |    NON    |
+| VARCHAR(3)    | Age                | 18                        |    NON    |
 | XXXXXX        | Compte activé      | true                      |    NON    |
 | XXXXXX        | BANNIE             | false                     |    NON    |
-| XXXXXX        | Utilisateur        | MyUsername                |    NON    |
+| VARCHAR(20)   | Utilisateur        | MyUsername                |    NON    |
 | XXXXXX        | Statut             | Super Admin               |    NON    |
 | XXXXXX        | Mot de passe       | Passw0rd2022              |    NON    |
-| XXXXXX        | Informations       | Signature:                |    NON    |
+| VARCHAR(30)   | Informations       | Signature:                |    NON    |
 | XXXXXX        | Permission         | Administrateurs           |    NON    |
 
 
@@ -80,8 +77,8 @@ DROP TABLE IF EXISTS users;
 CREATE TABLE users
 (
   id INT PRIMARY KEY NOT NULL,
-  nom VARCHAR(100),
-  prenom VARCHAR(100),
+  nom VARCHAR(30),
+  prenom VARCHAR(20),
   email VARCHAR(255),
   date_naissance DATE,
   pays VARCHAR(255),
