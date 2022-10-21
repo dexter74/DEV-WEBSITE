@@ -28,11 +28,16 @@
 	<?php maFonctionC(12, 25, 1); ?>
 ```
 
-### B. Réaliser un calcul
+#### 3. Réaliser un calcul
 ```php
 <!-- Déclaration de la fonction avec paramètres (x, y, z) -->
 <?php function calcul($x, $y, $z) {$result=($x-$y)/$z; echo $result. " %";} ?>
 
 <!-- Appeler la fonction avec 3 arguments (x, y, z) -->
 <?php calcul(100, 5, 5); ?>
+```
+
+#### 4. Permettre à une fonction de retourner une valeur.
+```php
+
 ```
