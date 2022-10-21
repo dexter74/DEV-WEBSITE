@@ -28,8 +28,8 @@ ALTER DATABASE website CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 |  TYPE    | Nom de l'objet     | Exemple de contenu        | Confirmer |
 | -------- | ------------------ | ------------------------- | --------- |
-| string   | Name_Website       | Drthrax74                 |    NON    |
-| bool     | Visible au public  | true                      |    NON    |
+| XXXXXX   | Name_Website       | Drthrax74                 |    NON    |
+| XXXXXX   | Visible au public  | true                      |    NON    |
 
 
 ##### Supprimer la Table
@@ -49,25 +49,25 @@ CREATE TABLE config
 
 ### B. Table Users
 
-|  TYPE    | Nom de l'objet     | Exemple de contenu        | Confirmer |
-| -------- | ------------------ | ------------------------- | --------- |
-| int      | id                 | Primaire / AUTO_INCREMENT |    OUI    |
-| string   | nom                | MyName                    |    NON    |
-| string   | prenom             | MySurname                 |    NON    |
-| string   | email              | support@support.com       |    NON    |
-| int      | date_naissance     | 01-01-1998                |    NON    |
-| int      | pays               | France                    |    NON    |
-| int      | ville              | Lyon                      |    NON    |
-| int      | Date d'inscription | 13-10-2022                |    NON    |
-| int      | Dern. connexion    | 13-10-2022 04:00          |    NON    |
-| int      | Age                | 18                        |    NON    |
-| bool     | Compte activé      | true                      |    NON    |
-| bool     | BANNIE             | false                     |    NON    |
-| string   | Utilisateur        | MyUsername                |    NON    |
-| string   | Statut             | Super Admin               |    NON    |
-| string   | Mot de passe       | Passw0rd2022              |    NON    |
-| string   | Informations       | Signature:                |    NON    |
-| string   | Permission         | Administrateurs           |    NON    |
+| TYPE d'objet  | Nom de l'objet     | Exemple de contenu        | Confirmer |
+| ------------- | ------------------ | ------------------------- | --------- |
+| INT           | id                 | Primaire / AUTO_INCREMENT |    OUI    |
+| VARCHAR(100)  | nom                | MyName                    |    NON    |
+| XXXXXX        | prenom             | MySurname                 |    NON    |
+| XXXXXX        | email              | support@support.com       |    NON    |
+| XXXXXX        | date_naissance     | 01-01-1998                |    NON    |
+| XXXXXX        | pays               | France                    |    NON    |
+| XXXXXX        | ville              | Lyon                      |    NON    |
+| XXXXXX        | Date d'inscription | 13-10-2022                |    NON    |
+| XXXXXX        | Dern. connexion    | 13-10-2022 04:00          |    NON    |
+| XXXXXX        | Age                | 18                        |    NON    |
+| XXXXXX        | Compte activé      | true                      |    NON    |
+| XXXXXX        | BANNIE             | false                     |    NON    |
+| XXXXXX        | Utilisateur        | MyUsername                |    NON    |
+| XXXXXX        | Statut             | Super Admin               |    NON    |
+| XXXXXX        | Mot de passe       | Passw0rd2022              |    NON    |
+| XXXXXX        | Informations       | Signature:                |    NON    |
+| XXXXXX        | Permission         | Administrateurs           |    NON    |
 
 
 ##### Supprimer la Table
@@ -89,17 +89,17 @@ CREATE TABLE users
 )
 ```
 
-
 <br />
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### C. Articles
 
-|  TYPE    | Nom de l'objet        | Exemple de contenu    | Confirmer |
-| -------- | --------------------- | --------------------- | --------- |
-| string   | Titre de l'article    | Ouverture du site     |    OUI    |
-| string   | Contenue de l'article | Bienvenue sur le site |    OUI    |
-| string   | Auteur                | MyUsername            |    OUI    |
-| int      | Date de postage       | 01-01-1998            |    NON    |
-| int      | Heure postage         | 04:00                 |    NON    |
+| TYPE d'objet  | Nom de l'objet     | Exemple de contenu    | Confirmer |
+| ------------- | ------------------ | --------------------- | --------- |
+| XXXXXX        | titre_article      | Ouverture du site     |    NON    |
+| XXXXXX        | contenu            | Bienvenue sur le site |    NON    |
+| XXXXXX        | auteur             | MyUsername            |    NON    |
+| XXXXXX        | date_de_postage    | 01-01-1998            |    NON    |
+| XXXXXX        | heure_postage      | 04:00                 |    NON    |
+| XXXXXX        | etat_publication   | true                  |    NON    |
