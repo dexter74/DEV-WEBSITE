@@ -376,10 +376,10 @@ Ensuite il faut déclarer les indices echo $TEST[<indice>]
 #### 1. Création d'un tableau
 ```php
 <?php
-//Variable
+	//Variable
 	$user1 = ['Mickaël Andrieu', 'email', 'S3cr3t', '34'];
 	
-//Tableau
+	//Tableau
 	echo $user1[0]; // Mickaël Andrieu
 	echo $user1[1]; // email
 	echo $user1[2]; // S3cr3t
@@ -390,14 +390,14 @@ Ensuite il faut déclarer les indices echo $TEST[<indice>]
 #### 2. Création d'un tableau d'un tableau  
 ```php
 <?php
-// Tableau des correspondances
+	// Tableau des correspondances
 	$user0 = ['20','Dexter74','Passw0rd2022','Jaques','levin','31','dexter74@mail.com','users'];
 	$user1 = ['21','Drthrax74','Passw0rd2022','Paul','courrier','31','drthrax74@mail.com','Administrateur'];
 
-// Tableau regroupant les correspondances
+	// Tableau regroupant les correspondances
 	$users = [$user0, $user1];
 
-// Interroge le tableau regroupant
+	// Interroge le tableau regroupant
 	echo $users[0][0] . ' | '; // 20
 	echo $users[0][1] . ' | '; // Dexter74
 	echo $users[0][6] . ' | '; // dexter74@mail.com
@@ -481,6 +481,7 @@ Si Non: while
   	       ['21','Drthrax74','Passw0rd2022','Paul','Courrier','31','drthrax74@mail.com','Administrateur'],
   	       ['22','Snake','Passw0rd2022','Alain','Charles','31','drthrax74@mail.com','Administrateur'],
   	       ];
+
 	// Lecture des lignes 0 et 1. Coloone 1 et 6.
 	for ($LIGNE = 0; $LIGNE <=1; $LIGNE++){echo $BDD[$LIGNE][1] .'('.	$BDD[$LIGNE][6] .')'. '<br />';}
 ?>
@@ -497,6 +498,7 @@ ERREUR
   	       ['21','Drthrax74','Passw0rd2022','Paul','Courrier','31','drthrax74@mail.com','Administrateur'],
   	       ['22','Snake','Passw0rd2022','Alain','Charles','31','drthrax74@mail.com','Administrateur'],
   	       ];
+
 	// Lecture de la ligne 0 à 1 du tableau
 	for ($LIGNE = 0; $BDD <= 1; $BDD++){echo "Utilisateur: '. $BDD[$LIGNE][2] .' ('. $BDD[$LIGNE][7] .')"}
 ?>
@@ -582,6 +584,7 @@ Les tableaux associatifs:
 #### 1. La boucle for
 ```php
 <?php
+	// Déclaration du tableau
 	$TABLEAU = [
 		['Independance Day I', '2', 'Octobre', '1996',],
 		['Independance Day II', '20', 'Juillet', '2016',],
@@ -595,6 +598,7 @@ Les tableaux associatifs:
 #### 2. La boucle foreach 
 ```php
 <?php
+	// Déclaration du tableau
 	$TABLEAU = [
 		['Independance Day I ', '2', 'Octobre', '1996',],
 		['Independance Day II', '20', 'Juillet', '2016',],
@@ -608,6 +612,7 @@ Les tableaux associatifs:
 
 ```php
 <?php
+	// Déclaration du tableau
 	$TABLEAU = [
 		'TITRE' => 'Independance Day -',
 		'JOUR'	=> '2 ',
@@ -635,68 +640,69 @@ array_search 	 : Pour récupérer la clé d'une valeur dans le tableau.
 ```php
 <?php
 
-$TABLEAU = [
-	'user1' => 'Marc',
-	'user2' => 'Franck',
-	'user3' => 'Philippe',
-	'user4' => 'Isabelle',
-	];
+	// Déclaration du tableau
+	$TABLEAU = [
+		'user1' => 'Marc',
+		'user2' => 'Franck',
+		'user3' => 'Philippe',
+		'user4' => 'Isabelle',
+		];
 
-if (array_key_exists('user1', $TABLEAU))
-	echo 'L\'utilisateur ' . $TABLEAU['user1'] . ' existe';
-	echo '<br />';
+	// Vérification de la clé si elle existe
+	if (array_key_exists('user1', $TABLEAU))
+		echo 'L\'utilisateur ' . $TABLEAU['user1'] . ' existe';
+		echo '<br />';
 
-if (array_key_exists('user2', $TABLEAU))
-	echo 'L\'utilisateur ' . $TABLEAU['user2'] . ' existe';
-	echo '<br />';
+	if (array_key_exists('user2', $TABLEAU))
+		echo 'L\'utilisateur ' . $TABLEAU['user2'] . ' existe';
+		echo '<br />';
 
-if (array_key_exists('user3', $TABLEAU))
-	echo 'L\'utilisateur ' . $TABLEAU['user3'] . ' existe';
-	echo '<br />';
+	if (array_key_exists('user3', $TABLEAU))
+		echo 'L\'utilisateur ' . $TABLEAU['user3'] . ' existe';
+		echo '<br />';
 
-if (array_key_exists('user4', $TABLEAU))
-	echo 'L\'utilisateur ' . $TABLEAU['user4'] . ' existe';
-	echo '<br />';
+	if (array_key_exists('user4', $TABLEAU))
+		echo 'L\'utilisateur ' . $TABLEAU['user4'] . ' existe';
+		echo '<br />';
 
 
-if (array_key_exists('user5', $TABLEAU))
-	echo 'L\'utilisateur ' . $TABLEAU['user5'] . ' existe';
-	echo '<br />';
-
+	if (array_key_exists('user5', $TABLEAU))
+		echo 'L\'utilisateur ' . $TABLEAU['user5'] . ' existe';
+		echo '<br />';
 ?>
 ```
 
 #### 3. Vérifiez si une valeur existe dans un tableau
 ```php
 <?php
+	// Déclaration du tableau
+	$TABLEAU = [
+		'user1' => 'Marc',
+		'user2' => 'Franck',
+		'user3' => 'Philippe',
+		'user4' => 'Isabelle',
+		];
 
-$TABLEAU = [
-	'user1' => 'Marc',
-	'user2' => 'Franck',
-	'user3' => 'Philippe',
-	'user4' => 'Isabelle',
-	];
+	if (in_array('Marc', $TABLEAU))
+		echo 'L\'utilisateur ' . $TABLEAU['user1'] . ' existe';
+		echo '<br />';
 
-if (in_array('Marc', $TABLEAU))
-	echo 'L\'utilisateur ' . $TABLEAU['user1'] . ' existe';
-	echo '<br />';
+	if (in_array('Franck', $TABLEAU))
+		echo 'L\'utilisateur ' . $TABLEAU['user2'] . ' existe';
+		echo '<br />';
 
-if (in_array('Franck', $TABLEAU))
-	echo 'L\'utilisateur ' . $TABLEAU['user2'] . ' existe';
-	echo '<br />';
+	if (in_array('Philippe', $TABLEAU))
+		echo 'L\'utilisateur ' . $TABLEAU['user3'] . ' existe';
+		echo '<br />';
 
-if (in_array('Philippe', $TABLEAU))
-	echo 'L\'utilisateur ' . $TABLEAU['user3'] . ' existe';
-	echo '<br />';
-
-if (in_array('Isabelle', $TABLEAU))
-	echo 'L\'utilisateur ' . $TABLEAU['user4'] . ' existe';
-	echo '<br />';
+	if (in_array('Isabelle', $TABLEAU))
+		echo 'L\'utilisateur ' . $TABLEAU['user4'] . ' existe';
+		echo '<br />';
 
 
-if (array_key_exists('user5', $TABLEAU))
-	echo 'L\'utilisateur ' . $TABLEAU['user5'] . ' existe';
-	echo '<br />';
+	if (array_key_exists('user5', $TABLEAU))
+		echo 'L\'utilisateur ' . $TABLEAU['user5'] . ' existe';
+		echo '<br />';
 ?>
 ```
 
@@ -712,13 +718,14 @@ if (array_key_exists('user5', $TABLEAU))
 	$PHILIPPE = array_search('Philippe',$USERS);
 	$ISABELLE = array_search('Isabelle',$USERS);
 
-echo '<b>MARC est en position</b> ' . $MARC;
-echo '<br />';
-echo '<b>FRANCK est en position</b> ' . $FRANCK;
-echo '<br />';
-echo '<b>PHILIPPE est en position</b> ' . $PHILIPPE;
-echo '<br />';
-echo '<b>ISABELLE est en position</b> ' . $ISABELLE;
+	// Afficher le résultat
+	echo '<b>MARC est en position</b> ' . $MARC;
+	echo '<br />';
+	echo '<b>FRANCK est en position</b> ' . $FRANCK;
+	echo '<br />';
+	echo '<b>PHILIPPE est en position</b> ' . $PHILIPPE;
+	echo '<br />';
+	echo '<b>ISABELLE est en position</b> ' . $ISABELLE;
 ?>
 ```
 
@@ -729,27 +736,27 @@ echo '<b>ISABELLE est en position</b> ' . $ISABELLE;
 #### 2. 
 ```php
 <?php
-// Déclaration du Tableau des News
-$TABLEAU = 	[
-		[
-			'Visible'	=> true,
-			'title' 	=> 'Titre 1',
-			'article'	=> 'Contenu de mon article 1',
-			'auteur'	=> 'Marc',
-			'date'		=> '21/10/22',
-			'heure'		=> '02:39',
-		],	
+	// Déclaration des Tableaux
+	$TABLEAU = 	[
+			[
+				'Visible'	=> true,
+				'title' 	=> 'Titre 1',
+				'article'	=> 'Contenu de mon article 1',
+				'auteur'	=> 'Marc',
+				'date'		=> '21/10/22',
+				'heure'		=> '02:39',
+			],	
 
-		[
-			'Visible'	=> true,
-			'title' 	=> 'Titre 2',
-			'article'	=> 'Contenu de mon article 2',
-			'auteur'	=> 'Franck',
-			'date'		=> '21/10/22',
-			'heure'		=> '02:46',
-		],	
-							
-];
+			[
+				'Visible'	=> true,
+				'title' 	=> 'Titre 2',
+				'article'	=> 'Contenu de mon article 2',
+				'auteur'	=> 'Franck',
+				'date'		=> '21/10/22',
+				'heure'		=> '02:46',
+			],	
+								
+	];
 ?>
 
 <!DOCTYPE html>
