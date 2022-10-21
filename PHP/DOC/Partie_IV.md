@@ -4,14 +4,26 @@
 ### A. Les fonctions
 #### 1. Définir une fonction
 ```php
-	<!-- Fonction A sans paramètre --> 
-	<?php function maFonctionA() {echo "Fonction A";} ?>
-  
-	<!-- Fonction B avec 1 paramètre --> 
-	<?php function maFonctionB($parametre) {echo $parametre;} ?>
+<?php 
+	// Fonction A sans paramètre
+	function maFonctionA()
+	{
+		echo "Fonction A";
+	}
 
-	<!-- Fonction C avec 3 paramètres --> 
-	<?php function maFonctionC($a, $b, $c) {echo $a, $b, $c;} ?>
+	// Fonction B avec 1 paramètre 
+	function maFonctionB($parametre)
+	{
+		echo $parametre;
+	} 
+
+	// <!-- Fonction C avec 3 paramètres --> 
+	function maFonctionC($a, $b, $c)
+	{
+		echo $a, $b, $c;
+	} 
+?>
+
 ```
 
 #### 2. Appeler une fonction
