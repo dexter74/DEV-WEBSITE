@@ -797,32 +797,16 @@ array_search 	 : Pour récupérer la clé d'une valeur dans le tableau.
 <br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'> [Exploitez toute la puissance des fonctions PHP](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912352-exploitez-toute-la-puissance-des-fonctions-php)</p>
+### <p align='center'> [Exploitez toute la puissance des fonctions PHP]()</p>
 
-### A. Comprenez le principe d'une fonction
+### A. Appelez une fonction
 #### 1. 
 ```php
-```
-#### 2. 
-```php
-```
-#### 3. 
-```php
-```
-#### 4. 
-```php
+<?php
+allowRecipe(); // Nom de mafonction
 ```
 
-
-
-
-<br />
-
-### B. Appelez une fonction
-#### 1. 
-```php
-```
-#### 2. 
+#### 2. Envoyer des paramètres à la fonction
 ```php
 ```
 #### 3. 
