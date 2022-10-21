@@ -35,5 +35,4 @@
 
 <!-- Appeler la fonction avec 3 arguments (x, y, z)-->
 <?php calcul(100, 5, 5); ?>
- 
 ```
