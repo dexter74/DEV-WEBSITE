@@ -7,7 +7,7 @@
 
 - [Organisez vos données à l'aide des tableaux](https://github.com/dexter74/DEV-WEBSITE/blob/main/PHP/DOC/Partie_II.MD#-organisez-vos-donn%C3%A9es-%C3%A0-laide-des-tableaux)
 
-- [Exploitez toute la puissance des fonctions PHP !](https://github.com/dexter74/DEV-WEBSITE/blob/main/PHP/DOC/Partie_II.MD#-exploitez-toute-la-puissance-des-fonctions-php-)
+- [Exploitez toute la puissance des fonctions PHP](https://github.com/dexter74/DEV-WEBSITE/blob/main/PHP/DOC/Partie_II.MD#-exploitez-toute-la-puissance-des-fonctions-php)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Décrivez les éléments de votre projet à l'aide de variables](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/911847-decrivez-les-elements-de-votre-projet-a-laide-de-variables)</p>
@@ -797,7 +797,7 @@ array_search 	 : Pour récupérer la clé d'une valeur dans le tableau.
 <br />
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-### <p align='center'> [Exploitez toute la puissance des fonctions PHP !](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912352-exploitez-toute-la-puissance-des-fonctions-php)</p>
+### <p align='center'> [Exploitez toute la puissance des fonctions PHP](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912352-exploitez-toute-la-puissance-des-fonctions-php)</p>
 
 ### A. Comprenez le principe d'une fonction
 #### 1. 
