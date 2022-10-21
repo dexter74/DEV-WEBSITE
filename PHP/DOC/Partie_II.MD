@@ -634,16 +634,54 @@ Les tableaux associatifs:
 
 --------------------------------------------------------
 ### D. Recherchez dans un tableau
-#### 1. 
+#### 1. Les types de recherches
 ```php
+array_key_exists : Pour vérifier si une clé existe dans le tableau.
+in_array	 : Pour vérifier si une valeur existe dans le tableau.
+
+array_search 	 : Pour récupérer la clé d'une valeur dans le tableau.
 ```
-#### 2. 
+
+#### 2. Vérifiez si une clé existe dans un tableau
 ```php
+<?php
+
+$TABLEAU = [
+	'user1' => 'Marc',
+	'user2' => 'Franck',
+	'user3' => 'Philippe',
+	'user4' => 'Isabelle',
+	];
+
+if (array_key_exists('user1', $TABLEAU))
+	echo 'L\'utilisateur ' . $TABLEAU['user1'] . ' existe';
+	echo '<br />';
+
+if (array_key_exists('user2', $TABLEAU))
+	echo 'L\'utilisateur ' . $TABLEAU['user2'] . ' existe';
+	echo '<br />';
+
+if (array_key_exists('user3', $TABLEAU))
+	echo 'L\'utilisateur ' . $TABLEAU['user3'] . ' existe';
+	echo '<br />';
+
+if (array_key_exists('user4', $TABLEAU))
+	echo 'L\'utilisateur ' . $TABLEAU['user4'] . ' existe';
+	echo '<br />';
+
+
+if (array_key_exists('user5', $TABLEAU))
+	echo 'L\'utilisateur ' . $TABLEAU['user5'] . ' existe';
+	echo '<br />';
+
+?>
 ```
-#### 3. 
+#### 3. Vérifiez si une valeur existe dans un tableau
 ```php
+
+
 ```
-#### 4. 
+#### 4. Récupérez la clé d'une valeur dans un tableau
 ```php
 ```
 
@@ -652,20 +690,14 @@ Les tableaux associatifs:
 
 --------------------------------------------------------
 ### E. Affichez des recettes (version 2 !)
-#### 1. Les types de recherches
-```php
-array_key_exists : Pour vérifier si une clé existe dans le tableau.
-in_array	 : Pour vérifier si une valeur existe dans le tableau.
-
-array_search 	 : Pour récupérer la clé d'une valeur dans le tableau.
-```
-#### 2. Vérifiez si une clé existe dans un tableau
+#### 
+#### 2. 
 ```php
 ```
-#### 3. Vérifiez si une valeur existe dans un tableau
+#### 3. 
 ```php
 ```
-#### 4. Récupérez la clé d'une valeur dans un tableau
+#### 4.
 ```php
 <?php
 	// Déclaration d'un Tableau (Non numérotés)
