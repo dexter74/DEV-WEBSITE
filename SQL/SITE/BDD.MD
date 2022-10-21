@@ -7,9 +7,19 @@
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### A. Création de la Base de ddonnée du site
+
+##### Suppression de la Database
 ```sql
 DROP DATABASE IF EXISTS website;
+```
+##### Création de la Database
+
+```sql
 CREATE DATABASE website  DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+
+##### Modification de la Database
+```sql
 ALTER DATABASE website CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
