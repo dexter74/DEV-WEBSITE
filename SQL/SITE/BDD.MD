@@ -8,17 +8,17 @@
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### A. Création de la Base de ddonnée du site
 
-##### Suppression de la Database
+##### 1. Suppression de la Database
 ```sql
 DROP DATABASE IF EXISTS website;
 ```
-##### Création de la Database
+##### 2. Création de la Database
 
 ```sql
 CREATE DATABASE website  DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
-##### Modification de la Database
+##### 3. Modification de la Database
 ```sql
 ALTER DATABASE website CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
@@ -31,16 +31,18 @@ ALTER DATABASE website CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 | string   | Name_Website       | Drthrax74                 |    NON    |
 | bool     | Visible au public  | true                      |    NON    |
 
+##### Supprimer la Table
 ```
 DROP TABLE IF EXISTS config;
-CREATE TABLE config
-(
-  name VARCHAR(100)
-  
-);
 ```
 
-
+##### Création de la table
+```
+CREATE TABLE config
+(
+  name VARCHAR(100)  
+);
+```
 
 
 
@@ -70,6 +72,13 @@ CREATE TABLE config
 | string   | Informations       | Signature:                |    NON    |
 | string   | Permission         | Administrateurs           |    NON    |
 
+
+##### Supprimer la Table
+```
+DROP TABLE IF EXISTS users;
+```
+
+##### Création de la table
 ```sql
 CREATE TABLE users
 (
