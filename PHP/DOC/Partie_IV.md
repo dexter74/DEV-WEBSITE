@@ -2,84 +2,35 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### <p align='center'> [Exploitez toute la puissance des fonctions PHP]()</p>
 
-### A. Appelez une fonction
-#### 1. 
+### A. Les fonctions
+#### 1.Structure d'une fonction
 ```php
 <?php
-allowRecipe(); // Nom de mafonction
+	// Création de la fonction (Argument incorrect = erreur)
+	function nomdemafonction(arg1, arg2 ..) {echo "Resultat de ma fonction";}
+?>
+```
+#### 2. Création d'une fonction (Sans argument)
+```php
+<?php
+	// Création de la fonction
+	function nomdemafonction() {echo "Resultat de ma fonction";}
+?>
 ```
 
-#### 2. Envoyer des paramètres à la fonction
+#### 3. Afficher le contenu de ma fonction
 ```php
-```
-#### 3. 
-```php
-```
-#### 4. 
-```php
-```
-
-<br />
-
-
-
-### C. Récupérez la valeur de retour de la fonction
-#### 1. 
-```php
-```
-#### 2. 
-```php
-```
-#### 3. 
-```php
-```
-#### 4. 
-```php
+<?php
+	// Création de la fonction
+	function nomdemafonction() {echo "Resultat de ma fonction";}
+	
+	// Afficher le résultat de ma fonction
+	nomdemafonction()
+?>
 ```
 
 
-### D. Manipulez du texte avec les fonctions
-#### 1. 
-```php
-```
-#### 2. 
-```php
-```
-#### 3. 
-```php
-```
-#### 4. 
-```php
-```
 
 
-### E. Créez vos propres fonctions
-#### 1. 
-```php
-```
-#### 2. 
-```php
-```
-#### 3. 
-```php
-```
-#### 4. 
-```php
-```
-
-
-### F. Exploitez toute la puissance de la documentation PHP !
-#### 1. 
-```php
-```
-#### 2. 
-```php
-```
-#### 3. 
-```php
-```
-#### 4. 
-```php
-```
 
 <br />
