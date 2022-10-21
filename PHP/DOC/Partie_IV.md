@@ -11,7 +11,7 @@
 	<?php function maFonctionB($parametre) {echo $parametre;} ?>
 
 	<!-- Fonction C avec 3 paramètres --> 
-	<?phpfunction maFonctionC($a, $b, $c) {echo $a, $b, $c;} ?>
+	<?php function maFonctionC($a, $b, $c) {echo $a, $b, $c;} ?>
 ```
 
 #### 2. Appeler une fonction
