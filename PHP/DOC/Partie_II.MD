@@ -684,7 +684,7 @@ echo '<br />';
 echo '<b>PHILIPPE est en position</b> ' . $PHILIPPE;
 echo '<br />';
 echo '<b>ISABELLE est en position</b> ' . $ISABELLE;
-
+?>
 ```
 
 <br />
