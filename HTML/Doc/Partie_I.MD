@@ -6,7 +6,6 @@
 ###### 1. Les balises en paires
 ```html
 <title>Ceci est un titre</title>
-Ceci n'est pas un titre.
 ```
 ###### 2. Les balises orphelines
 ```html
